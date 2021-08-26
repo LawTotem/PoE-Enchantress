@@ -100,6 +100,12 @@ while (HeistPriceTxt == "ERROR") {
     IniWrite, "heists.txt", %SettingsPath%, User, HeistPriceTxt
     sleep, 250
     IniRead, HeistPriceTxt, %SettingsPath% User, HeistPriceTxt
+
+IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
+while (SnapshotScreen == "ERROR") {
+    IniWrite, 0, %SettingsPath%, User, SnapshotScreen
+    sleep, 250
+    IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
 }
 
 IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
@@ -321,6 +327,7 @@ Settings:
         offset := addOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
         offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
         offset := addOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
+        offset := addOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
     Gui, font
 
     Gui, font, s14
@@ -349,6 +356,7 @@ SaveSettings:
     saveOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
     saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
     saveOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
+    saveOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
     saveOption("Other", "scale", offset, "Monitor Scale")
     saveOption("Other", "monitor", offset, "Select Monitor")
     Gui, Settings:Destroy
@@ -564,7 +572,6 @@ CheckError(name, code) {
 CaptureAreaWin(x, y, w, h) {
     FormatTime, dtg,, yyyy_MM_dd_HH_mm_ss
     file_name := "snap_" dtg ".png"
-    msgbox, file_name %file_name%
     DllCall("snipper\SnipAndSave","Int",x,"Int",y,"Int",w,"Int",h,"Str",file_name)
     CheckError("Snipper", ErrorLevel)
 }
@@ -643,7 +650,10 @@ SelectArea() {
     Hotkey, Escape, SelectAreaEscape, Off
 
     Gui, Select:Destroy
-    CaptureAreaWin(MX,MY, MXend - MX, MYend - MY)
+    IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
+    if  (SnapshotScreen) {
+        CaptureAreaWin(MX,MY, MXend - MX, MYend - MY)
+    }
     Gui, EnchantressUI:Default
     return areaRect
 }
