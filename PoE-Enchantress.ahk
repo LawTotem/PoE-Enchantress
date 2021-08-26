@@ -167,19 +167,20 @@ newGUI() {
     Gui, Font, s11 ce7b477
 
 ; === TITLE, ICON ===
-    Gui add, picture, x10 y10, resources\ScalesOfJustice_icon.png
-        Gui, add, text, x60 y20 w50, PoE-Enchantress v%version%
-        Gui, add, picture, x520 y10 w120 h40 gSettings, resources\settings.png
+    Gui add, picture, x5 y5 w50 h50 gHelp , resources\ScalesOfJustice.png
+    Gui, add, text, x65 y20 w50, PoE-Enchantress v%version%
+    Gui, add, picture, x520 y10 w120 h40 gSettings, resources\settings.png
 
-        Gui, add, text, x10 y60 vValue, Captured String
-        Gui, add, edit, x10 y80 vCaptureS r5 w550
-        Gui, add, picture, x10 y180 gReprossEnchant, resources\enchant.png
-        Gui, add, picture, x470 y180 gReprossHeist, resources\heist.png
+    Gui, add, text, x10 y60 vValue, Captured String
+    Gui, add, edit, x10 y80 vCaptureS r5 w600
+    Gui, add, picture, x10 y180 gReprossEnchant, resources\enchant.png
+    Gui, add, picture, x490 y180 gReprossHeist, resources\heist.png
 
-        loop, 15 {
-            rowo := 210+20*A_Index
-            gui, add, text, x10 y%rowo% w500 venchant_%A_Index%,
-        } 
+    loop, 15 {
+        rowo := 210+20*A_Index
+        gui, add, text, x5 y%rowo%, _
+        gui, add, text, x10 y%rowo% w500 venchant_%A_Index%,
+    } 
     Gui, font
 
 }
