@@ -119,8 +119,10 @@ while (EnchantRemappingTxt == "ERROR") {
 tooltip, Loading Enchantress [Enchant List]
 
 tooltip, Loading Enchantress [Personal Lists]
-
-menu, Tray, Icon, resources\ScalesOfJustice.png
+if (FileExist("resources\ScalesOfJustice.png"))
+{
+    menu, Tray, Icon, resources\ScalesOfJustice.png
+}
 Menu, Tray, NoStandard
 Menu, Tray, Add, Enchantress, OpenGui
 Menu, Tray, Default, Enchantress
@@ -214,7 +216,10 @@ newGUI() {
     Gui, Font, s11 ce7b477
 
 ; === TITLE, ICON ===
-    Gui add, picture, x5 y5 w50 h50 gHelp , resources\ScalesOfJustice.png
+    if (FileExist("resources\ScalesOfJustice.png"))
+    {
+        Gui add, picture, x5 y5 w50 h50 gHelp , resources\ScalesOfJustice.png
+    }
     Gui, add, text, x65 y20 w50, PoE-Enchantress v%version%
     Gui, add, picture, x520 y10 w120 h40 gSettings, resources\settings.png
 
