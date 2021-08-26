@@ -106,7 +106,7 @@ tooltip, Loading Enchantress [Enchant List]
 
 tooltip, Loading Enchantress [Personal Lists]
 
-;menu, Tray, Icon, resources\ScalesOfJustice.png
+menu, Tray, Icon, resources\ScalesOfJustice.png
 Menu, Tray, NoStandard
 Menu, Tray, Add, Enchantress, OpenGui
 Menu, Tray, Default, Enchantress
@@ -167,10 +167,9 @@ newGUI() {
     Gui, Font, s11 ce7b477
 
 ; === TITLE, ICON ===
-    ;Gui add, picture, x10 y10, resources\ScalesOfJustice_icon.png
-        Gui add, text, x60 y20 w50, Enchantress v%version%
-
-        gui, add, text, x300 y20 gSettings, Settings
+    Gui add, picture, x10 y10, resources\ScalesOfJustice_icon.png
+        Gui, add, text, x60 y20 w50, Enchantress v%version%
+        Gui, add, button, x520 y10 w120 h40 gSettings, Settings
 
         Gui add, text, x10 y60 vValue, Captured String
         Gui add, edit, x10 y80 vCaptureS r5 w500
