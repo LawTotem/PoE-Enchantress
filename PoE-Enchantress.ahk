@@ -21,7 +21,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-global version := "0.2.0"
+global version := "0.2.1"
 
 global PID := DllCall("Kernel32\GetCurrentProcessId")
 
@@ -100,6 +100,7 @@ while (HeistPriceTxt == "ERROR") {
     IniWrite, "heists.txt", %SettingsPath%, User, HeistPriceTxt
     sleep, 250
     IniRead, HeistPriceTxt, %SettingsPath% User, HeistPriceTxt
+}
 
 IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
 while (SnapshotScreen == "ERROR") {
