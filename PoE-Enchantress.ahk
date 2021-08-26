@@ -1,4 +1,4 @@
-﻿;    PoE-Enchantress a pricing tool for things which cannot be copied
+;    PoE-Enchantress a pricing tool for things which cannot be copied
 ;    Copyright (C) 2021 LawTotem#8511
 
 ;    This program is free software: you can redistribute it and/or modify
@@ -99,7 +99,21 @@ IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
 while (HeistPriceTxt == "ERROR") {
     IniWrite, "heists.txt", %SettingsPath%, User, HeistPriceTxt
     sleep, 250
-    IniRead, HeistPriceTxt, User, HeistPriceTxt
+    IniRead, HeistPriceTxt, %SettingsPath% User, HeistPriceTxt
+}
+
+IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
+while (HeistRemappingTxt == "ERROR") {
+    IniWrite, "heist_remapping.txt", %SettingsPath%, User, HeistRemappingTxt
+    sleep, 250
+    IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
+}
+
+IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
+while (EnchantRemappingTxt == "ERROR") {
+    IniWrite, "enchant_remapping.txt", %SettingsPath%, User, EnchantRemappingTxt
+    sleep, 250
+    IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
 }
 
 tooltip, Loading Enchantress [Enchant List]
@@ -133,8 +147,13 @@ Return
 
 ScanEnchant:
     _wasVisible := IsGuiVisible("EnchantressUI")
-    if (grabScreen("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`'+`%")) {
+    if (grabScreen("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`'+`%.")) {
         Gui, EnchantressUI:Show, w650 h585
+        IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
+        if (FileExist(EnchantRemappingTxt))
+        {
+            RemapScan(EnchantRemappingTxt)
+        }
         enchantSort()
     } else {
         if (_wasVisible) {
@@ -146,6 +165,11 @@ Return
 ScanHeist:
     _wasVisible := IsGuiVisible("EnchantressUI")
     if (grabScreen("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz`'-")) {
+        IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
+        if (FileExist(HeistRemappingTxt))
+        {
+            RemapScan(HeistRemappingTxt)
+        }
         GUI, EnchantressUI:Show, w650 h585
         heistSort()
     } else {
@@ -154,6 +178,29 @@ ScanHeist:
         }
     }
 Return
+
+RemapScan(filename) {
+    GuiControlGet, CaptureString,, CaptureS, value
+    new_capture := ""
+    FileRead, RemappingFile, %filename%
+    loop, parse, RemappingFile, `n, `r
+    {
+        remapLine := % A_LoopField
+        remaparray := StrSplit(remapLine, ":")
+        if (InStr(cleanString(CaptureString), cleanString(remaparray[1]), false))
+        {
+            if new_capture
+            {
+                new_capture := new_capture "`n"
+            }
+            new_capture := new_capture remaparray[2]
+        }
+    }
+    if new_capture
+    {
+        GuiControl,, CaptureS, %new_capture%
+    }
+}
 
 EntrantressUIGuiEscape:
 EnchantressUIGuiClose:
@@ -222,10 +269,20 @@ HelpGuiClose:
 Return
 
 ReprossEnchant:
+    IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
+    if (FileExist(EnchantRemappingTxt))
+    {
+        RemapScan(EnchantRemappingTxt)
+    }
     enchantSort()
 Return
 
 ReprossHeist:
+    IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
+    if (FileExist(HeistRemappingTxt))
+    {
+        RemapScan(HeistRemappingTxt)
+    }
     heistSort()
 Return
 
@@ -257,6 +314,8 @@ Settings:
         offset := addOption("User", "HeistPriceTxt", offset, "Heist Price File")
         offset := addOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
         offset := addOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+        offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
+        offset := addOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
     Gui, font
 
     Gui, font, s14
@@ -283,6 +342,8 @@ SaveSettings:
     saveOption("User", "HeistPriceTxt", offset, "Heist Price File")
     saveOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
     saveOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+    saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
+    saveOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
     saveOption("Other", "scale", offset, "Monitor Scale")
     saveOption("Other", "monitor", offset, "Select Monitor")
     Gui, Settings:Destroy
@@ -321,7 +382,7 @@ grabScreen(whitelist) {
     sleep, 500
 
     Tooltip, Please Wait
-    command = Capture2Text/Capture2Text.exe -s `"%x_start% %y_start% %x_end% %y_end%`" -o `"%TempPath%`" -l English --trim-capture --whitelist `"%whitelist%`"
+    command = Capture2Text/Capture2Text.exe -s `"%x_start% %y_start% %x_end% %y_end%`" -o `"%TempPath%`" -l English --trim-capture -b --whitelist `"%whitelist%`"
     RunWait, %command%
 
     sleep, 1000
@@ -340,6 +401,13 @@ grabScreen(whitelist) {
     return true
 }
 
+cleanString(instring){
+    output := StrReplace(instring, " ")
+    output := StrReplace(output, "`r")
+    output := StrReplace(output, "`n")
+    return output
+}
+
 enchantSort() {
     GuiControlGet, EnchantString,, CaptureS, value
     loop, 20
@@ -354,8 +422,8 @@ enchantSort() {
         loop, parse, ServiceFile, `n, `r
         {
             enchantLine := % A_LoopField
-            enchantarray := StrSplit(enchantLine, ",")
-            if (InStr(StrReplace(EnchantString, " "), StrReplace(enchantarray[1], " "), false))
+            enchantarray := StrSplit(enchantLine, ":")
+            if (InStr(cleanString(EnchantString), cleanString(enchantarray[1]), false))
             {
                 if (current_row <= 15)
                 {
@@ -375,8 +443,8 @@ enchantSort() {
         loop, parse, GeneralFile, `n, `r
         {
             enchantLine := % A_LoopField
-            enchantarray := StrSplit(enchantLine, ",")
-            if (InStr(StrReplace(EnchantString," "), StrReplace(enchantarray[1], " "), false))
+            enchantarray := StrSplit(enchantLine, ":")
+            if (InStr(cleanString(EnchantString), cleanString(enchantarray[1]), false))
             {
                 if (current_row <= 15)
                 {
@@ -411,8 +479,8 @@ heistSort() {
         loop, parse, HeistFile, `n, `r
         {
             heistLine := % A_LoopField
-            heistarray := StrSplit(heistLine, ",")
-            if (InStr(StrReplace(HeistString, " "), StrReplace(heistarray[1], " "), false))
+            heistarray := StrSplit(heistLine, ":")
+            if (InStr(cleanString(HeistString), cleanString(heistarray[1]), false))
             {
                 if (current_row <= 15)
                 {
