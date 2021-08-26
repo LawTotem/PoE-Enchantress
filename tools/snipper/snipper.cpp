@@ -11,7 +11,9 @@
 
 #define DLLEXPORT __declspec(dllexport)
 
-extern "C" DLLEXPORT void snipAndSave(int x, int y, int w, int h, const WCHAR *file_name);
+extern "C" DLLEXPORT void SnipAndSave(int x, int y, int w, int h, const WCHAR *file_name);
+
+extern "C" DLLEXPORT int TestFunc();
 
 int GetEncoderClsid(const WCHAR* format, CLSID* pClsid)
 {
@@ -76,7 +78,7 @@ void SnipAndSave(int x, int y, int w, int h, const WCHAR *file_name)
     Gdiplus::GdiplusShutdown(gdiplusToken);
 }
 
-void main()
+int TestFunc()
 {
-    std::cout << "testing" << std::endl;
+   return 10;
 }

@@ -548,6 +548,27 @@ SelectAreaEscape:
     SelectAreaEscapePressed := true
 Return
 
+CheckError(name, code) {
+    if (code == 0) {
+    } else if (code == -1) {
+        msgbox, %name% Bad Parameter (-1)
+    } else if (code == -2) {
+        msgbox, %name% Return Type is invalid (-2)
+    } else if (code == -3) {
+        msgbox, %name% DLL could not be found (-3)
+    } else if (code == -4) {
+        msgbox, %name% Function could not be found (-4)
+    }
+}
+
+CaptureAreaWin(x, y, w, h) {
+    FormatTime, dtg,, yyyy_MM_dd_HH_mm_ss
+    file_name := "snap_" dtg ".png"
+    msgbox, file_name %file_name%
+    DllCall("snipper\SnipAndSave","Int",x,"Int",y,"Int",w,"Int",h,"Str",file_name)
+    CheckError("Snipper", ErrorLevel)
+}
+
 SelectArea() {
     iniRead tempMon, %SettingsPath%, Other, monitor
     iniRead, scale, %SettingsPath%, Other, scale
@@ -622,6 +643,7 @@ SelectArea() {
     Hotkey, Escape, SelectAreaEscape, Off
 
     Gui, Select:Destroy
+    CaptureAreaWin(MX,MY, MXend - MX, MYend - MY)
     Gui, EnchantressUI:Default
     return areaRect
 }
