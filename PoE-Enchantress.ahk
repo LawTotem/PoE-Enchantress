@@ -23,13 +23,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 global version := "0.1.0"
 
-global x_start := 0
-global y_start := 0
-global x_end := 0
-global y_end := 0
-
-global FirstRun
-
 global PID := DllCall("Kernel32\GetCurrentProcessId")
 
 EnvGet, dir, USERPROFILE
@@ -109,6 +102,7 @@ while (HeistPriceTxt == "ERROR") {
     IniRead, HeistPriceTxt, User, HeistPriceTxt
 }
 
+hotkey, ^+y, settings
 tooltip, Loading Enchantress [Enchant List]
 
 tooltip, Loading Enchantress [Personal Lists]
@@ -177,6 +171,8 @@ newGUI() {
     ;Gui add, picture, x10 y10, resources\ScalesOfJustice_icon.png
         Gui add, text, x60 y20 w50, Enchantress v%version%
 
+        gui, add, text, x300 y20 gSettings, Settings
+
         Gui add, text, x10 y60 vValue, Captured String
         Gui add, edit, x10 y80 vCaptureS r5 w500
         Gui add, text, x10 y180 gReprossEnchant vReprossEnchant, Repross Enchants
@@ -233,6 +229,85 @@ Return
 ReprossHeist:
     heistSort()
 Return
+
+Settings:
+    Gui Settings:new,, PoE-Enchantress Settings
+
+    Gui, font, s14
+        Gui, add, text, x5 y5, General Settings
+    Gui, font
+
+    offset = 5
+    Gui, font, s14
+        Gui, add, text, x5 y%offset%, General Settings
+        offset := offset + 25
+    Gui, font
+    
+    Gui, font, s10
+        offset := addOption("General", "FirstRun", offset, "Show First Run Help")
+        offset := addOption("General", "GuiKey", offset, "Key Sequence to show GUI")
+        offset := addOption("General", "EnchantScanKey", offset, "Grab Enchant Key Sequence")
+        offset := addOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
+    Gui, font
+
+    Gui, font, s14
+        Gui, add, text, x5 y%offset%, User Settings
+        offset := offset + 25
+    Gui, font
+    Gui, font, s10
+        offset := addOption("User", "HeistPriceTxt", offset, "Heist Price File")
+        offset := addOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
+        offset := addOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+    Gui, font
+
+    Gui, font, s14
+        Gui, add, text, x5 y%offset%, Other Settings
+        offset := offset + 25
+    Gui, font
+    Gui, font, s10
+        offset := addOption("Other", "scale", offset, "Monitor Scale")
+        offset := addOption("Other", "monitor", offset, "Select Monitor")
+    Gui, font
+
+    Gui, font, s20
+        Gui, add, text, x350 y550 gSaveSettings, Save
+
+    Gui, Settings:Show, w800 h610
+Return
+
+SaveSettings:
+    offset := 0
+    saveOption("General", "FirstRun", offset, "Show First Run Help")
+    saveOption("General", "GuiKey", offset, "Key Sequence to show GUI")
+    saveOption("General", "EnchantScanKey", offset, "Grab Enchant Key Sequence")
+    saveOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
+    saveOption("User", "HeistPriceTxt", offset, "Heist Price File")
+    saveOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
+    saveOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+    saveOption("Other", "scale", offset, "Monitor Scale")
+    saveOption("Other", "monitor", offset, "Select Monitor")
+    Gui, Settings:Destroy
+Return
+
+SettingsGuiClose:
+    Gui, Settings:Destroy
+Return
+
+addOption(sect, set_name, offset, title)
+{
+    global
+    IniRead, TmpName, %SettingsPath%, %sect%, %set_name%
+    Gui, add, text, x15 y%offset% w280 Right, %title%:
+    Gui, add, edit, x300 y%offset% w400 v_%sect%_%set_name%, %TmpName%
+    out := offset + 30
+    return %out%
+}
+
+saveOption(sect, set_name, offset, title)
+{
+    GuiControlGet, TmpName,, _%sect%_%set_name%, value
+    IniWrite, %TmpName%, %SettingsPath%, %sect%, %set_name%
+}
 
 grabScreen(whitelist) {
     Gui, EnchantressUI:Hide
