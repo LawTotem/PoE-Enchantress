@@ -102,7 +102,6 @@ while (HeistPriceTxt == "ERROR") {
     IniRead, HeistPriceTxt, User, HeistPriceTxt
 }
 
-hotkey, ^+y, settings
 tooltip, Loading Enchantress [Enchant List]
 
 tooltip, Loading Enchantress [Personal Lists]
