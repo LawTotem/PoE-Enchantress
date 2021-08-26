@@ -1,1 +1,70 @@
-PoE-Enchantress
+# PoE-Enchantress
+The PoE-Enchantress tool help in pricing elements of Path of Exile (PoE) which you cannot simply copy to the clipboard. It uses an Optical Character Recognition (OCR) tool to convert selected portions of the screen to text. This text, either names of items or enchants, are looked up in user configurable files to price them.
+
+## Setup
+You will need the tool <code>Capture2Text</code> to perform the ORC. This will need to be downloaded seperately and the folder <code>Capture2Text</code> should be moved into the folder with the PoE-Enchantress script.
+
+PoE-Enchantress does not use any external sites/tools to perform Heist item pricing.
+To start you can copy the example <code>heists.txt</code> to the root folder for heist prices.
+You will probably have to manually configure <code>general_enchants.txt</code> and <code>services.txt</code> because I'm no good at that stuff.
+To pratice you can snapshot any text which has the name of the item/enchant to see what the tool will do or manually hand type it into the GUI's captured text box and press the desired Reprocess button.
+
+# Features
+
+## Heist Pricing
+To price heist items press the heist hotkey, default Ctrl-u, and select a relatively tight selection of the screen which includes the name of the unique, jewel, or heist base. The tool will then attempt to provide you with a price for the item based on the contents of the <code>HeistPriceTxt</code>, defaults to <code>heists.txt</code>.
+The file follows the format "heists item name":"price", when the item is matched a line "item name" --price-- "price" will appear on one of the lines below the captured text.
+
+
+## Enchant Pricing
+To price enchants press the enchant hotkey, default Ctrl-y, and select a relatively tight selection of the screen which includes just the enchants (not the lvl or boot/belt/helm icons). The tool will check to see if you have any services out on the enchants by checking <code>ServiceEnchantTxt</code>, default <code>services.txt</code>, and then check to see if any of the enchants are valuable enough to enchant on a base <code>GeneralEnchantTxt</code>, default </code>general_enchants.txt</code>. Not unlike <code>heists.txt</code> the examples are really not sufficient.
+
+
+## OCR Remapping
+Because the OCR can make mistakes in its CRing the tool by default always compares strings with no white space, so "h e l l o" and "hello" are the same, and no capitolization, "HeLlO" and "hello" are the same.
+
+In addition two remapping files <code>HeistRemappingTxt</code> and <code>EnchantRemappingTxt</code> are provided. They have been generate to provide short strings which should be mostly unique to actual things that you are looking for. When these files are provided the associated scanned text will be searched for the short strings and replaced with the complete ones. This can result in the order of enchants being shuffled or lost and some heist gems being duplicated, Anomalous Withering Step going to Anomalous Wither and Anomalous Withering Step __BUT__ the anything that survives will be exactly correct. If something is missing you can manually type in the full text and click associated reprocesses buttons. If you hate this you can change the file name in settings to a non-existant file and the feature will not be used.
+
+# Settings
+
+## General
+### FirstRun
+A flag which indicates if the help menu should appear on next start. Initially set to '1' but once the tool has been started it is set to '0' to indicate the menu should no longer be shown.
+### GuiKey
+The key sequence to bring up the GUI, defaults to Ctl-Shift-y.
+### EnchantScanKey
+The key sequence to start an Enchant screen grab, defaults to Ctrl-y.
+### HeistScanKey
+The key sequence to start a Heist screen grab, defaults to Ctrl-u
+## User
+### HeistPriceTxt
+The file to use when pricing items from a Heist scan.
+### ServiceEnchantTxt
+The file to use when alerting to enchant services, always appears before general enchants.
+### GeneralEnchantTxt
+The file to use when giving general enchant recommendations.
+The format is "string to look for":"string to show". See <code>examples/general_enchants.txt</code> for an example.
+### HeistRemappingTxt
+This file provides the string remapping for Heist, see the ORC remapping feature.
+
+### EnchantRemappingTxt
+This file provides the string remapping for Enchants, see the OCR remapping feature.
+
+### SnapshotScreen
+You'll have to compile the snapper.cpp file yourself into a dll and put that into the same folder as the script to use this but when enabled it will save a timestamped snapshot everytime you use the tool. Used in development to provide reference images.
+
+## Other
+### scale
+Untested but maybe corrects for some monitor scaling.
+
+### monitor
+Untested but maybe allows for monitor selection.
+
+# Change List
+
+## 0.2.0
+    - Added settings menu, available from main GUI
+    - Added more complete Heist prices
+    - Added example Lab services and base enchant files
+    - Update GUI
+    - Added OCR string fixing
