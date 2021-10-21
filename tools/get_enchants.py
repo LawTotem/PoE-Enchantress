@@ -21,6 +21,10 @@ import time
 import random
 import datetime
 
+# You can copy the contents of the raw_enchants###_##.txt into google sheets
+# Then select the column the data got put in and use the menu Data->'Split text to columns'
+# A small box will apear in the bottom left, select custom divider and enter the colon character ':'
+
 # You need to get your own api key
 # You have to open poe.ninja with the browsers developer tools
 # Look for the api fetches and grab the key from there
@@ -38,7 +42,7 @@ import datetime
 key = 'b1ead41788cede02ff8f49656c736490';
 
 # I recommend daily but you can use the league name to pull the top Exp characters.
-league = 'expedition';
+league = 'daily';
 
 if league == 'daily' :
     s_type = 'mix';
@@ -65,6 +69,7 @@ all_select = list(zip(general_json['accounts'], general_json['names']));
 # Is Shaper - this influence cannot be added later and may be needed
 # Time - In case you are joining multiple files togather you can take the most recent version of a duplicate character
 outfile.write(":".join(["Account","Character","Helm Name","Helm Base","Helm ilvl","Enchant","Is Unique","Is Elder","Is Shaper","Time"]))
+outfile.write("\n");
 
 time_str = now_time.strftime("%j.%H");
 
