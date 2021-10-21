@@ -1,13 +1,13 @@
 # PoE-Enchantress
-The PoE-Enchantress tool help in pricing elements of Path of Exile (PoE) which you cannot simply copy to the clipboard. It uses an Optical Character Recognition (OCR) tool to convert selected portions of the screen to text. This text, either names of items or enchants, are looked up in user configurable files to price them.
+The Poe-Enchantress tool help in pricing elements of Path of Exile (PoE) which you cannot simply copy to the clipboard. It uses an Optical Character Recognition (OCR) tool to convert selected portions of the screen to text. This text, either names of items or enchants, are looked up in user configurable files to price them.
 
 ## Setup
-You will need the tool <code>Capture2Text</code> to perform the ORC. This will need to be downloaded seperately and the folder <code>Capture2Text</code> should be moved into the folder with the PoE-Enchantress script.
+You will need the tool <code>Capture2Text</code> to perform the ORC. This will need to be downloaded separately and the folder <code>Capture2Text</code> should be moved into the folder with the PoE-Enchantress script.
 
 PoE-Enchantress does not use any external sites/tools to perform Heist item pricing.
 To start you can copy the example <code>heists.txt</code> to the root folder for heist prices.
 You will probably have to manually configure <code>general_enchants.txt</code> and <code>services.txt</code> because I'm no good at that stuff.
-To pratice you can snapshot any text which has the name of the item/enchant to see what the tool will do or manually hand type it into the GUI's captured text box and press the desired Reprocess button.
+To practice you can snapshot any text which has the name of the item/enchant to see what the tool will do or manually hand type it into the GUI's captured text box and press the desired Reprocess button.
 
 # Features
 
@@ -21,10 +21,9 @@ To price enchants press the enchant hotkey, default Ctrl-y, and select a relativ
 
 
 ## OCR Remapping
-Because the OCR can make mistakes in its CRing the tool by default always compares strings with no white space, so "h e l l o" and "hello" are the same, and no capitolization, "HeLlO" and "hello" are the same.
+Because the OCR can make mistakes in its CRing the tool by default always compares strings with no white space, so "h e l l o" and "hello" are the same, and no capitalization, "HeLlO" and "hello" are the same.
 
-In addition two remapping files <code>HeistRemappingTxt</code> and <code>EnchantRemappingTxt</code> are provided. They have been generate to provide short strings which should be mostly unique to actual things that you are looking for. When these files are provided the associated scanned text will be searched for the short strings and replaced with the complete ones. This can result in the order of enchants being shuffled or lost and some heist gems being duplicated, Anomalous Withering Step going to Anomalous Wither and Anomalous Withering Step __BUT__ the anything that survives will be exactly correct. If something is missing you can manually type in the full text and click associated reprocesses buttons. If you hate this you can change the file name in settings to a non-existant file and the feature will not be used.
-
+In addition, two remapping files <code>HeistRemappingTxt</code> and <code>EnchantRemappingTxt</code> are provided. They have been generated to provide short strings which should be mostly unique to actual things that you are looking for. When these files are provided the associated scanned text will be searched for the short strings and replaced with the complete ones. This can result in the order of enchants being shuffled or lost and some heist gems being duplicated, Anomalous Withering Step going to Anomalous Wither and Anomalous Withering Step __BUT__ the anything that survives will be exactly correct. If something is missing you can manually type in the full text and click associated reprocesses buttons. If you hate this you can change the file name in settings to a non-existant file and the feature will not be used.
 # Settings
 
 ## General
@@ -51,7 +50,7 @@ This file provides the string remapping for Heist, see the ORC remapping feature
 This file provides the string remapping for Enchants, see the OCR remapping feature.
 
 ### SnapshotScreen
-You'll have to compile the snapper.cpp file yourself into a dll and put that into the same folder as the script to use this but when enabled it will save a timestamped snapshot everytime you use the tool. Used in development to provide reference images.
+You'll have to compile the snapper.cpp file yourself into a dll and put that into the same folder as the script to use this but when enabled it will save a time stamped snapshot every time you use the tool. Used in development to provide reference images.
 
 ## Other
 ### scale
@@ -62,9 +61,14 @@ Untested but maybe allows for monitor selection.
 
 # Change List
 
+## 0.x.0
+ - Added an enchant scraper, still requires hand data analysis to create general_enchants.txt.
+ - Added league variables to tools.
+ - Corrected seperator in heist price scraper.
+
 ## 0.2.0
-    - Added settings menu, available from main GUI
-    - Added more complete Heist prices
-    - Added example Lab services and base enchant files
-    - Update GUI
-    - Added OCR string fixing
+ - Added settings menu, available from main GUI
+ - Added more complete Heist prices
+ - Added example Lab services and base enchant files
+ - Update GUI
+ - Added OCR string fixing
