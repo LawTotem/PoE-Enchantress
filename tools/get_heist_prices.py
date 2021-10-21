@@ -18,15 +18,17 @@ import json
 import urllib.request
 import time
 
+league = "Expedition"
+
 # We are going to get all the prices from poe.ninja - don't abuse this.
-sgems_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=SkillGem&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-weaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueWeapon&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-armor_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueArmour&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-umaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueMap&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-jewel_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueJewel&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-rings_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueAccessory&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-flask_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueFlask&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-bases_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=BaseType&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+sgems_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=SkillGem&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+weaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "Expedition&type=UniqueWeapon&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+armor_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueArmour&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+umaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueMap&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+jewel_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueJewel&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+rings_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueAccessory&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+flask_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueFlask&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+bases_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=BaseType&language=en",headers={'User-Agent': 'Mozilla/5.0'})
 
 sgems_page = urllib.request.urlopen(sgems_req).read()
 all_sgems = json.loads(sgems_page)
@@ -95,7 +97,7 @@ for gem in all_sgems['lines'] :
     title = gem['name']
     if lvl < 20 and qual < 20 and (not title in priced_gems):
         if (title.startswith('Anomalous') or title.startswith('Phantasmal') or title.startswith('Divergent')) :
-            outfile.write(newline + title + ',~' + str(gem['chaosValue']) +'c')
+            outfile.write(newline + title + ':~' + str(gem['chaosValue']) +'c')
             priced_gems.add(title)
 
 # Pull in the Weapons
