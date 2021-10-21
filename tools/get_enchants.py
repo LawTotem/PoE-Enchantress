@@ -23,11 +23,13 @@ import datetime
 
 # You can copy the contents of the raw_enchants###_##.txt into google sheets
 # Then select the column the data got put in and use the menu Data->'Split text to columns'
-# A small box will apear in the bottom left, select custom divider and enter the colon character ':'
+# A small box will appear in the bottom left, select custom divider and enter the colon character ':'
 
-# You need to get your own api key
-# You have to open poe.ninja with the browsers developer tools
-# Look for the api fetches and grab the key from there
+# Personally, I sort by Helm Name, then Helm Base, then Enchant which should ultimately group things to gather.
+
+# You need to get your own API key
+# You have to open poe.ninja with the browser developer tools
+# Look for the API fetches and grab the key from there
 # Should look like
 # https://poe.ninja/api/data/API_KEY_HERE/getbuildoverview?overview=expedition&type=exp&language=en
 # I couldn't find a cookie that had it
@@ -41,7 +43,7 @@ import datetime
 # According to @Skid they rotate daily bot may not be invalid.
 key = 'b1ead41788cede02ff8f49656c736490';
 
-# I recommend daily but you can use the league name to pull the top Exp characters.
+# I recommend daily, but you can use the league name to pull the top Exp characters.
 league = 'daily';
 
 if league == 'daily' :
