@@ -21,7 +21,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-global version := "0.2.1"
+global version := "0.3.0"
 
 global PID := DllCall("Kernel32\GetCurrentProcessId")
 
@@ -34,6 +34,8 @@ if (!FileExist(RoamingDir)) {
 
 global SettingsPath := RoamingDir . "\settings.ini"
 global TempPath := RoamingDir . "\temp.txt"
+global RawTextCapture := ""
+global RawCaptureTime := ""
 
 tooltip, Loading Enchantress [Initializing Settings]
 
@@ -121,6 +123,13 @@ while (EnchantRemappingTxt == "ERROR") {
     IniWrite, "enchant_remapping.txt", %SettingsPath%, User, EnchantRemappingTxt
     sleep, 250
     IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
+}
+
+IniRead, SaveEnchant, %SettingsPath%, User, SaveEnchant
+while (SaveEnchant == "ERROR") {
+    IniWrite, 0, %SettingsPath%, User, SaveEnchant
+    sleep, 250
+    IniRead, SaveEnchant, %SettingsPath%, User, SaveEnchant
 }
 
 tooltip, Loading Enchantress [Enchant List]
@@ -329,6 +338,7 @@ Settings:
         offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
         offset := addOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
         offset := addOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
+        offset := addOption("User", "SaveEnchant", offset, "Save Text Capture of Enchants")
     Gui, font
 
     Gui, font, s14
@@ -358,6 +368,7 @@ SaveSettings:
     saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
     saveOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
     saveOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
+    saveOption("User", "SaveEnchant", offset, "Save Text Capture of Enchants")
     saveOption("Other", "scale", offset, "Monitor Scale")
     saveOption("Other", "monitor", offset, "Select Monitor")
     Gui, Settings:Destroy
@@ -409,9 +420,12 @@ grabScreen(whitelist) {
         return false
     }
 
-    FileRead, CaptureString, %tempPath%
+    global RawCaptureTime
+    global RawTextCapture
+    FileRead, RawTextCapture, %tempPath%
+    FormatTime, RawCaptureTime,, yyyy_MM_dd_HH_mm_ss
     
-    GuiControl,, CaptureS, %CaptureString%
+    GuiControl,, CaptureS, %RawTextCapture%
     return true
 }
 
@@ -424,6 +438,13 @@ cleanString(instring){
 
 enchantSort() {
     GuiControlGet, EnchantString,, CaptureS, value
+    IniRead, SaveEnchant, %SettingsPath%, User, SaveEnchant
+    if (SaveEnchant)
+    {
+        EnchantFileName := "enchant_" RawCaptureTime ".txt"
+        FileDelete, %EnchantFileName%
+        FileAppend, %EnchantString%, %EnchantFileName%
+    }
     loop, 20
     {
         GuiControl,, enchant_%A_Index%,
@@ -538,8 +559,6 @@ checkFiles() {
     }
     return true
 }
-
-
 
 monitorInfo(num) {
    SysGet, Mon2, monitor, %num%

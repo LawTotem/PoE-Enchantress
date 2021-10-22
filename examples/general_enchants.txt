@@ -1,14 +1,151 @@
-Cyclone: Cyclone Attack Speed (Abyssus [1ex])
-Spectral Shield Throw: SST Projectiles (Eternal/Royal Burgonet, Lion Pelt, Blizzard Crow 85 [+10ex])
-Toxic Rain: Toxic Rain additional arrow (Asenath's Chant [1ex], Lion Pelt 86 [50c])
-Forbidden Rite: Forbidden Rite additonal projectile (Viridi's Veil [8ex], Hubris 86 [5ex])
-General's Cry: Generaly Cray +1 Mirage (Eternal [2ex] Royal Burgonet [5ex], Abyssus [1.5ex])
-Spectre: Spectre Damage (Bone [3.8ex], Elder Bone [+3.5ex] Devouring Diadem [3.8ex])
-Blood And Sand: Blood and Sand Effect (Royal Burgonet 86/85 [1-2ex], Abyssus [3ex])
-Flesh and Stone: Flesh and Stane Reduced (Hubris 86 [2-3ex], Elder Bone [~+3.5ex])
-Discipline: Discipline Reduced (Hubris [<1ex], Elder Bone [8ex])
-Herald of Agony: Herald of Agony Reduced (Hubris 1ex?, Bone [~3ex], Elder Bone[~+4.5ex])
-Sentinel of Purity: +1 Sentinel of Purity (Memory Vault [1.5ex])
-Flesh Offering: Flesh Offering Attack Speed (Elder Bone [10ex])
-Carrion Golem: Carrion Golem Effect (Bone [<1ex], Elder Bone [+0.7ex])
-Zealotry: Zealotry Reduced Reservation (Alpha Howl [30c])
+Damage Penetrates 10% of Enemy Elemental Resistances if you haven't Killed Recently: Ele Pen {Two Tone Boots}
++1 to Maximum Blood Charges: +1 Blood Charges {Crown of Inward Eye} [50c]
++1 to maximum number of Bladestorms: +1 Bladestorms {Eternal Burgonet} [30c] {Abyssus} [30c]
++1 to maximum number of Sentinels of Purity: +1 Sentinels {Memory Vault} [65c] {Speaker's Wrath} [1ex] {Bone Helm} [3-5ex]
+12% increased Freezing Pulse Cast Speed: Freezing Pulse CS {Viridi's Veil} [50c]
+15% increased Battlemage's Cry Buff Effect: Battlemage Cry {Eternal Burgonet} [2ex]
+15% Chance to gain a Power Charge on Critical Strike with Ice Spear: Ice Spear Power Charge {Obscurantis} [~1ex] {Asenath's Chant} [~1.5ex]
+15% increased Cyclone Attack Speed: Cyclone AS {Abyssus} [30c] {Crown of Eyes} [0.6ex] {Devoto's Devotion} [60c] {Crown of the Inward Eye} [~50c]
+15% increased Barrage Attack Speed: Barrage AS {Alpha's Howl} [?1ex]
+15% increased Effect of Curses applied by Bane: Bane Curse Effect {Hubris Circlet} [1ex]
+15% increased Elemental Hit Attack Speed: Ele Hit AS {Frostferno} [1ex] {Asenath's Chant} [0.9ex]
+15% increased Shield Crush Attack Speed: Shield Crush AS {Crown of the Inward Eye} [70c] {Royal Burgonet} [80c] {Eternal Burgonet} [70c]
+15% of Glacial Hammer Physical Damage gained as Extra Cold Damage: Glacial Hammer Extra Cold {Eternal Burgonet} [~50c]
+15% of Ice Crash Physical Damage gained as Extra Cold Damage: Ice Crash Extra Cold {Fractal Thoughts} [40c] {Crown of the Inward Eye} [40c] {Abyssus} [40c]
+15% of Infernal Blow Physical Damage gained as Extra Fire Damage: Infernal Blow Extra Fire {Fractal Thoughts} [0.9ex]
+150% increased Effect of the Buff granted by your Carrion Golems: Carrion Golem Buff {Bone Helm (elder)} [3ex]
+150% increased Effect of the Buff granted by your Ice Golems: Ice Golem Buff {Obscurantis} [0.7ex]
+150% increased Effect of the Buff granted by your Stone Golems: Stone Golem Buff {Bone Helm (elder)} [3ex]
+150% increased Molten Shell Buff Effect: Molten Shell Effect {Memory Vault} [??] {Royal Burgonet} [50c]
+24% increased Righteous Fire Area of Effect: Righteous Fire {Crown of the Inward Eye} [60c]
+30% increased Assassin's Mark Curse Effect: Assissin's Mark Effect {Viridi's Veil} [0.8ex]  {Devouring Diadem} [~2ex]
+30% increased Blade Vortex Duration: Blade Vortex Duration {Hubris Circlet} [50c]
+30% increased Despair Curse Effect: Despair Effect {Viridi's Veil} [1.2ex]
+30% increased Elemental Weakness Curse Effect: Ele Weakness Effect {Devouring Diadem} [~1ex]
+30% increased Forbidden Rite Projectile Speed: Forbidden Rite Proj Speed {Viridi's Veil} [0.9ex]
+30% increased Spectral Helix Projectile Speed: Spectral Helix Proj Speed {Obscurantis} [~50c]
+30% increased Summon Reaper Cooldown Recovery Rate: Reaper Cooldown {Bone Helm (elder)} [40c] {Memory Vault} [1ex]
+36% increased Immortal Call Duration: Immortal Call Duration {Viridi's Veil} [~1ex]
+40% increased Ancestral Warchief Totem Damage: Ancestral Warchief Totem Damage {Abyssus} [1-2ex] {Devoto's Devotion} [~1ex]
+40% increased Arc Damage: Arc Damage {Crown of the Inward Eye} [~1ex]
+40% increased Caustic Arrow Damage: Caustic Arrow Damage {Lion Pelt} [50c]
+40% increased Cyclone Damage: Cyclone Damage {Abyssus} [50c-1ex] {Devoto's Devotion} [50-70c] {Starkonja's Head} [1ex] {Royal Burgonet} [60c-1ex]
+40% increased Detonate Dead Damage: Detonate Dead Damage {Devouring Diadem} [1ex]
+40% increased Essence Drain Damage: Essence Drain Damage {Hubris Circlet} [50c] {Crown of the Inward Eye} [50c-1ex]
+40% increased Eye of Winter Damage: Eye of Winter Damage {Crown of the Inward Eye} [50c]
+40% increased Fireball Damage: Fireball Damage {Hubris Circlet} [50c]
+40% increased Flicker Strike Damage: Flicker Strike Damage {Abyssus} [40-50c] {Starkonja's} [50c]
+40% increased Forbidden Rite Damage: Forbidden Rite Damage {Viridi's Veil} [1.5ex]
+40% increased Freezing Pulse Damage: Freezing Pulse Damage {Crown of the Inward Eye} {Viridi's Veil}
+40% increased Frost Blades Damage: Frost Blades Damage {Blizzard Crown}
+40% increased Glacial Cascade Damage: Glacial Cascade Damage {Crown of the Inward Eye}
+40% increased Herald of Thunder Damage: Herald of Thunder Damage {Crest of Desire} {Crown of the Inward Eye}
+40% increased Ice Nova Damage: Ice Nova Damage {Hubris Circlet} {Crown of the Inward Eye}
+40% increased Ice Shot Damage: Ice Shot Damage {Asenath's Chant} {Fractal Thoughts}
+40% increased Ice Trap Damage: Ice Trap Damage {Hubris Circlet} {Devouring Diadem} {Alpha's Howl}
+40% increased Lightning Arrow Damage: Lightning Arrow Damage {Asenath's Chant}
+40% increased Lightning Strike Damage: Lightning Strike Damage {Blizzard Crown} {Obscurantis}
+40% increased Puncture Damage: Puncture Damage {Assailum}
+40% increased Righteous Fire Damage: Righteous Fire Damage {Crown of the Inward Eye}
+40% increased Shield Crush Damage: Shield Crush Damage {Crown of the Inward Eye} {Royal Burgonet} {Eternal Burgonet}
+40% increased Spectral Helix Damage: Spectral Helix Damage {Obscurantis}
+40% increased Spectral Shield Throw Damage: SST Damage {Eternal Burgonet} {Crown of the Inward Eye} {Royal Burgonet}
+40% increased Vortex Damage: Vortex Damage {Rime Gaze}
+9% increased Flicker Strike Damage per Frenzy Charge: Flicker Strike Damage per Frenzy {Replica Abyssus} {Abyssus} {Lion Pelt}
+Ancestral Protector Totem grants 18% increased Attack Speed while Active: {Crown of Eyes} Ancestral Protector Attack Speed {Abyssus} {Eternal Burgonet}
+Anger has 15% reduced Reservation: Anger Reservation {Alpha's Howl}
+Arc Chains an additional time: Arc Chain {Crown of the Inward Eye}
+Arcane Cloak Spends an additional 15% of current Mana: Arcane Cloak additional damage  {Indigon}
+Ball Lightning fires an additional Projectile: Ball Lightning Projectile {Crown of the Inward Eye}
+Barrage fires an additional Projectile: Barrage Projectile {Asenath's Chant} {Fractal Thoughts}
+Berserk has 25% reduced Rage loss per second: Berserk reduced Rage {Skold's}
+Berserk has 30% increased Buff Effect: Berserk Buff Effect {Skold's} {Eternal Burgonet} {Blizzard Crown} {Abyssus}
+Bladefall has an additional Volley: Bladefall additional Volly {Blizzard Crown}
+Blazing Salvo fires an additional Projectile: Blazing Salvo Projectile {Crown of the Inward Eye} {Devouring Diadem}
+Blood and Sand has 40% increased Buff Effect: Blood and Sand Buff Effect {Abyssus} {Eternal Burgonet} {Devoto's Devotion} {Royal Burgonet}
+Blood Rage grants additional 12% increased Attack Speed: Bloot Rage Attack Speed {Abyssus} {Devoto's Devotion} {Royal Burgonet} {Asenath's Chant}
+Boneshatter has 24% chance to grant +1 Trauma: Boneshatter Trauma {Abyssus} {Eternal Burgonet} {royal Burgonet}
+Clarity has 30% reduced Reservation: Clarity Reservation {Viridi's Veil} {Alpha's Howl}
+Cobra Lash Chains 3 additional times: Cobra Lash Chain {Lion Pelt}
+Consecrated Ground from Purifying Flame applies 9% increased Damage taken to Enemies: Purifying Flame Conc Ground Damage {Crown of the Inward Eye}
+Corrupting Fever deals 40% increased Damage: Corrupting Feaver {Devouring Diadem}
+Determination has 15% reduced Reservation: Determination Reservation {Alpha's Howl}
+Discipline has 20% reduced Reservation: Discipline Reservation {Hubris Circlet} {Alpha's Howl}
+Dominating Blow can summon 3 additional Magic Sentinels of Dominance: Dominating Blow additional Sentinels {Memory Vault}
+Earthshatter deals 40% increased Damage: Earthshatter Damage {Abyssus}
+Elemental Hit deals 40% increased Damage: Elemental Hit Damage {Asenath's Chant} {Frostferno}
+Explosive Trap causes 2 additional smaller explosions: Explosive Trap smaller explosions {Devouring Diadem}
+Exsanguinate deals 40% increased Damage: Exsanguinate Damage {Devouring Diadem} {Viridi's Veil} {Crown of the Inward Eye}
+Eye of Winter fires Shard projectiles with 12% increased Frequency during flight: Eye of Winter increased frequency during flight {Indigon} {Crown of the Inward Eye}
+Flame Dash has 30% increased Cooldown Recovery Rate: Flame Dash Cooldown {Viridi's Veil}
+Flesh and Stone has 30% reduced Reservation: Flesh to Stone Reservation {Abyssus} {Hubris Circlet} {Alpha's Howl}
+Flesh Offering grants an additional 21% increased Attack Speed: Flesh Offering Attack Speed {Bone Helm (elder)} {Devouring Diadem}
+Forbidden Rite fires an additional Projectile: Forbidden Rite Projectile {Viridi's Veil} {Hubris Circlet}
+Frost Bomb has 30% increased Cooldown Recovery Rate: Frost Bomb Cooldown {Crown of the Inward Eye}
+General's Cry has +1 to maximum number of Mirage Warriors: General's Cry +1 {Abyssus} {Deidbellow} {Eternal Burgonet} {Crown of the Inward Eye} {Royal Burgonet}
+General's Cry has 30% increased Cooldown Recovery Rate: General's Cry Cooldown {Crown of the Inward Eye}
+Glacial Cascade gains 10% of Physical Damage as Extra Cold Damage: Glacial Cascade Exra Cold {Crown of the Inward Eye}
+Grace has 15% reduced Reservation: Grace Reservation {Alpha's Howl}
+Haste has 15% reduced Reservation: Haste Reservation {Bone Helm (elder)} {Hubris Circlet} {Alpha's Howl}
+Hatred has 15% reduced Reservation: Hatred Reservation {Ancient Skull} {Hubris Circlet} {Asenath's Chant} {Devouring Diadem} {Alpha's Howl}
+Herald of Agony has 30% reduced Reservation: Herald of Agony Reservation {Memory Vault} {Bone Helm (no influence)}
+Herald of Purity has 30% reduced Reservation: Herald of Purity Reservation {Memory Vault}
+Herald of Thunder has 30% reduced Reservation: Herald of Thunder Reservation {Hubris Circlet} {Crown of the Inward Eye}
+Ice Spear fires an additional Projectile: Ice Spear Projectile {Blizzard Crown} {Indigon} {Asenath's Chant} {Hubris Circlet} {Crown of the Inward Eye}
+Ice Trap Damage Penetrates 10% Cold Resistance: Ice Trap Cold Pen {Lion Pelt} {Hubris Circlet} {Alpha's Howl} {Crown of the Inward Eye}
+Intimidating Cry has 30% increased Cooldown Recovery Rate: Intimidating Cry Cooldown {Crown of the Inward Eye}
+Lancing Steel fires an additional Projectile: Lancing Steel Projectile {Eternal Burgonet} {Lion Pelt} {Royal Burgonet}
+Lightning Arrow hits 2 additional Enemies: Lightning Arrow additional hits {Asenath's Chant} {Fractal Thoughts}
+Lightning Strike fires 3 additional Projectiles: Lightning Strike Projectiles {Obscurantis}
+Lightning Strike pierces 2 additional Targets: Lightning Strike Pierce {Blizzard Crown} {Obscurantis}
+Lightning Trap pierces 3 additional Targets: Lightning Trap Pierce {Crcown of the Inward Eye}
+Malevolence has 15% reduced Reservation: Malevolence Reservation {Hubris Circlet} {Asenath's Chant} {Crown of the Inward Eye}  {Devouring Diadem} {Alpha's Howl}
+Manabond Penetrates 12% Lightning Resistance while on Low Mana: Manabon Pen Lightning {Indigon}
+Molten Strike fires 2 additional Projectiles: Molten Strike Proj {Eternal Burgonet} {Hubris Circlet} {Obscurantis} {Crown of the Inward Eye} {Royal Burgonet}
+Penance Brand has 12% increased Cast Speed: Penance Brand Cast Speed {Hubris Circlet}
+Plague Bearer Buff grants +20% to Poison Damage over Time Multiplier while Infecting: Plage Bearer Buff {Devouring Diadem}
+Power Siphon fires 2 additional Projectiles: Power Siphon Proj {Hubris Circlet (ilvl 75-79)} [15ex] {Crown of Eyes}
+Pride has 15% reduced Reservation: Pride Reservatino {Eternal Burgonet} {Bone Helm (elder)} {Ezomyte Burgonet} {Devoto's Devotion}
+Purity of Fire has 20% reduced Reservation: Purity of Fire Reservation {Alpha's Howl}
+Purity of Ice has 20% reduced Reservation: Purity of Ice Reservation {Alpha's Howl}
+Purity of Lightning has 20% reduced Reservation: Purity of Lightning Reservation {Alpha's Howl}
+Rage Vortex Sacrifices +5% of Rage: Rage Vortex Sac Rage {Abyssus} {The Brine Crown}
+Raised Zombies deal 40% increased Damage: Raised Zomies Damage {Bone Helm (elder)} [2-3ex] {The Baron} [~1ex]
+Reap deals 40% increased Damage: Reap Damage {Crown of the Inward Eye}
+Scourge Arrow creates an additional spore pod at Maximum Stages: Scourge Arrow spore pod {Lion Pelt} {Runic Crown}
+Seismic Trap deals 40% increased Damage: Seismic Trap Damage {Devouring Diadem}
+Seismic Trap has 15% increased Cooldown Recovery Rate: Seismic Trap Cooldown {Devouring Diadem}
+Seismic Trap has 30% increased Skill Effect Duration: Seismic Trap Duration {Devouring Diadem}
+Seismic Trap releases an additional Wave: Seismic Trap additional wave {Devouring Diadem} {Lion Pelt}
+Siege Ballista has 15% increased Attack Speed: Siege Ballista Attack Speed {Fractal Thoughts}
+Skeletons deal 40% increased Damage: Skeletons Damage {Bone Helm (elder)}
+Skills Supported by Spellslinger have 15% reduced Mana Reservation: Spellslinger Reservation {Eye of Malice} {Devouring Diadem} {Hubris Circlet}
+Skills Supported by Spellslinger have 30% increased Cooldown Recovery Rate: Spellslinger Cooldown {Crown of the Inward Eye}
+Smoke Mine grants additional 30% increased Movement Speed: Smoke Mine Movement Speed {Devoto's Devotion}
+Sniper's Mark has 30% increased Curse Effect: Sniper's Mark Effect {Asenath's Chant}
+Spark fires 3 additional Projectiles: Spark Projectiles {Hubris Circlet} {Crown of the Inward Eye}
+Spectral Helix Projectile spirals through +1 rotations:  Spectral Helix rotations {Obscurantis}
+Spectral Shield Throw fires 5 additional Shard Projectiles: {Eternal Burgonet}  {Lion Pelt} {Royal Burgonet}
+Spectres have 12% increased Attack and Cast Speed: Specters Attack Cast Speed {Bone Helm (elder)}
+Spectres have 40% increased Damage: Spectres Damage {Bone Helm (elder)} {Devouring Diadem}
+Spells Triggered by Arcanist Brand Unnerve enemies on Hit for 4 seconds: Arcanist Brand Unnerve {Indigon}
+Stone Golems deal 40% increased Damage: Stone Golem Damage {Bone Helm (elder)}
+Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance: Storm Brand Pen Lightning {Hubris Circlet} {Memory Vault}
+Storm Brand deals 40% increased Damage: Storm Brand Damage {Crown of the Inward Eye}
+Storm Burst has a 15% chance to create an additional Orb: Storm Burst additional Orb {Viridi's Veil}
+Storm Rain fires an additional Arrow: Storm Rain additional Arrow {Asenath's Chant}
+Summon Skitterbots has 20% reduced Reservation: Skitterbots Reservation {Alpha's Howl} {Ancient Skull} {Devouring Diadem}
+Summoned Agony Crawler fires 2 additional Projectiles: Agony Crawler Projectiles {Memory Vault}
+Summoned Carrion Golems deal 40% increased Damage: Carrion Golem Damage {Bone Helm (elder)}
+Summoned Holy Relics deal 40% increased Damage: Holy Relic Damage {Geofri's Legacy}
+Tornado Shot fires an additional secondary Projectile: Tornado Shot Proj {Blizzard Crown} {Asenath's Chant} {Obscurantis} {Fractal Thoughts}
+Toxic Rain deals 40% increased Damage: Toxic Rain Damage {Asenath's Chant} {Lion Pelt} {Starkonja's Head}
+Toxic Rain fires 1 additional Arrow: Toxic Rain Arrow {Asenath's Chant} {Lion Pelt}
+Vengeance has 30% increased Cooldown Recovery Rate: Vengeance Cooldown {Hurbis Circlet}
+Volatile Dead Consumes up to 1 additional corpse: Volatile Dead consume additional {Hubris Circlet} {Scold's Bridle} {Crown of the Inward Eye}
+War Banner has 40% increased Aura Effect: War Banner Effect {Obscurantis}
+Winter Orb has +2 Maximum Stages: Winter Orb stages {Blizzard Crown}
+Wither has 36% increased Duration: Wither Duration {Viridi's Veil}
+Withering Step inflicts 3 additional Withered Debuffs: Withering Step Debuffs {Lion Pelt}
+Wrath has 15% reduced Reservation: Wrath Reservation {Hubris Circlet} { Alpha's Howl}
+Zealotry has 15% reduced Reservation: Zealotry Reservation {Hubris Circlet} {Devouring Diadem} {Alpha's Howl}

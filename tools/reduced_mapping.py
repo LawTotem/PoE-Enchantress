@@ -25,10 +25,11 @@ def reducedMapping(min_list, bk=6) :
         shortest = "";
         abandoned_dist = bk;
         abandoned = "";
-        for k in range(3,min([bk+1,len(name) - 1])) :
-            other_names = set_of_names.difference({fnname});
-            short_names = [name[i:(i+k)] for i in range(len(name) - k)];
-            goodness = [sum([sn in simplifyName(on) for on in other_names]) for sn in short_names];
+        other_names = set_of_names.difference({fnname});
+        simp_other_names = [simplifyName(on) for on in other_names];
+        for k in range(3,min([bk+1,len(name)])) :
+            short_names = [name[i:(i+k)] for i in range(len(name) - k + 1)];
+            goodness = [sum([sn in on for on in simp_other_names]) for sn in short_names];
             mg = min(goodness);
             best_name = goodness.index(min(goodness));
             if mg == 0 :
@@ -49,13 +50,13 @@ if __name__ == "__main__":
     all_heists = ff.readlines();
     lines = [ll.rsplit(':')[0] for ll in all_heists]
     lines = list(set(lines));
-    reduced_heists = reducedMapping(lines,15);
+    reduced_heists = reducedMapping(lines,20);
     ff.close();
     ff = open('./heist_remapping.txt','w');
     ff.write("\n".join(reduced_heists));
     ff.close();
 
-    ff = open('all_enchants.txt','r');
+    ff = open('./all_enchants.txt','r');
     all_enchants = ff.readlines();
     reduced_enchants = reducedMapping(all_enchants, 20);
     ff.close();

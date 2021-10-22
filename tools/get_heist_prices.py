@@ -18,15 +18,17 @@ import json
 import urllib.request
 import time
 
+league = "Expedition"
+
 # We are going to get all the prices from poe.ninja - don't abuse this.
-sgems_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=SkillGem&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-weaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueWeapon&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-armor_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueArmour&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-umaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueMap&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-jewel_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueJewel&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-rings_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueAccessory&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-flask_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=UniqueFlask&language=en",headers={'User-Agent': 'Mozilla/5.0'})
-bases_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=Expedition&type=BaseType&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+sgems_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=SkillGem&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+weaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueWeapon&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+armor_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueArmour&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+umaps_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueMap&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+jewel_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueJewel&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+rings_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueAccessory&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+flask_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=UniqueFlask&language=en",headers={'User-Agent': 'Mozilla/5.0'})
+bases_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=BaseType&language=en",headers={'User-Agent': 'Mozilla/5.0'})
 
 sgems_page = urllib.request.urlopen(sgems_req).read()
 all_sgems = json.loads(sgems_page)
@@ -79,7 +81,7 @@ for gem in all_sgems['lines'] :
     title = gem['name']
     if lvl == 16 and qual < 20 and (not title in priced_gems):
         if (title.startswith('Anomalous') or title.startswith('Phantasmal') or title.startswith('Divergent')) :
-            outfile.write(newline + title + ',' + str(gem['chaosValue']) + 'c')
+            outfile.write(newline + title + ':' + str(gem['chaosValue']) + 'c')
             newline = '\n'
             priced_gems.add(title)
 # If we cant find the qual 16 than just pull what ever
@@ -95,7 +97,7 @@ for gem in all_sgems['lines'] :
     title = gem['name']
     if lvl < 20 and qual < 20 and (not title in priced_gems):
         if (title.startswith('Anomalous') or title.startswith('Phantasmal') or title.startswith('Divergent')) :
-            outfile.write(newline + title + ',~' + str(gem['chaosValue']) +'c')
+            outfile.write(newline + title + ':~' + str(gem['chaosValue']) +'c')
             priced_gems.add(title)
 
 # Pull in the Weapons
@@ -106,7 +108,7 @@ for weap in all_weaps['lines'] :
     except :
         links = 0
     if title.startswith('Replica') and links == 0 :
-        outfile.write(newline + title + "," + str(weap['chaosValue']) + 'c')
+        outfile.write(newline + title + ":" + str(weap['chaosValue']) + 'c')
 
 # Pull in Armors
 for armor in all_armor['lines'] :
@@ -116,31 +118,31 @@ for armor in all_armor['lines'] :
     except :
         links = 0
     if title.startswith('Replica') and links == 0 :
-        outfile.write(newline + title + "," + str(armor['chaosValue']) + 'c')
+        outfile.write(newline + title + ":" + str(armor['chaosValue']) + 'c')
 
 # Pull in Rings/Amulets
 for jewerly in all_rings['lines'] :
     title = jewerly['name']
     if title.startswith('Replica') :
-        outfile.write(newline + title + "," + str(jewerly['chaosValue']) + 'c')
+        outfile.write(newline + title + ":" + str(jewerly['chaosValue']) + 'c')
 
 # Pull in Maps
 for umap in all_umaps['lines'] :
     title = umap['name']
     if title.startswith('Replica') :
-        outfile.write(newline + title + "," + str(umap['chaosValue']) + 'c')
+        outfile.write(newline + title + ":" + str(umap['chaosValue']) + 'c')
 
 # Pull in Maps
 for jewel in all_jewel['lines'] :
     title = jewel['name']
     if title.startswith('Replica') :
-        outfile.write(newline + title + "," + str(jewel['chaosValue']) + 'c')
+        outfile.write(newline + title + ":" + str(jewel['chaosValue']) + 'c')
 
 # Pull in Maps
 for flask in all_flask['lines'] :
     title = flask['name']
     if title.startswith('Replica') :
-        outfile.write(newline + title + "," + str(flask['chaosValue']) + 'c')
+        outfile.write(newline + title + ":" + str(flask['chaosValue']) + 'c')
 
 heist_bases = {
     'Psychotic Axe',
@@ -177,6 +179,6 @@ for base in all_bases['lines'] :
         variant = 'None'
     if title in heist_bases and variant == 'None' :
             if base['chaosValue'] > 5.1 or base['levelRequired'] >= 86 :
-                outfile.write(newline + title + "," + "ilvl" + str(base['levelRequired']) + " " + str(base['chaosValue']) + "c")
+                outfile.write(newline + title + ":" + "ilvl" + str(base['levelRequired']) + " " + str(base['chaosValue']) + "c")
 
 outfile.close()

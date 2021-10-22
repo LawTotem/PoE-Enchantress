@@ -1,1000 +1,963 @@
-lsun:Phantasmal Sunder
-tene:Divergent Energy Leech Support
-tdeto:Divergent Detonate Dead
-llu:Replica Allure
-cag:Replica Grip of the Council
-usho:Anomalous Holy Flame Totem
-sdea:Anomalous Deadly Ailments Support
-lices:Phantasmal Ice Spear
-sdese:Anomalous Desecrate
-tfe:Divergent Feeding Frenzy Support
-tfrostw:Divergent Frost Wall
-tgenero:Divergent Generosity Support
-sancestralca:Anomalous Ancestral Call Support
-tseismict:Divergent Seismic Trap
-ara:Replica Paradoxica
-sancestralcr:Anomalous Ancestral Cry
-linfernalc:Phantasmal Infernal Cry
-sral:Anomalous Rallying Cry
-ttox:Divergent Toxic Rain
-tdea:Divergent Deadly Ailments Support
-usdam:Anomalous Damage on Full Life Support
-swintert:Anomalous Wintertide Brand
-torb:Divergent Orb of Storms
-ssummonst:Anomalous Summon Stone Golem
-usconc:Anomalous Concentrated Effect Support
-sfrostbol:Anomalous Frostbolt
-ntet:Divergent Ethereal Knives
-lfre:Phantasmal Frenzy
-tseismicc:Divergent Seismic Cry
-tga:Divergent Galvanic Arrow
-svu:Anomalous Vulnerability
-slifel:Anomalous Life Leech Support
-smw:Replica Prismweave
-tspells:Divergent Spellslinger
 sblasp:Anomalous Blasphemy Support
-ldec:Phantasmal Decoy Totem
-ticeb:Divergent Ice Bite Support
-schargedm:Anomalous Charged Mines Support
-tvu:Divergent Vulnerability
-sstormr:Anomalous Storm Rain
-idf:Void Fangs
-divergentwith:Divergent Wither
-usspi:Anomalous Spirit Offering
-spul:Anomalous Pulverise Support
-texplosivet:Divergent Explosive Trap
-lspl:Phantasmal Splitting Steel
-tinfernall:Divergent Infernal Legion Support
-ssplitt:Anomalous Splitting Steel
-afro:Replica Frostbreath
-aea:Replica Earendel's Embrace
-lso:Phantasmal Soulrend
-tbladet:Divergent Blade Trap
-sbonec:Anomalous Bonechill Support
-scla:Anomalous Clarity
-tspa:Divergent Spark
-sheraldofi:Anomalous Herald of Ice
-sfirep:Anomalous Fire Penetration Support
-ntn:Divergent Nightblade Support
-tvor:Divergent Vortex
-tgreaterv:Divergent Greater Volley Support
-foi:Replica Atziri's Foible
-tdeca:Divergent Decay Support
-usgra:Anomalous Grace
-lbli:Phantasmal Blink Arrow
-sveng:Anomalous Vengeance
-ryp:Replica Trypanon
-llightningt:Phantasmal Lightning Tendrils
-sswiftb:Anomalous Swiftbrand Support
-tspectrals:Divergent Spectral Shield Throw
-twintero:Divergent Winter Orb
-tspi:Divergent Spirit Offering
-lvig:Phantasmal Vigilant Strike
-tmeleep:Divergent Melee Physical Damage Support
-cair:Replica Iron Commander
-tcoldt:Divergent Cold to Fire Support
-strapa:Anomalous Trap and Mine Damage Support
-tswiftas:Divergent Swift Assembly Support
-sshieldcr:Anomalous Shield Crush
-ushat:Anomalous Hatred
-lsummons:Phantasmal Summon Skeletons
-tfastera:Divergent Faster Attacks Support
-tarm:Divergent Armageddon Brand
-swarb:Anomalous War Banner
-tstormbr:Divergent Storm Brand
-set:Anomalous Ethereal Knives
-tburninga:Divergent Burning Arrow
-ssummonske:Anomalous Summon Skeletons
-spred:Anomalous Predator Support
-sconvo:Anomalous Convocation
-tfrostbol:Divergent Frostbolt
-tearthb:Divergent Earthbreaker Support
-sbladefa:Anomalous Bladefall
-smirr:Anomalous Mirror Arrow
-tcoldp:Divergent Cold Penetration Support
-lshr:Phantasmal Shrapnel Ballista
-tspectralt:Divergent Spectral Throw
-telementalw:Divergent Elemental Weakness
-lstormbl:Phantasmal Stormblast Mine
-slea:Anomalous Leap Slam
-lpen:Anomalous Elemental Penetration Support
-tbloodt:Divergent Bloodthirst Support
-tancestralw:Divergent Ancestral Warchief
-learthq:Phantasmal Earthquake
-sbea:Anomalous Bear Trap
-telementald:Divergent Elemental Damage with Attacks Support
-smai:Anomalous Maim Support
-sheraldofag:Anomalous Herald of Agony
-tdiv:Divergent Divine Ire
-tpurityofl:Divergent Purity of Lightning
-schargedt:Anomalous Charged Traps Support
-svip:Anomalous Viper Strike
-stempo:Anomalous Temporal Chains
-tpurityofe:Divergent Purity of Elements
-simmol:Anomalous Immolate Support
-spurityoff:Anomalous Purity of Fire
-lancestralp:Phantasmal Ancestral Protector
-taddedf:Divergent Added Fire Damage Support
-switherings:Anomalous Withering Step
-tflamed:Divergent Flame Dash
-tspellt:Divergent Spell Totem Support
-taddedl:Divergent Added Lightning Damage Support
-lbar:Phantasmal Barrage
-theraldofp:Divergent Herald of Purity
-adr:Replica Dreamfeather
-scob:Anomalous Cobra Lash
-llea:Phantasmal Leap Slam
-twintert:Divergent Wintertide Brand
-pay:Replica Unstable Payload
-gsc:Alternating Sceptre
-cro:Micro-Distillery Belt
-tkn:Divergent Knockback Support
-tsummonch:Divergent Summon Chaos Golem
-tsummonske:Divergent Summon Skeletons
-adh:Replica Headhunter
-anomalousbarra:Anomalous Barrage
-ltox:Phantasmal Toxic Rain
-tlifeg:Divergent Life Gain on Hit Support
-sstormbu:Anomalous Storm Burst
-aet:Replica Eternity Shroud
-taddedco:Divergent Added Cold Damage Support
-spie:Anomalous Pierce Support
-ulta:Replica Soul Taker
-screm:Anomalous Cremation
-caq:Replica Quill Rain
-tins:Divergent Inspiration Support
-sarrog:Anomalous Arrogance Support
-scond:Anomalous Conductivity
-tpurityofi:Divergent Purity of Ice
-slifeg:Anomalous Life Gain on Hit Support
-lpes:Phantasmal Pestilent Strike
-ldom:Phantasmal Dominating Blow
-ntwh:Divergent Whirling Blades
-tbod:Divergent Bodyswap
-tmultipletr:Divergent Multiple Traps Support
-sblig:Anomalous Blight
-svor:Anomalous Vortex
-tminionl:Divergent Minion Life Support
-scy:Anomalous Cyclone
-tfree:Divergent Freezing Pulse
-tbladefl:Divergent Blade Flurry
-enh:Anomalous Enhance Support
-sphy:Anomalous Physical to Lightning Support
-sreav:Anomalous Reave
-sprec:Anomalous Precision
-sgreaterv:Anomalous Greater Volley Support
-erd:Replica Bitterdream
-ntes:Divergent Essence Drain
-telementalf:Divergent Elemental Focus Support
-scoldp:Anomalous Cold Penetration Support
-saddi:Anomalous Additional Accuracy Support
-tbat:Divergent Battlemage's Cry
-learths:Phantasmal Earthshatter
-sglacialc:Anomalous Glacial Cascade
-tpuni:Divergent Punishment
-lper:Phantasmal Perforate
-tsplitt:Divergent Splitting Steel
-sburninga:Anomalous Burning Arrow
-tarct:Divergent Arctic Armour
-usur:Anomalous Urgent Orders Support
-ttraps:Divergent Trap Support
-trec:Divergent Reckoning
-swr:Anomalous Wrath
-tconve:Divergent Conversion Trap
-tblooda:Divergent Blood and Sand
-srig:Anomalous Righteous Fire
-hor:Replica Blood Thorn
-tflamm:Divergent Flammability
-shex:Anomalous Hextouch Support
-mis:Replica Mistwall
-texplosivea:Divergent Explosive Arrow
-temi:Anomalous Detonate Mines
-tchancetop:Divergent Chance to Poison Support
-sheraldoft:Anomalous Herald of Thunder
-tscou:Divergent Scourge Arrow
-schancetop:Anomalous Chance to Poison Support
-schains:Anomalous Chain Support
-tmal:Divergent Malevolence
-tchainh:Divergent Chain Hook
-emr:Anomalous Item Rarity Support
-selementald:Anomalous Elemental Damage with Attacks Support
-sminions:Anomalous Minion Speed Support
-sfireb:Anomalous Fireball
-tvoidm:Divergent Void Manipulation Support
-tdas:Divergent Dash
-srej:Anomalous Rejuvenation Totem
-timp:Divergent Impale Support
-aldi:Phantasmal Discharge
-sancestralp:Anomalous Ancestral Protector
-tbeh:Divergent Behead Support
-tconc:Divergent Concentrated Effect Support
-tshieldcr:Divergent Shield Crush
-scree:Anomalous Creeping Frost
-scastwhens:Anomalous Cast when Stunned Support
-tsummonf:Divergent Summon Flame Golem
-tcond:Divergent Conductivity
-tlac:Divergent Lacerate
-sarcanec:Anomalous Arcane Cloak
-lsig:Phantasmal Sigil of Power
-svoids:Anomalous Void Sphere
-spoi:Anomalous Point Blank Support
-scle:Anomalous Cleave
-anomalouswith:Anomalous Wither
-tarcani:Divergent Arcanist Brand
-psy:Psychotic Axe
-smanal:Anomalous Mana Leech Support
-tvig:Divergent Vigilant Strike
-ssn:Anomalous Sniper's Mark
-tpen:Divergent Penance Brand
-tchancetob:Divergent Chance to Bleed Support
-svoll:Anomalous Volley Support
-tarrog:Divergent Arrogance Support
-ssta:Anomalous Static Strike
-tstormc:Divergent Storm Call
-nthat:Divergent Hatred
-skineticbl:Anomalous Kinetic Blast
-hre:Replica Three-step Assault
-tcastwhend:Divergent Cast when Damage Taken Support
-sragev:Anomalous Rage Vortex
-schainh:Anomalous Chain Hook
-sfoc:Anomalous Focused Ballista Support
-lwil:Phantasmal Wild Strike
-telementala:Divergent Elemental Army Support
-ssie:Anomalous Siege Ballista
-aho:Replica Hotheaded
 sseismict:Anomalous Seismic Trap
-sspells:Anomalous Spellslinger
-sro:Anomalous Rolling Magma
-api:Replica Pillars of Arun
-tcastonm:Divergent Cast on Melee Kill Support
-entas:Divergent Assassin's Mark
-ntrain:Divergent Rain of Arrows
-sinfernall:Anomalous Infernal Legion Support
-tpowerc:Divergent Power Charge On Critical Support
-tdete:Divergent Determination
-nomalousar:Anomalous Arc
-lho:Phantasmal Holy Flame Totem
-uscor:Anomalous Corrupting Fever
-svoidm:Anomalous Void Manipulation Support
-smoltenst:Anomalous Molten Strike
-sdiv:Anomalous Divine Ire
-sminiond:Anomalous Minion Damage Support
-svig:Anomalous Vigilant Strike
-sflamed:Anomalous Flame Dash
-tfork:Divergent Fork Support
-sinti:Anomalous Intimidating Cry
-sblades:Anomalous Bladestorm
-tdef:Divergent Defiance Banner
-twitheringt:Divergent Withering Touch Support
-ung:Replica Ungil's Gauche
-sici:Anomalous Icicle Mine
-scastwhi:Anomalous Cast while Channelling Support
-amp:Replica Stampede
-idn:Replica Midnight Bargain
-on':Replica Alberon's Warpath
-tballi:Divergent Ballista Totem Support
-theraldofi:Divergent Herald of Ice
-tpy:Divergent Pyroclast Mine
-senf:Anomalous Enfeeble
-sstormbr:Anomalous Storm Brand
-spurityofl:Anomalous Purity of Lightning
-ntab:Divergent Absolution
-tpred:Divergent Predator Support
-shas:Anomalous Haste
-usmal:Anomalous Malevolence
-sam:Anomalous Ambush
-treav:Divergent Reave
-tflesho:Divergent Flesh Offering
-tsmo:Divergent Smoke Mine
-tmea:Divergent Meat Shield Support
-ntblink:Divergent Blink Arrow
-texplosivec:Divergent Explosive Concoction
-ldes:Phantasmal Desecrate
-uson:Anomalous Onslaught Support
-tsummonst:Divergent Summon Stone Golem
-saddedf:Anomalous Added Fire Damage Support
-ntur:Divergent Urgent Orders Support
-sbladev:Anomalous Blade Vortex
-lblas:Phantasmal Blast Rain
-sdesp:Anomalous Despair
-tbloodl:Divergent Bloodlust Support
-sfiret:Anomalous Fire Trap
-ltec:Phantasmal Tectonic Slam
-tfirep:Divergent Fire Penetration Support
-lpun:Phantasmal Puncture
-lsw:Phantasmal Sweep
-tbones:Divergent Boneshatter
-tchargedm:Divergent Charged Mines Support
-ebu:Replica Nebulis
-tsta:Divergent Static Strike
-tef:Divergent Efficacy Support
-slightningte:Anomalous Lightning Tendrils
-ussig:Anomalous Sigil of Power
-lseismicc:Phantasmal Seismic Cry
-thext:Divergent Hextouch Support
-sexplosivet:Anomalous Explosive Trap
-nns:Replica Innsbury Edge
-twarb:Divergent War Banner
-lfrosts:Phantasmal Frost Shield
-tso:Divergent Soulrend
-timmor:Divergent Immortal Call
-tuk:Replica Tukohama's Fortress
-tshr:Divergent Shrapnel Ballista
-spuni:Anomalous Punishment
-sseismicc:Anomalous Seismic Cry
-smultipletr:Anomalous Multiple Traps Support
-llightninga:Phantasmal Lightning Arrow
-theraldofas:Divergent Herald of Ash
-sblastc:Anomalous Blastchain Mine Support
-tsummoni:Divergent Summon Ice Golem
-sstormc:Anomalous Storm Call
-tboneo:Divergent Bone Offering
-sbloodl:Anomalous Bloodlust Support
-lflameb:Phantasmal Flameblast
-tpurityoff:Divergent Purity of Fire
-sicet:Anomalous Ice Trap
-cao:Replica Oro's Sacrifice
-lro:Phantasmal Rolling Magma
-tgro:Divergent Ground Slam
-sstormbl:Anomalous Stormblast Mine
-tfireb:Divergent Fireball
-sfires:Anomalous Firestorm
-lrec:Phantasmal Reckoning
-usz:Anomalous Zealotry
-traises:Divergent Raise Spectre
-tstormr:Divergent Storm Rain
-ssplita:Anomalous Split Arrow
-sey:Anomalous Eye of Winter
-atw:Replica Twyzel
-sdeco:Anomalous Decoy Totem
-tcastwhens:Divergent Cast when Stunned Support
-sunl:Anomalous Unleash Support
-rgentincreasedc:Divergent Increased Critical Strikes Support
-enl:Anomalous Enlighten Support
-sexs:Anomalous Exsanguinate
-sfli:Anomalous Flicker Strike
-tpunc:Divergent Puncture
-svil:Anomalous Vile Toxins Support
-trages:Divergent Rage Support
-tunl:Divergent Unleash Support
-sinn:Anomalous Innervate Support
-sfrostbla:Anomalous Frost Blades
-skn:Anomalous Knockback Support
-pag:Impact Force Propagator
-lsea:Phantasmal Searing Bond
-telementalh:Divergent Elemental Hit
-tart:Divergent Artillery Ballista
-sscor:Anomalous Scorching Ray
-scri:Anomalous Critical Strike Affliction Support
-scau:Anomalous Caustic Arrow
-tarch:Divergent Archmage Support
-olk:Replica Volkuur's Guidance
-llightnings:Phantasmal Lightning Strike
-cog:Cogwork Ring
-sfastera:Anomalous Faster Attacks Support
-ttrapa:Divergent Trap and Mine Damage Support
-swarl:Anomalous Warlord's Mark
-uspl:Anomalous Plague Bearer
-scontr:Anomalous Controlled Destruction Support
-exb:Divergent Hexblast
-slightningtr:Anomalous Lightning Trap
-tsummonca:Divergent Summon Carrion Golem
-tconvo:Divergent Convocation
-ssummonl:Anomalous Summon Lightning Golem
-tpin:Divergent Pinpoint Support
-vei:Replica Veil of the Night
-tdese:Divergent Desecrate
-sstu:Anomalous Stun Support
-ssummonski:Anomalous Summon Skitterbots
-tinn:Divergent Innervate Support
-sbra:Anomalous Brand Recall
-gentro:Divergent Rolling Magma
-tstormbu:Divergent Storm Burst
-tancestralp:Divergent Ancestral Protector
-sshockwaves:Anomalous Shockwave Support
-ulte:Replica Soul Tether
-sironw:Anomalous Iron Will Support
-lfrostbol:Phantasmal Frostbolt
-tclo:Divergent Close Combat Support
-twav:Divergent Wave of Conviction
-lspa:Phantasmal Spark
-lvor:Phantasmal Vortex
-ssummonf:Anomalous Summon Flame Golem
-acor:Replica Cortex
-tarcanec:Divergent Arcane Cloak
-lbo:Phantasmal Bodyswap
-scra:Anomalous Crackling Lance
-selementalh:Anomalous Elemental Hit
-theraldofag:Divergent Herald of Agony
-sdom:Anomalous Dominating Blow
-tgenera:Divergent General's Cry
-tfrosts:Divergent Frost Shield
-sfrosts:Anomalous Frost Shield
-ivergentrea:Divergent Reap
-sbarrages:Anomalous Barrage Support
-ntz:Divergent Zealotry
-tfrostbom:Divergent Frost Bomb
-acu:Replica Atziri's Acuity
-tendura:Divergent Endurance Charge on Melee Stun Support
-timmol:Divergent Immolate Support
-rfe:Replica Perfect Form
-lmo:Phantasmal Molten Strike
-sarm:Anomalous Armageddon Brand
-tshockwaves:Divergent Shockwave Support
-lcree:Phantasmal Creeping Frost
-tlesse:Divergent Lesser Multiple Projectiles Support
-tflamew:Divergent Flame Wall
-sanimateg:Anomalous Animate Guardian
-tfiret:Divergent Fire Trap
-tkineticbl:Divergent Kinetic Blast
-sballi:Anomalous Ballista Totem Support
-scastonc:Anomalous Cast On Critical Strike Support
-ttri:Divergent Trinity Support
-tclu:Divergent Cluster Traps Support
-sinfu:Anomalous Infused Channelling Support
-sendura:Anomalous Endurance Charge on Melee Stun Support
-slightninga:Anomalous Lightning Arrow
-lsho:Phantasmal Shockwave Totem
-lcrem:Phantasmal Cremation
-sglacialh:Anomalous Glacial Hammer
-taddedch:Divergent Added Chaos Damage Support
-smoltensh:Anomalous Molten Shell
-lseismict:Phantasmal Seismic Trap
-taddi:Divergent Additional Accuracy Support
-pex:Apex Cleaver
-hal:Mechalarm Belt
-sbladeb:Anomalous Blade Blast
-usga:Anomalous Galvanic Arrow
-tvoll:Divergent Volley Support
-tdesp:Divergent Despair
-sblind:Anomalous Blind Support
-tlightningp:Divergent Lightning Penetration Support
-aba:Replica Bated Breath
-siceb:Anomalous Ice Bite Support
-sblaz:Anomalous Blazing Salvo
-selementalpr:Anomalous Elemental Proliferation Support
-sscou:Anomalous Scourge Arrow
-tste:Divergent Steelskin
-tcastonc:Divergent Cast On Critical Strike Support
-linti:Phantasmal Intimidating Cry
-tcons:Divergent Consecrated Path
-sdetonated:Anomalous Detonate Dead
-tswiftaf:Divergent Swift Affliction Support
-lsie:Phantasmal Siege Ballista
-usor:Anomalous Orb of Storms
-sancestralw:Anomalous Ancestral Warchief
-srip:Anomalous Riposte
-sarch:Anomalous Archmage Support
-linte:Phantasmal Intensify Support
-lblades:Phantasmal Bladestorm
-sflesha:Anomalous Flesh and Stone
-telementalp:Divergent Elemental Proliferation Support
-ssmi:Anomalous Smite
-linfernalb:Phantasmal Infernal Blow
-lcl:Phantasmal Cleave
-alrain:Phantasmal Rain of Arrows
-lsc:Phantasmal Scourge Arrow
-ssip:Anomalous Siphoning Trap
-sconve:Anomalous Conversion Trap
-sdou:Anomalous Double Strike
-sgreaterm:Anomalous Greater Multiple Projectiles Support
-tanimatew:Divergent Animate Weapon
-gor:Replica Kongor's Undying Rage
-tincreaseda:Divergent Increased Area of Effect Support
-dey:Replica Voideye
-sbladefl:Anomalous Blade Flurry
-sboneo:Anomalous Bone Offering
-tragev:Divergent Rage Vortex
-tblaz:Divergent Blazing Salvo
-tcy:Divergent Cyclone
-tbladev:Divergent Blade Vortex
-tsplita:Divergent Split Arrow
-sfasterp:Anomalous Faster Projectiles Support
-usig:Anomalous Ignite Proliferation Support
-sblooda:Anomalous Blood and Sand
-eod:Geodesic Ring
-sclo:Anomalous Close Combat Support
-tsummonh:Divergent Summon Holy Relic
-tpie:Divergent Pierce Support
-usdef:Anomalous Defiance Banner
-slan:Anomalous Lancing Steel
-ssha:Anomalous Shattering Steel
-tber:Divergent Berserk
-spurityofi:Anomalous Purity of Ice
-tcree:Divergent Creeping Frost
-sveno:Anomalous Venom Gyre
-sfrostbom:Anomalous Frost Bomb
-sspectralt:Anomalous Spectral Throw
-tdu:Divergent Dual Strike
-tcla:Divergent Clarity
-tminions:Divergent Minion Speed Support
-sadv:Anomalous Advanced Traps Support
-aam:Replica Ambu's Charge
-lancestralw:Phantasmal Ancestral Warchief
-tmultis:Divergent Multistrike Support
-lstormc:Phantasmal Storm Call
-aem:Replica Emberwake
-slightningw:Anomalous Lightning Warp
-tlightningte:Divergent Lightning Tendrils
-sfasterc:Anomalous Faster Casting Support
-twil:Divergent Wild Strike
-sfork:Anomalous Fork Support
-sdeca:Anomalous Decay Support
-sfren:Anomalous Frenzy
+poo:Replica Poorjoy's Asylum
+boo:Boom Mace
 ntune:Divergent Unearth
-sso:Anomalous Soulrend
-tdom:Divergent Dominating Blow
-ntral:Divergent Rallying Cry
-rys:Battery Staff
-nalbla:Infernal Blade
-tban:Divergent Bane
-tcastwhi:Divergent Cast while Channelling Support
-ey':Replica Maloney's Mechanism
-sdar:Anomalous Dark Pact
-tdisci:Divergent Discipline
-ssummonca:Anomalous Summon Carrion Golem
-tmirr:Divergent Mirror Arrow
-sfe:Anomalous Feeding Frenzy Support
-sarct:Anomalous Arctic Armour
-tglacialc:Divergent Glacial Cascade
-sbloodt:Anomalous Bloodthirst Support
-smea:Anomalous Meat Shield Support
-shyd:Anomalous Hydrosphere
-tlan:Divergent Lancing Steel
-tpul:Divergent Pulverise Support
-tdr:Divergent Dread Banner
-tvoids:Divergent Void Sphere
-tglacialh:Divergent Glacial Hammer
-twitherings:Divergent Withering Step
-adu:Replica Duskdawn
-sincreaseda:Anomalous Increased Area of Effect Support
-scons:Anomalous Consecrated Path
-tfli:Divergent Flicker Strike
-scoldt:Anomalous Cold to Fire Support
-tvil:Divergent Vile Toxins Support
-ushea:Anomalous Heavy Strike
+ssummoni:Anomalous Summon Ice Golem
+tcond:Divergent Conductivity
+tlightningte:Divergent Lightning Tendrils
+leb:Replica Fragile Bloom
+lwil:Phantasmal Wild Strike
+tflames:Divergent Flame Surge
+sunb:Anomalous Unbound Ailments Support
+scla:Anomalous Clarity
+sbones:Anomalous Boneshatter
+tbonec:Divergent Bonechill Support
+usgra:Anomalous Grace
+spred:Anomalous Predator Support
+sfrostbla:Anomalous Frost Blades
 sfrostbli:Anomalous Frostblink
-mpl:Simplex Amulet
-tpurif:Divergent Purifying Flame
-usn:Anomalous Nightblade Support
-srec:Anomalous Reckoning
+tpow:Divergent Power Siphon
+sexplosivet:Anomalous Explosive Trap
+sral:Anomalous Rallying Cry
+tpin:Divergent Pinpoint Support
+nthat:Divergent Hatred
+sfirep:Anomalous Fire Penetration Support
+tso:Divergent Soulrend
+udo:Replica Shroud of the Lightless
+saddedf:Anomalous Added Fire Damage Support
+sburningd:Anomalous Burning Damage Support
+ushea:Anomalous Heavy Strike
+twil:Divergent Wild Strike
 tul:Replica Tulfall
-kal:Replica Kalisa's Grace
-ttor:Divergent Tornado Shot
-sflames:Anomalous Flame Surge
-sexplosivea:Anomalous Explosive Arrow
-ticesh:Divergent Ice Shot
-searthq:Anomalous Earthquake
-aab:Replica Abyssus
-tang:Divergent Anger
-lbea:Phantasmal Bear Trap
+sarrog:Anomalous Arrogance Support
+sfrostbi:Anomalous Frostbite
+sswiftb:Anomalous Swiftbrand Support
+usga:Anomalous Galvanic Arrow
+thyp:Divergent Hypothermia Support
+smea:Anomalous Meat Shield Support
+spoa:Anomalous Poacher's Mark
+tmirr:Divergent Mirror Arrow
+gso:Replica Wings of Entropy
+bani:Banishing Blade
+sdom:Anomalous Dominating Blow
+selementalp:Anomalous Elemental Proliferation Support
+spowers:Anomalous Power Siphon
+tstormbi:Divergent Stormbind
+sshr:Anomalous Shrapnel Ballista
+swithe:Anomalous Wither
+ushi:Anomalous High-Impact Mine Support
+uscor:Anomalous Corrupting Fever
+usef:Anomalous Efficacy Support
+scy:Anomalous Cyclone
+tvoidm:Divergent Void Manipulation Support
+lco:Phantasmal Consecrated Path
+tbladeb:Divergent Blade Blast
+sarct:Anomalous Arctic Armour
+schancetop:Anomalous Chance to Poison Support
+sboneo:Anomalous Bone Offering
+taddedl:Divergent Added Lightning Damage Support
+uson:Anomalous Onslaught Support
+tlea:Divergent Leap Slam
+tvoll:Divergent Volley Support
+ssummonr:Anomalous Summon Raging Spirit
+ntho:Divergent Holy Flame Totem
+spuni:Anomalous Punishment
+tsummonst:Divergent Summon Stone Golem
+lral:Phantasmal Rallying Cry
+telementalh:Divergent Elemental Hit
+afro:Replica Frostbreath
+smirr:Anomalous Mirror Arrow
+tcom:Divergent Combustion Support
+lho:Phantasmal Holy Flame Totem
+sfis:Anomalous Fist of War Support
+lso:Phantasmal Soulrend
+tsummonp:Divergent Summon Phantasm Support
+tincreasedd:Divergent Increased Duration Support
+tcontr:Divergent Controlled Destruction Support
+ntwh:Divergent Whirling Blades
+tarcanes:Divergent Arcane Surge Support
+lcra:Phantasmal Crackling Lance
+uses:Anomalous Essence Drain
+tvor:Divergent Vortex
+tuo:Replica Tempestuous Steel
+uswar:Anomalous Warlord's Mark
+lspl:Phantasmal Splitting Steel
+tvolt:Divergent Voltaxic Burst
+tban:Divergent Bane
+tconvo:Divergent Convocation
+lrea:Phantasmal Reave
+aba:Replica Bated Breath
+tglacialh:Divergent Glacial Hammer
+sgro:Anomalous Ground Slam
+sraisez:Anomalous Raise Zombie
+sincreasedcriticald:Anomalous Increased Critical Damage Support
+sancestralp:Anomalous Ancestral Protector
+sfires:Anomalous Firestorm
+tfort:Divergent Fortify Support
+ntbr:Divergent Brutality Support
+ntur:Divergent Urgent Orders Support
+thyd:Divergent Hydrosphere
+scle:Anomalous Cleave
+linte:Phantasmal Intensify Support
+tadv:Divergent Advanced Traps Support
+tve:Divergent Vengeance
+sinfernalb:Anomalous Infernal Blow
+srig:Anomalous Righteous Fire
+ssplita:Anomalous Split Arrow
+telementalp:Divergent Elemental Proliferation Support
+theraldoft:Divergent Herald of Thunder
+lwin:Phantasmal Winter Orb
+scastwhens:Anomalous Cast when Stunned Support
+stl:Replica Restless Ward
+pay:Replica Unstable Payload
+tspectralh:Divergent Spectral Helix
+ttraps:Divergent Trap Support
+nfr:Replica Infractem
+selementald:Anomalous Elemental Damage with Attacks Support
+tstormc:Divergent Storm Call
+sdas:Anomalous Dash
 texs:Divergent Exsanguinate
-tdam:Divergent Damage on Full Life Support
-tswiftb:Divergent Swiftbrand Support
-tspelle:Divergent Spell Echo Support
-ntblades:Divergent Bladestorm
-simmor:Anomalous Immortal Call
-tunb:Divergent Unbound Ailments Support
-nomalousrea:Anomalous Reap
-sheraldofas:Anomalous Herald of Ash
-sdev:Anomalous Devouring Totem
-tchains:Divergent Chain Support
-ipp:Replica Windripper
+ttri:Divergent Trinity Support
+nton:Divergent Onslaught Support
+aam:Replica Ambu's Charge
+mpl:Simplex Amulet
+tchancetob:Divergent Chance to Bleed Support
+gor:Replica Kongor's Undying Rage
+smai:Anomalous Maim Support
+usimp:Anomalous Impale Support
+sspectrals:Anomalous Spectral Shield Throw
+tpen:Divergent Penance Brand
+temi:Anomalous Detonate Mines
+sfrostbom:Anomalous Frost Bomb
+tua:Eventuality Rod
+lancestralw:Phantasmal Ancestral Warchief
+lwav:Phantasmal Wave of Conviction
+lsc:Phantasmal Scourge Arrow
+swh:Anomalous Whirling Blades
+lfrostbol:Phantasmal Frostbolt
+tgenera:Divergent General's Cry
+rfe:Replica Perfect Form
+doe:Replica Doedre's Damning
+tsha:Divergent Shattering Steel
+tcob:Divergent Cobra Lash
+sinte:Anomalous Intensify Support
+sminions:Anomalous Minion Speed Support
+sban:Anomalous Bane
+sins:Anomalous Inspiration Support
+sam:Anomalous Ambush
+lsun:Phantasmal Sunder
+usho:Anomalous Holy Flame Totem
+tburningd:Divergent Burning Damage Support
+lousarc:Anomalous Arc
+tshockwavet:Divergent Shockwave Totem
+lav:Replica Lavianga's Spirit
+tlightningsp:Divergent Lightning Spire Trap
+usconc:Anomalous Concentrated Effect Support
+tscou:Divergent Scourge Arrow
 nthi:Divergent High-Impact Mine Support
-rum:Replica Rumi's Concoction
-tforb:Divergent Forbidden Rite
-sswe:Anomalous Sweep
+tinci:Divergent Incinerate
+tkineticbo:Divergent Kinetic Bolt
+tdea:Divergent Deadly Ailments Support
+sspellc:Anomalous Spell Cascade Support
+tspellt:Divergent Spell Totem Support
+larc:Phantasmal Arcanist Brand
+cair:Replica Iron Commander
+idf:Void Fangs
+sscor:Anomalous Scorching Ray
+svolt:Anomalous Voltaxic Burst
+idw:Replica Voidwalker
+omg:Anomalous Venom Gyre
+tbloodr:Divergent Blood Rage
+tincreasedcriticals:Divergent Increased Critical Strikes Support
+tswifta:Divergent Swift Assembly Support
+sancestralw:Anomalous Ancestral Warchief
+tfren:Divergent Frenzy
+sheraldofp:Anomalous Herald of Purity
+smultipletr:Anomalous Multiple Traps Support
+tdom:Divergent Dominating Blow
+ulte:Replica Soul Tether
+tearthb:Divergent Earthbreaker Support
+sdete:Anomalous Determination
+lbladev:Phantasmal Blade Vortex
+tensn:Divergent Ensnaring Arrow
+tsummonh:Divergent Summon Holy Relic
+tcoldp:Divergent Cold Penetration Support
+tsl:Divergent Slower Projectiles Support
+tdas:Divergent Dash
+ltec:Phantasmal Tectonic Slam
+ssplitt:Anomalous Splitting Steel
+tpie:Divergent Pierce Support
+sshieldcr:Anomalous Shield Crush
+eod:Geodesic Ring
+tstormbu:Divergent Storm Burst
+alve:Phantasmal Vengeance
+tpoa:Divergent Poacher's Mark
+ore:Replica Loreweave
+sflesho:Anomalous Flesh Offering
+sflamm:Anomalous Flammability
+searths:Anomalous Earthshatter
+sreav:Anomalous Reave
+treav:Divergent Reave
+ttor:Divergent Tornado Shot
+spurityofi:Anomalous Purity of Ice
+sincreasedd:Anomalous Increased Duration Support
+tarcani:Divergent Arcanist Brand
+tlifet:Divergent Lifetap Support
+usz:Anomalous Zealotry
+slan:Anomalous Lancing Steel
+tpurityoff:Divergent Purity of Fire
+tspellc:Divergent Spell Cascade Support
+tsplita:Divergent Split Arrow
+tburninga:Divergent Burning Arrow
+spunc:Anomalous Puncture
+usdam:Anomalous Damage on Full Life Support
+senduri:Anomalous Enduring Cry
+gsc:Alternating Sceptre
+rtb:Replica Heartbreaker
+sper:Anomalous Perforate
+sspectralt:Anomalous Spectral Throw
+svu:Anomalous Vulnerability
+ung:Replica Ungil's Gauche
+atw:Replica Twyzel
+tdar:Divergent Dark Pact
+smira:Anomalous Mirage Archer Support
+svil:Anomalous Vile Toxins Support
+usspi:Anomalous Spirit Offering
+sdr:Anomalous Dread Banner
+stec:Anomalous Tectonic Slam
+lraises:Phantasmal Raise Spectre
+ange:Anomalous Anger
+slightningsp:Anomalous Lightning Spire Trap
+shex:Anomalous Hextouch Support
+tlac:Divergent Lacerate
+sshockwaves:Anomalous Shockwave Support
+tsummonf:Divergent Summon Flame Golem
+scastonm:Anomalous Cast on Melee Kill Support
+tpoi:Divergent Point Blank Support
+tspi:Divergent Spirit Offering
+schains:Anomalous Chain Support
+twintert:Divergent Wintertide Brand
+spie:Anomalous Pierce Support
+sshieldch:Anomalous Shield Charge
+svor:Anomalous Vortex
+set:Anomalous Ethereal Knives
+nthea:Divergent Heavy Strike
+ofu:Replica Bones of Ullr
+apc:Replica Cheap Construction
+tballi:Divergent Ballista Totem Support
+tunb:Divergent Unbound Ailments Support
+cog:Cogwork Ring
+lflamew:Phantasmal Flame Wall
+pex:Apex Cleaver
+lsummonr:Phantasmal Summon Raging Spirit
+tins:Divergent Inspiration Support
+lfre:Phantasmal Frenzy
+straps:Anomalous Trap Support
+aet:Replica Eternity Shroud
+sstu:Anomalous Stun Support
+sstormbi:Anomalous Stormbind
+lstormbr:Phantasmal Storm Brand
+tfrostbol:Divergent Frostbolt
+ssl:Anomalous Slower Projectiles Support
+ssummonh:Anomalous Summon Holy Relic
+switherings:Anomalous Withering Step
+onq:Replica Conqueror's Efficiency
+sgreaterm:Anomalous Greater Multiple Projectiles Support
+svic:Anomalous Vicious Projectiles Support
+tfrostbla:Divergent Frost Blades
+thas:Divergent Haste
+sbarrag:Anomalous Barrage
+tswe:Divergent Sweep
+scons:Anomalous Consecrated Path
+tlesse:Divergent Lesser Multiple Projectiles Support
+lseismicc:Phantasmal Seismic Cry
+sey:Anomalous Eye of Winter
+lbea:Phantasmal Bear Trap
+tfrostbli:Divergent Frostblink
+lel:Replica Allelopathy
+aea:Replica Earendel's Embrace
+sballl:Anomalous Ball Lightning
+entas:Divergent Assassin's Mark
+foi:Replica Atziri's Foible
+torb:Divergent Orb of Storms
+sminionl:Anomalous Minion Life Support
+smoltenst:Anomalous Molten Strike
+ods:Replica Blood Sacrifice
+sinn:Anomalous Innervate Support
+swintert:Anomalous Wintertide Brand
+sene:Anomalous Energy Leech Support
+sreap:Anomalous Reap
+ticet:Divergent Ice Trap
+lstormbi:Phantasmal Stormbind
+acor:Replica Cortex
+sbladefl:Anomalous Blade Flurry
+arb:Divergent War Banner
+tgreaterv:Divergent Greater Volley Support
+sconvo:Anomalous Convocation
+lsw:Phantasmal Sweep
+theraldofas:Divergent Herald of Ash
+tart:Divergent Artillery Ballista
+tinfu:Divergent Infused Channelling Support
+lseismict:Phantasmal Seismic Trap
+sburninga:Anomalous Burning Arrow
+spor:Anomalous Portal
+lpun:Phantasmal Puncture
+tmal:Divergent Malevolence
+apu:Replica Pure Talent
+anal:Divergent Mana Leech Support
+tmanab:Divergent Manabond
+tsea:Divergent Searing Bond
+theraldofi:Divergent Herald of Ice
+tsun:Divergent Sunder
+sspelle:Anomalous Spell Echo Support
+aldi:Phantasmal Discharge
+tfires:Divergent Firestorm
+shyd:Anomalous Hydrosphere
+tblast:Divergent Blast Rain
 stempe:Anomalous Tempest Shield
-saddedl:Anomalous Added Lightning Damage Support
-neu:Pneumatic Dagger
-spin:Anomalous Pinpoint Support
-sbru:Anomalous Brutality Support
-sab:Anomalous Absolution
-spet:Anomalous Petrified Blood
+sscou:Anomalous Scourge Arrow
+shas:Anomalous Haste
+sincreasedcriticals:Anomalous Increased Critical Strikes Support
+sinti:Anomalous Intimidating Cry
+tdef:Divergent Defiance Banner
+theraldofag:Divergent Herald of Agony
+srip:Anomalous Riposte
+tbones:Divergent Boneshatter
+tbod:Divergent Bodyswap
+sarcanec:Anomalous Arcane Cloak
+tphy:Divergent Physical to Lightning Support
+llightninga:Phantasmal Lightning Arrow
+sbod:Anomalous Bodyswap
+tpha:Divergent Phase Run
+tflamm:Divergent Flammability
+usfort:Anomalous Fortify Support
+tbat:Divergent Battlemage's Cry
+texplosivet:Divergent Explosive Trap
+trig:Divergent Righteous Fire
+slightninga:Anomalous Lightning Arrow
+sendura:Anomalous Endurance Charge on Melee Stun Support
+tfork:Divergent Fork Support
+ssummonl:Anomalous Summon Lightning Golem
+lcl:Phantasmal Cleave
+stc:Anomalous Blastchain Mine Support
+lsig:Phantasmal Sigil of Power
+licec:Phantasmal Ice Crash
+licen:Phantasmal Ice Nova
+scu:Anomalous Culling Strike Support
+tspa:Divergent Spark
+tdeto:Divergent Detonate Dead
+tmoltensh:Divergent Molten Shell
+tglacialc:Divergent Glacial Cascade
+tdeco:Divergent Decoy Totem
+rej:Divergent Rejuvenation Totem
+sfe:Anomalous Feeding Frenzy Support
+lspe:Phantasmal Spectral Shield Throw
+traisez:Divergent Raise Zombie
+lvi:Phantasmal Vigilant Strike
+rui:Replica Karui Ward
+sblastr:Anomalous Blast Rain
+tmai:Divergent Maim Support
+tcru:Divergent Cruelty Support
+tpet:Divergent Petrified Blood
+schancetob:Anomalous Chance to Bleed Support
 tlifel:Divergent Life Leech Support
-skineticbo:Anomalous Kinetic Bolt
-hantasmalar:Phantasmal Arc
-ttempe:Divergent Tempest Shield
-tcra:Divergent Crackling Lance
-lvoi:Phantasmal Void Sphere
-lpur:Phantasmal Purifying Flame
+tdou:Divergent Double Strike
+ey':Replica Maloney's Mechanism
+ttrapa:Divergent Trap and Mine Damage Support
+taddi:Divergent Additional Accuracy Support
+sdev:Anomalous Devouring Totem
+sbladeb:Anomalous Blade Blast
+odp:Replica Bloodplay
+tarct:Divergent Arctic Armour
+sdar:Anomalous Dark Pact
+slightningte:Anomalous Lightning Tendrils
+lpes:Phantasmal Pestilent Strike
+afa:Replica Farrul's Fur
+ushat:Anomalous Hatred
+schargedd:Anomalous Charged Dash
+tbladefl:Divergent Blade Flurry
+tsec:Divergent Second Wind Support
+tbladefa:Divergent Bladefall
+twarl:Divergent Warlord's Mark
+senf:Anomalous Enfeeble
+ntz:Divergent Zealotry
+dey:Replica Voideye
+ntmine:Divergent Minefield Support
+tsie:Divergent Siege Ballista
+spul:Anomalous Pulverise Support
+sblind:Anomalous Blind Support
+tflesha:Divergent Flesh and Stone
+sirong:Anomalous Iron Grip Support
+ssummonski:Anomalous Summon Skitterbots
+scoldt:Anomalous Cold to Fire Support
+werc:Anomalous Power Charge On Critical Support
+tir:Divergent Iron Grip Support
+sfoc:Anomalous Focused Ballista Support
+sunl:Anomalous Unleash Support
+spha:Anomalous Phase Run
+sstormbl:Anomalous Stormblast Mine
+tbloodt:Divergent Bloodthirst Support
+lsummons:Phantasmal Summon Skeletons
+sseismicc:Anomalous Seismic Cry
+sfren:Anomalous Frenzy
+tsummonca:Divergent Summon Carrion Golem
+usn:Anomalous Nightblade Support
+tkineticbl:Divergent Kinetic Blast
+sarcanes:Anomalous Arcane Surge Support
+sbeh:Anomalous Behead Support
+tenduri:Divergent Enduring Cry
+alu:Phantasmal Unearth
+hre:Replica Three-step Assault
+laz:Anomalous Blazing Salvo
+sarrow:Anomalous Arrow Nova Support
+sexplosivea:Anomalous Explosive Arrow
+tdese:Divergent Desecrate
+switheringt:Anomalous Withering Touch Support
+tpy:Divergent Pyroclast Mine
+tfli:Divergent Flicker Strike
+scob:Anomalous Cobra Lash
+tcastonm:Divergent Cast on Melee Kill Support
+tpurityofi:Divergent Purity of Ice
+sglacialh:Anomalous Glacial Hammer
+ttec:Divergent Tectonic Slam
+ticeb:Divergent Ice Bite Support
+sanimatew:Anomalous Animate Weapon
+ssummonske:Anomalous Summon Skeletons
+tearths:Divergent Earthshatter
+tfasterp:Divergent Faster Projectiles Support
+tsummonl:Divergent Summon Lightning Golem
+sdetonated:Anomalous Detonate Dead
+slifet:Anomalous Lifetap Support
+sdisci:Anomalous Discipline
+sbladet:Anomalous Blade Trap
+cag:Replica Grip of the Council
+scree:Anomalous Creeping Frost
+tflamew:Divergent Flame Wall
+lstormbl:Phantasmal Stormblast Mine
+svoll:Anomalous Volley Support
+scra:Anomalous Crackling Lance
+sicet:Anomalous Ice Trap
+tarch:Divergent Archmage Support
+stre:Replica Last Resort
+tinfernalc:Divergent Infernal Cry
+tshockwaves:Divergent Shockwave Support
+sfree:Anomalous Freezing Pulse
+saddi:Anomalous Additional Accuracy Support
+swintero:Anomalous Winter Orb
+swr:Anomalous Wrath
+taddedf:Divergent Added Fire Damage Support
+sfrostw:Anomalous Frost Wall
+tsmi:Divergent Smite
+usur:Anomalous Urgent Orders Support
+sballi:Anomalous Ballista Totem Support
+shyp:Anomalous Hypothermia Support
+timmor:Divergent Immortal Call
+ntab:Divergent Absolution
+schargedm:Anomalous Charged Mines Support
+tgro:Divergent Ground Slam
+sbladefa:Anomalous Bladefall
+acu:Replica Atziri's Acuity
+tmultipletr:Divergent Multiple Traps Support
+tkn:Divergent Knockback Support
+ata:Replica Tasalio's Sign
+lrec:Phantasmal Reckoning
+lbli:Phantasmal Blink Arrow
+sconve:Anomalous Conversion Trap
+tendura:Divergent Endurance Charge on Melee Stun Support
 scru:Anomalous Cruelty Support
-usdu:Anomalous Dual Strike
+uspl:Anomalous Plague Bearer
+trip:Divergent Riposte
+tconve:Divergent Conversion Trap
+sswe:Anomalous Sweep
+kao:Replica Kaom's Heart
+tfe:Divergent Feeding Frenzy Support
+telementalw:Divergent Elemental Weakness
+erd:Replica Bitterdream
+twav:Divergent Wave of Conviction
+ttox:Divergent Toxic Rain
+on':Replica Alberon's Warpath
+sfasterp:Anomalous Faster Projectiles Support
+ustri:Anomalous Trinity Support
+tsip:Divergent Siphoning Trap
+emr:Anomalous Item Rarity Support
+tvit:Divergent Vitality
+sspells:Anomalous Spellslinger
+sici:Anomalous Icicle Mine
+sbarrages:Anomalous Barrage Support
+smw:Replica Prismweave
+slightningst:Anomalous Lightning Strike
+tmultipleto:Divergent Multiple Totems Support
+nns:Replica Innsbury Edge
+tdu:Divergent Dual Strike
+sfork:Anomalous Fork Support
+tlightningst:Divergent Lightning Strike
+ared:Replica Red Trail
+pag:Impact Force Propagator
+theraldofp:Divergent Herald of Purity
+tinfernall:Divergent Infernal Legion Support
+afe:Replica Fencoil
+lfrostbom:Phantasmal Frost Bomb
+tbarrages:Divergent Barrage Support
+tint:Divergent Intimidating Cry
+smelees:Anomalous Melee Splash Support
+spet:Anomalous Petrified Blood
+lspa:Phantasmal Spark
+sru:Anomalous Ruthless Support
+sanimateg:Anomalous Animate Guardian
+lpur:Phantasmal Purifying Flame
+sso:Anomalous Soulrend
+sspa:Anomalous Spark
+sbonec:Anomalous Bonechill Support
+psy:Psychotic Axe
+sconta:Anomalous Contagion
+llu:Replica Allure
+sfrosts:Anomalous Frost Shield
+tblasp:Divergent Blasphemy Support
+tinfernalb:Divergent Infernal Blow
+tmelees:Divergent Melee Splash Support
+saddedl:Anomalous Added Lightning Damage Support
+lsie:Phantasmal Siege Ballista
+ssummonca:Anomalous Summon Carrion Golem
+tconta:Divergent Contagion
+schainh:Anomalous Chain Hook
+sbra:Anomalous Brand Recall
+slea:Anomalous Leap Slam
+sflamed:Anomalous Flame Dash
+lraisez:Phantasmal Raise Zombie
+trag:Divergent Rage Vortex
+kal:Replica Kalisa's Grace
+skineticbl:Anomalous Kinetic Blast
+svit:Anomalous Vitality
+alea:Phantasmal Earthshatter
+sicesp:Anomalous Ice Spear
+tchancetop:Divergent Chance to Poison Support
+lani:Phantasmal Animate Weapon
+ipp:Replica Windripper
+tflameb:Divergent Flameblast
+tflesho:Divergent Flesh Offering
+tlightningw:Divergent Lightning Warp
+slightningp:Anomalous Lightning Penetration Support
+ticesh:Divergent Ice Shot
+sadv:Anomalous Advanced Traps Support
+ssummonp:Anomalous Summon Phantasm Support
+srages:Anomalous Rage Support
+tearthq:Divergent Earthquake
+amp:Replica Stampede
+ldom:Phantasmal Dominating Blow
+tpred:Divergent Predator Support
+ftaf:Anomalous Swift Affliction Support
+ntblink:Divergent Blink Arrow
+texplosivea:Divergent Explosive Arrow
+sfrostbol:Anomalous Frostbolt
+sspectralh:Anomalous Spectral Helix
+sbloodr:Anomalous Blood Rage
+tclo:Divergent Close Combat Support
+sman:Anomalous Manabond
+ye':Replica Lioneye's Paws
+sblades:Anomalous Bladestorm
+tprec:Divergent Precision
+sfastera:Anomalous Faster Attacks Support
+sfireb:Anomalous Fireball
+adh:Replica Headhunter
+ssummonst:Anomalous Summon Stone Golem
+tfrosts:Divergent Frost Shield
+tfirep:Divergent Fire Penetration Support
+telementala:Divergent Elemental Army Support
+selementalh:Anomalous Elemental Hit
+enh:Anomalous Enhance Support
+tste:Divergent Steelskin
+lsea:Phantasmal Searing Bond
+aem:Replica Emberwake
+ai':Replica Malachai's Artifice
+tfrostw:Divergent Frost Wall
+tsig:Divergent Sigil of Power
+tfree:Divergent Freezing Pulse
+sexplosivec:Anomalous Explosive Concoction
+tvoids:Divergent Void Sphere
+tsn:Divergent Sniper's Mark
+tspectralt:Divergent Spectral Throw
+screm:Anomalous Cremation
+ebu:Replica Nebulis
+tinn:Divergent Innervate Support
+sdisch:Anomalous Discharge
+tsplitt:Divergent Splitting Steel
+ticec:Divergent Ice Crash
+spin:Anomalous Pinpoint Support
+ltox:Phantasmal Toxic Rain
+tlan:Divergent Lancing Steel
+linfernalc:Phantasmal Infernal Cry
+scastonc:Anomalous Cast On Critical Strike Support
+tga:Divergent Galvanic Arrow
+selementalw:Anomalous Elemental Weakness
+taddedco:Divergent Added Cold Damage Support
+tswiftb:Divergent Swiftbrand Support
+smoltensh:Anomalous Molten Shell
+ld-:Cold-attuned Buckler
+sminiond:Anomalous Minion Damage Support
 tfis:Divergent Fist of War Support
 spy:Anomalous Pyroclast Mine
-nton:Divergent Onslaught Support
-sspectralh:Anomalous Spectral Helix
-lbladeb:Phantasmal Blade Blast
-tlightninga:Divergent Lightning Arrow
-swh:Anomalous Whirling Blades
-usas:Anomalous Assassin's Mark
-tbonec:Divergent Bonechill Support
-tdev:Divergent Devouring Totem
-tchargedd:Divergent Charged Dash
-tua:Eventuality Rod
-tbladefa:Divergent Bladefall
-scom:Anomalous Combustion Support
-sgenera:Anomalous General's Cry
-tironw:Divergent Iron Will Support
-sblastr:Anomalous Blast Rain
-tirong:Divergent Iron Grip Support
-slac:Anomalous Lacerate
-lsha:Phantasmal Shattering Steel
-tlightningsp:Divergent Lightning Spire Trap
-tfasterc:Divergent Faster Casting Support
-uses:Anomalous Essence Drain
-tvip:Divergent Viper Strike
-scastonm:Anomalous Cast on Melee Kill Support
-ata:Replica Tasalio's Sign
-tfires:Divergent Firestorm
-tuo:Replica Tempestuous Steel
-tchargedt:Divergent Charged Traps Support
-tvic:Divergent Vicious Projectiles Support
-tstormbi:Divergent Stormbind
-sraisez:Anomalous Raise Zombie
-tbladeb:Divergent Blade Blast
-sgenero:Anomalous Generosity Support
-tconta:Divergent Contagion
-tblasp:Divergent Blasphemy Support
-sshockn:Anomalous Shock Nova
-tsun:Divergent Sunder
-tdeco:Divergent Decoy Totem
-swintero:Anomalous Winter Orb
-swav:Anomalous Wave of Conviction
-ttempo:Divergent Temporal Chains
-spha:Anomalous Phase Run
-tphy:Divergent Physical to Lightning Support
-tscor:Divergent Scorching Ray
-ntarrow:Divergent Arrow Nova Support
-sspectrals:Anomalous Spectral Shield Throw
-tlifet:Divergent Lifetap Support
-sconta:Anomalous Contagion
-tmanal:Divergent Mana Leech Support
-tcle:Divergent Cleave
-tadv:Divergent Advanced Traps Support
-saddedch:Anomalous Added Chaos Damage Support
-tmanab:Divergent Manabond
-tearthq:Divergent Earthquake
-spowerc:Anomalous Power Charge On Critical Support
-alu:Phantasmal Unearth
-tinti:Divergent Intimidating Cry
-sicesh:Anomalous Ice Shot
-spowers:Anomalous Power Siphon
-tdisch:Divergent Discharge
-llightningw:Phantasmal Lightning Warp
-sinfernalb:Anomalous Infernal Blow
-ustor:Anomalous Tornado Shot
-swil:Anomalous Wild Strike
-lph:Replica Alpha's Howl
-tsie:Divergent Siege Ballista
-tcau:Divergent Caustic Arrow
-ld-:Cold-attuned Buckler
-nthea:Divergent Heavy Strike
-tfoc:Divergent Focused Ballista Support
-ustri:Anomalous Trinity Support
-spoa:Anomalous Poacher's Mark
-aha:Replica Harvest
-ssummoni:Anomalous Summon Ice Golem
-tburningd:Divergent Burning Damage Support
-tgreaterm:Divergent Greater Multiple Projectiles Support
-cum:Accumulator Wand
-efe:Replica Reckless Defence
-slesse:Anomalous Lesser Multiple Projectiles Support
-searths:Anomalous Earthshatter
-tflamet:Divergent Flamethrower Trap
-tensn:Divergent Ensnaring Arrow
-odp:Replica Bloodplay
-sbeh:Anomalous Behead Support
-sirong:Anomalous Iron Grip Support
-trip:Divergent Riposte
-tsip:Divergent Siphoning Trap
-sdisch:Anomalous Discharge
-tearths:Divergent Earthshatter
-sforb:Anomalous Forbidden Rite
-tinte:Divergent Intensify Support
-tsmi:Divergent Smite
-iny:Replica Inya's Epiphany
-sflamew:Anomalous Flame Wall
-tinfernalc:Divergent Infernal Cry
-ssummonh:Anomalous Summon Holy Relic
-sbloodr:Anomalous Blood Rage
-sdas:Anomalous Dash
-tdou:Divergent Double Strike
-ssummonp:Anomalous Summon Phantasm Support
-tblig:Divergent Blight
-lspe:Phantasmal Spectral Shield Throw
-ntbr:Divergent Brutality Support
-sicec:Anomalous Ice Crash
-tpha:Divergent Phase Run
-ssl:Anomalous Slower Projectiles Support
-ye':Replica Lioneye's Paws
-tdar:Divergent Dark Pact
-twr:Divergent Wrath
-sflesho:Anomalous Flesh Offering
-tstu:Divergent Stun Support
-tspellc:Divergent Spell Cascade Support
-srages:Anomalous Rage Support
-tinfu:Divergent Infused Channelling Support
-tfasterp:Divergent Faster Projectiles Support
-lfrostbom:Phantasmal Frost Bomb
-tbloodr:Divergent Blood Rage
-sicesp:Anomalous Ice Spear
-sraises:Anomalous Raise Spectre
-tpoa:Divergent Poacher's Mark
-at-:Heat-attuned Tower Shield
-ssmo:Anomalous Smoke Mine
-ssummonra:Anomalous Summon Raging Spirit
-tmoltensh:Divergent Molten Shell
-sballl:Anomalous Ball Lightning
-sarcani:Anomalous Arcanist Brand
-sanimatew:Anomalous Animate Weapon
-ntru:Divergent Ruthless Support
-tey:Divergent Eye of Winter
-schargedd:Anomalous Charged Dash
-tcrem:Divergent Cremation
-tcru:Divergent Cruelty Support
-tmoltenst:Divergent Molten Strike
-sper:Anomalous Perforate
-nfr:Replica Infractem
-tinci:Divergent Incinerate
-tmira:Divergent Mirage Archer Support
-smultis:Anomalous Multistrike Support
-lpy:Phantasmal Pyroclast Mine
-sspellc:Anomalous Spell Cascade Support
-divergentbarra:Divergent Barrage
-licen:Phantasmal Ice Nova
-ttec:Divergent Tectonic Slam
-usart:Anomalous Artillery Ballista
-srain:Anomalous Rain of Arrows
-slessd:Anomalous Less Duration Support
-tmultipleto:Divergent Multiple Totems Support
-spri:Anomalous Pride
-scastond:Anomalous Cast on Death Support
-lsm:Phantasmal Smite
-slightningsp:Anomalous Lightning Spire Trap
-doe:Replica Doedre's Damning
-ebo:Solarine Bow
-sminionl:Anomalous Minion Life Support
-tcor:Divergent Corrupting Fever
-thas:Divergent Haste
-tshockn:Divergent Shock Nova
-lbladev:Phantasmal Blade Vortex
-ofu:Replica Bones of Ullr
-thyp:Divergent Hypothermia Support
-ticesp:Divergent Ice Spear
+tlightningp:Divergent Lightning Penetration Support
+tpurif:Divergent Purifying Flame
 spen:Anomalous Penance Brand
-smanab:Anomalous Manabond
-straps:Anomalous Trap Support
-tcastond:Divergent Cast on Death Support
-tig:Divergent Ignite Proliferation Support
-tlessd:Divergent Less Duration Support
-tfrostbli:Divergent Frostblink
-usimp:Anomalous Impale Support
-tveno:Divergent Venom Gyre
-lcy:Phantasmal Cyclone
-sarcanes:Anomalous Arcane Surge Support
-sunb:Anomalous Unbound Ailments Support
-sclu:Anomalous Cluster Traps Support
-sexplosivec:Anomalous Explosive Concoction
-stre:Replica Last Resort
-sfrostw:Anomalous Frost Wall
-stl:Replica Restless Ward
+lvor:Phantasmal Vortex
+sro:Anomalous Rolling Magma
 tvola:Divergent Volatile Dead
-lousste:Anomalous Steelskin
-tpoi:Divergent Point Blank Support
-eer:Replica Leer Cast
-lwin:Phantasmal Winter Orb
-etof:Anomalous Chance to Flee Support
-tarcanes:Divergent Arcane Surge Support
-boo:Boom Mace
-tpri:Divergent Pride
-sban:Anomalous Bane
-sbod:Anomalous Bodyswap
-schancetob:Anomalous Chance to Bleed Support
-sens:Anomalous Ensnaring Arrow
-tenf:Divergent Enfeeble
-sarrow:Anomalous Arrow Nova Support
-slifet:Anomalous Lifetap Support
-tblastc:Divergent Blastchain Mine Support
-tcom:Divergent Combustion Support
-tsha:Divergent Shattering Steel
-sinte:Anomalous Intensify Support
-tpes:Divergent Pestilent Strike
-tincreasedd:Divergent Increased Duration Support
-sber:Anomalous Berserk
-rui:Replica Karui Ward
-sinfernalc:Anomalous Infernal Cry
-ldu:Phantasmal Dual Strike
-owo:Replica Sorrow of the Divine
-ssun:Anomalous Sunder
-ssummonch:Anomalous Summon Chaos Golem
-tlea:Divergent Leap Slam
-sfree:Anomalous Freezing Pulse
-cta:Replica Victario's Charity
-lral:Phantasmal Rallying Cry
-sfis:Anomalous Fist of War Support
-tstormbl:Divergent Stormblast Mine
-theraldoft:Divergent Herald of Thunder
-sflamet:Anomalous Flamethrower Trap
-lstormbr:Phantasmal Storm Brand
-tfrostbla:Divergent Frost Blades
-udo:Replica Shroud of the Lightless
-tfren:Divergent Frenzy
-sinci:Anomalous Incinerate
-ushi:Anomalous High-Impact Mine Support
-ssummonre:Anomalous Summon Reaper
-tancestralcr:Divergent Ancestral Cry
-sdete:Anomalous Determination
-sshr:Anomalous Shrapnel Ballista
-tancestralca:Divergent Ancestral Call Support
-ticen:Divergent Ice Nova
-sblink:Anomalous Blink Arrow
-lfi:Phantasmal Fireball
-tfort:Divergent Fortify Support
-larca:Phantasmal Arcanist Brand
-shyp:Anomalous Hypothermia Support
-bani:Banishing Blade
-lsummonr:Phantasmal Summon Raging Spirit
-tprec:Divergent Precision
-lhas:Phantasmal Haste
-sfrostbi:Anomalous Frostbite
-sgro:Anomalous Ground Slam
-sshieldch:Anomalous Shield Charge
-ntho:Divergent Holy Flame Totem
-svic:Anomalous Vicious Projectiles Support
-tsummonp:Divergent Summon Phantasm Support
-tmai:Divergent Maim Support
-tfrostbi:Divergent Frostbite
-lmir:Phantasmal Mirror Arrow
-tflesha:Divergent Flesh and Stone
-sshockwavet:Anomalous Shockwave Totem
-smelees:Anomalous Melee Splash Support
-lstormbi:Phantasmal Stormbind
-tlightningw:Divergent Lightning Warp
-smira:Anomalous Mirage Archer Support
-spes:Anomalous Pestilent Strike
-tsummonski:Divergent Summon Skitterbots
-sdisci:Anomalous Discipline
-ouls:Replica Soul Strike
-sicen:Anomalous Ice Nova
-tpet:Divergent Petrified Blood
-lsta:Phantasmal Static Strike
-tblind:Divergent Blind Support
-sstormbi:Anomalous Stormbind
-searthb:Anomalous Earthbreaker Support
-smine:Anomalous Minefield Support
-lel:Replica Allelopathy
-tlightningtr:Divergent Lightning Trap
-ared:Replica Red Trail
-sbones:Anomalous Boneshatter
-sburningd:Anomalous Burning Damage Support
-tcri:Divergent Critical Strike Affliction Support
-erh:Replica Winterheart
-apc:Replica Cheap Construction
-tsl:Divergent Slower Projectiles Support
-usfort:Anomalous Fortify Support
-dir:Replica Cold Iron Point
-apu:Replica Pure Talent
-ivergentar:Divergent Arc
-tper:Divergent Perforate
-smeleep:Anomalous Melee Physical Damage Support
-idw:Replica Voidwalker
-tsummonre:Divergent Summon Reaper
-tsummonl:Divergent Summon Lightning Golem
-tsummonra:Divergent Summon Raging Spirit
-twarl:Divergent Warlord's Mark
-alousincreasedc:Anomalous Increased Critical Strikes Support
-sspellt:Anomalous Spell Totem Support
-ssea:Anomalous Searing Bond
-ntmine:Divergent Minefield Support
-licec:Phantasmal Ice Crash
-spurityofe:Anomalous Purity of Elements
-tbea:Divergent Bear Trap
-tbarrages:Divergent Barrage Support
-lsip:Phantasmal Siphoning Trap
-sincreasedd:Anomalous Increased Duration Support
-traisez:Divergent Raise Zombie
-sswiftas:Anomalous Swift Assembly Support
-rim:Replica Primordial Might
-saddedco:Anomalous Added Cold Damage Support
-tvolt:Divergent Voltaxic Burst
-sdr:Anomalous Dread Banner
-trej:Divergent Rejuvenation Totem
-kao:Replica Kaom's Heart
-tpl:Divergent Plague Bearer
-spor:Anomalous Portal
-ore:Replica Loreweave
-ssec:Anomalous Second Wind Support
-sbladet:Anomalous Blade Trap
-tshockwavet:Divergent Shockwave Totem
-leb:Replica Fragile Bloom
-scolds:Anomalous Cold Snap
-sune:Anomalous Unearth
-aad:Replica Advancing Fortress
-stec:Anomalous Tectonic Slam
-scastwhend:Anomalous Cast when Damage Taken Support
-tcontr:Divergent Controlled Destruction Support
-ahy:Replica Hyrri's Truth
-tveng:Divergent Vengeance
-lrea:Phantasmal Reave
-albal:Phantasmal Ballista Totem Support
-afo:Replica Forbidden Shako
-lav:Replica Lavianga's Spirit
-lani:Phantasmal Animate Weapon
-alve:Phantasmal Vengeance
-slightningst:Anomalous Lightning Strike
-lvip:Phantasmal Viper Strike
-switheringt:Anomalous Withering Touch Support
-lco:Phantasmal Consecrated Path
-sspelle:Anomalous Spell Echo Support
-slightningp:Anomalous Lightning Penetration Support
-lwav:Phantasmal Wave of Conviction
-senduri:Anomalous Enduring Cry
-tcob:Divergent Cobra Lash
-tgra:Divergent Grace
-tlightningst:Divergent Lightning Strike
-scu:Anomalous Culling Strike Support
-spurif:Anomalous Purifying Flame
-afe:Replica Fencoil
-sru:Anomalous Ruthless Support
-tminiond:Divergent Minion Damage Support
-spunc:Anomalous Puncture
-sbat:Anomalous Battlemage's Cry
-tspectralh:Divergent Spectral Helix
-tsec:Divergent Second Wind Support
-tici:Divergent Icicle Mine
-tsn:Divergent Sniper's Mark
-tshieldch:Divergent Shield Charge
-sene:Anomalous Energy Leech Support
-sspa:Anomalous Spark
-ticec:Divergent Ice Crash
-tballl:Divergent Ball Lightning
-svit:Anomalous Vitality
-tvit:Divergent Vitality
 ntam:Divergent Ambush
-tenduri:Divergent Enduring Cry
-tswe:Divergent Sweep
-ai':Replica Malachai's Artifice
-rgentincreasedc:Divergent Increased Critical Damage Support
-tinfernalb:Divergent Infernal Blow
-tcolds:Divergent Cold Snap
+tfastera:Divergent Faster Attacks Support
+sheraldofi:Anomalous Herald of Ice
+tcons:Divergent Consecrated Path
+tspectrals:Divergent Spectral Shield Throw
+sstormc:Anomalous Storm Call
+tfrostbi:Divergent Frostbite
+lper:Phantasmal Perforate
+scastwhi:Anomalous Cast while Channelling Support
+tseismicc:Divergent Seismic Cry
+traises:Divergent Raise Spectre
+tminionl:Divergent Minion Life Support
+sfli:Anomalous Flicker Strike
+sclu:Anomalous Cluster Traps Support
+twithe:Divergent Wither
+tflamed:Divergent Flame Dash
+ssun:Anomalous Sunder
+llightnings:Phantasmal Lightning Strike
+tpes:Divergent Pestilent Strike
+gentro:Divergent Rolling Magma
+tcau:Divergent Caustic Arrow
+tbea:Divergent Bear Trap
 tanimateg:Divergent Animate Guardian
-sins:Anomalous Inspiration Support
-lraisez:Phantasmal Raise Zombie
-smultipleto:Anomalous Multiple Totems Support
-svola:Anomalous Volatile Dead
-selementalw:Anomalous Elemental Weakness
-tsig:Divergent Sigil of Power
-tsea:Divergent Searing Bond
-tmelees:Divergent Melee Splash Support
-tpowers:Divergent Power Siphon
-tcu:Divergent Culling Strike Support
-sswiftaf:Anomalous Swift Affliction Support
-tkineticbo:Divergent Kinetic Bolt
-alousincreasedc:Anomalous Increased Critical Damage Support
-lraises:Phantasmal Raise Spectre
-ticet:Divergent Ice Trap
-sflameb:Anomalous Flameblast
-sflamm:Anomalous Flammability
-gso:Replica Wings of Entropy
-onq:Replica Conqueror's Efficiency
-tblastr:Divergent Blast Rain
-afa:Replica Farrul's Fur
-thyd:Divergent Hydrosphere
-rtb:Replica Heartbreaker
-usang:Anomalous Anger
-usef:Anomalous Efficacy Support
-tflames:Divergent Flame Surge
+ttempo:Divergent Temporal Chains
+lancestralp:Phantasmal Ancestral Protector
+adu:Replica Duskdawn
+tstu:Divergent Stun Support
+sber:Anomalous Berserk
+sbea:Anomalous Bear Trap
+tber:Divergent Berserk
+owo:Replica Sorrow of the Divine
+tdr:Divergent Dread Banner
+iny:Replica Inya's Epiphany
+sexs:Anomalous Exsanguinate
+lousste:Anomalous Steelskin
+scolds:Anomalous Cold Snap
+firet:Anomalous Fire Trap
+smeleep:Anomalous Melee Physical Damage Support
+spes:Anomalous Pestilent Strike
+scoldp:Anomalous Cold Penetration Support
+tcolds:Divergent Cold Snap
+sdesp:Anomalous Despair
+sfasterc:Anomalous Faster Casting Support
+sbat:Anomalous Battlemage's Cry
+sstormbr:Anomalous Storm Brand
+spri:Anomalous Pride
+tspelle:Divergent Spell Echo Support
+tbeh:Divergent Behead Support
+olk:Replica Volkuur's Guidance
+ssn:Anomalous Sniper's Mark
+swav:Anomalous Wave of Conviction
+sinfernall:Anomalous Infernal Legion Support
+sbloodt:Anomalous Bloodthirst Support
+tdete:Divergent Determination
+tminiond:Divergent Minion Damage Support
+tvil:Divergent Vile Toxins Support
+slac:Anomalous Lacerate
+searthb:Anomalous Earthbreaker Support
+spurif:Anomalous Purifying Flame
+tgra:Divergent Grace
+sarm:Anomalous Armageddon Brand
+odl:Anomalous Bloodlust Support
+lsta:Phantasmal Static Strike
+usdu:Anomalous Dual Strike
+dir:Replica Cold Iron Point
+tcla:Divergent Clarity
+tstormr:Divergent Storm Rain
+usig:Anomalous Ignite Proliferation Support
+tanimatew:Divergent Animate Weapon
+ntru:Divergent Ruthless Support
+ldec:Phantasmal Decoy Totem
+nalbla:Infernal Blade
+skn:Anomalous Knockback Support
+tstormbl:Divergent Stormblast Mine
+lpy:Phantasmal Pyroclast Mine
+ssmo:Anomalous Smoke Mine
+ldes:Phantasmal Desecrate
+ssea:Anomalous Searing Bond
+tmoltenst:Divergent Molten Strike
+adr:Replica Dreamfeather
+ticen:Divergent Ice Nova
+sab:Anomalous Absolution
+idn:Replica Midnight Bargain
+linfernalb:Phantasmal Infernal Blow
+ebo:Solarine Bow
+sicen:Anomalous Ice Nova
 selementalf:Anomalous Elemental Focus Support
-sheraldofp:Anomalous Herald of Purity
-poo:Replica Poorjoy's Asylum
-ods:Replica Blood Sacrifice
-trig:Divergent Righteous Fire
-svolt:Anomalous Voltaxic Burst
-tflameb:Divergent Flameblast
-asi:Replica Siegebreaker
+cro:Micro-Distillery Belt
+tstormbr:Divergent Storm Brand
+sarch:Anomalous Archmage Support
+tarcanec:Divergent Arcane Cloak
+llightningt:Phantasmal Lightning Tendrils
+tblig:Divergent Blight
+tey:Divergent Eye of Winter
+telementald:Divergent Elemental Damage with Attacks Support
+sblooda:Anomalous Blood and Sand
+tminions:Divergent Minion Speed Support
+texplosivec:Divergent Explosive Concoction
+sancestralcr:Anomalous Ancestral Cry
+tlifeg:Divergent Life Gain on Hit Support
+lblas:Phantasmal Blast Rain
+tlightninga:Divergent Lightning Arrow
+tgenero:Divergent Generosity Support
+sflamew:Anomalous Flame Wall
+slifel:Anomalous Life Leech Support
+lfrosts:Phantasmal Frost Shield
+srec:Anomalous Reckoning
+stempo:Anomalous Temporal Chains
+sgreaterv:Anomalous Greater Volley Support
+slesse:Anomalous Lesser Multiple Projectiles Support
+ara:Replica Paradoxica
+ntblades:Divergent Bladestorm
+lph:Replica Alpha's Howl
+slifeg:Anomalous Life Gain on Hit Support
+thex:Divergent Hextouch Support
+tsummonch:Divergent Summon Chaos Golem
+telementalf:Divergent Elemental Focus Support
+tdev:Divergent Devouring Totem
 selementala:Anomalous Elemental Army Support
-lflamew:Phantasmal Flame Wall
-stox:Anomalous Toxic Rain
-lcra:Phantasmal Crackling Lance
+sarcani:Anomalous Arcanist Brand
+lsho:Phantasmal Shockwave Totem
+ssmi:Anomalous Smite
+lsm:Phantasmal Smite
+sforb:Anomalous Forbidden Rite
+alba:Phantasmal Barrage
+tdeca:Divergent Decay Support
+tpl:Divergent Plague Bearer
+tancestralcr:Divergent Ancestral Cry
+tpunc:Divergent Puncture
+sbladev:Anomalous Blade Vortex
+tpul:Divergent Pulverise Support
+simm:Anomalous Immortal Call
+sflameb:Anomalous Flameblast
+sheraldofag:Anomalous Herald of Agony
+lsip:Phantasmal Siphoning Trap
+slightningtr:Anomalous Lightning Trap
+tseismict:Divergent Seismic Trap
+enl:Anomalous Enlighten Support
+ldu:Phantasmal Dual Strike
+lvoi:Phantasmal Void Sphere
+svip:Anomalous Viper Strike
+cao:Replica Oro's Sacrifice
+svig:Anomalous Vigilant Strike
+hal:Mechalarm Belt
+tcastwhe:Divergent Cast when Stunned Support
+tballl:Divergent Ball Lightning
+tpri:Divergent Pride
+ttempe:Divergent Tempest Shield
+siceb:Anomalous Ice Bite Support
+hor:Replica Blood Thorn
+saddedch:Anomalous Added Chaos Damage Support
+entarc:Divergent Arc
+trec:Divergent Reckoning
+tig:Divergent Ignite Proliferation Support
 alla:Phantasmal Lancing Steel
+tchains:Divergent Chain Support
+usor:Anomalous Orb of Storms
+scontr:Anomalous Controlled Destruction Support
+sincreaseda:Anomalous Increased Area of Effect Support
+sdese:Anomalous Desecrate
+tincreasedcriticald:Divergent Increased Critical Damage Support
+tlessd:Divergent Less Duration Support
+sinfernalc:Anomalous Infernal Cry
+ustor:Anomalous Tornado Shot
+lbo:Phantasmal Bodyswap
+skineticbo:Anomalous Kinetic Bolt
+twitherings:Divergent Withering Step
+ntet:Divergent Ethereal Knives
+lcrem:Phantasmal Cremation
+tclu:Divergent Cluster Traps Support
+tdiv:Divergent Divine Ire
+tshockn:Divergent Shock Nova
+tchargedd:Divergent Charged Dash
+saddedco:Anomalous Added Cold Damage Support
+lices:Phantasmal Ice Spear
+tforb:Divergent Forbidden Rite
+sflames:Anomalous Flame Surge
+tlightningtr:Divergent Lightning Trap
+ussig:Anomalous Sigil of Power
+tcoldt:Divergent Cold to Fire Support
+tmultis:Divergent Multistrike Support
+get:Anomalous Cast when Damage Taken Support
+sinci:Anomalous Incinerate
+ntral:Divergent Rallying Cry
+lmo:Phantasmal Molten Strike
+tsmo:Divergent Smoke Mine
+tenf:Divergent Enfeeble
+tchargedt:Divergent Charged Traps Support
+tcre:Divergent Cremation
+tincreaseda:Divergent Increased Area of Effect Support
+ticesp:Divergent Ice Spear
+ssummonch:Anomalous Summon Chaos Golem
+spurityoff:Anomalous Purity of Fire
+efe:Replica Reckless Defence
+lflameb:Phantasmal Flameblast
+tshieldch:Divergent Shield Charge
+tene:Divergent Energy Leech Support
+treap:Divergent Reap
+sglacialc:Anomalous Glacial Cascade
+yofe:Anomalous Purity of Elements
+svola:Anomalous Volatile Dead
+kea:Anomalous Critical Strike Affliction Support
+smine:Anomalous Minefield Support
+tsummoni:Divergent Summon Ice Golem
+tcastonc:Divergent Cast On Critical Strike Support
+sicesh:Anomalous Ice Shot
+mmol:Divergent Immolate Support
+strapa:Anomalous Trap and Mine Damage Support
+neu:Pneumatic Dagger
+tmea:Divergent Meat Shield Support
+tici:Divergent Icicle Mine
+sdou:Anomalous Double Strike
+ssie:Anomalous Siege Ballista
+tboneo:Divergent Bone Offering
+linti:Phantasmal Intimidating Cry
+lcree:Phantasmal Creeping Frost
+tuk:Replica Tukohama's Fortress
+at-:Heat-attuned Tower Shield
+lshr:Phantasmal Shrapnel Ballista
+tsummonra:Divergent Summon Raging Spirit
+smultipleto:Anomalous Multiple Totems Support
+tbladev:Divergent Blade Vortex
+etof:Anomalous Chance to Flee Support
+tfoc:Divergent Focused Ballista Support
+tancestralw:Divergent Ancestral Warchief
+ulta:Replica Soul Taker
+mis:Replica Mistwall
+tfrostbom:Divergent Frost Bomb
+sgenero:Anomalous Generosity Support
+scom:Anomalous Combustion Support
+tgreaterm:Divergent Greater Multiple Projectiles Support
+tconc:Divergent Concentrated Effect Support
+tvic:Divergent Vicious Projectiles Support
+twitheringt:Divergent Withering Touch Support
+nre:Divergent Summon Reaper
+ssec:Anomalous Second Wind Support
+sstormbu:Anomalous Storm Burst
+scau:Anomalous Caustic Arrow
+tpurityofl:Divergent Purity of Lightning
+tspells:Divergent Spellslinger
+sdeco:Anomalous Decoy Totem
+sphy:Anomalous Physical to Lightning Support
+slessd:Anomalous Less Duration Support
+timp:Divergent Impale Support
+onw:Anomalous Iron Will Support
+sshockwavet:Anomalous Shockwave Totem
+taddedch:Divergent Added Chaos Damage Support
+schargedt:Anomalous Charged Traps Support
+sheraldoft:Anomalous Herald of Thunder
+smultis:Anomalous Multistrike Support
+usdef:Anomalous Defiance Banner
+tcastwhi:Divergent Cast while Channelling Support
+sdiv:Anomalous Divine Ire
+slightningw:Anomalous Lightning Warp
+tsummonske:Divergent Summon Skeletons
+erh:Replica Winterheart
+tcu:Divergent Culling Strike Support
+tdam:Divergent Damage on Full Life Support
+tchainh:Divergent Chain Hook
+tflamet:Divergent Flamethrower Trap
+alrain:Phantasmal Rain of Arrows
+sicec:Anomalous Ice Crash
+ouls:Replica Soul Strike
+tancestralca:Divergent Ancestral Call Support
+sune:Anomalous Unearth
+tbladet:Divergent Blade Trap
+tshieldcr:Divergent Shield Crush
+llightningw:Phantasmal Lightning Warp
+tblind:Divergent Blind Support
+sflamet:Anomalous Flamethrower Trap
+tef:Divergent Efficacy Support
+swil:Anomalous Wild Strike
+cum:Accumulator Wand
+afo:Replica Forbidden Shako
+tond:Anomalous Cast on Death Support
+tshr:Divergent Shrapnel Ballista
+ryp:Replica Trypanon
+rys:Battery Staff
+tmeleep:Divergent Melee Physical Damage Support
+sspellt:Anomalous Spell Totem Support
+tarrog:Divergent Arrogance Support
+tcle:Divergent Cleave
+tblooda:Divergent Blood and Sand
+sbru:Anomalous Brutality Support
+tancestralp:Divergent Ancestral Protector
+lsha:Phantasmal Shattering Steel
+tdisci:Divergent Discipline
+tdisch:Divergent Discharge
+tcor:Divergent Corrupting Fever
+tdesp:Divergent Despair
+tbarrag:Divergent Barrage
+sstormr:Anomalous Storm Rain
+tcy:Divergent Cyclone
+ssummonf:Anomalous Summon Flame Golem
+tunl:Divergent Unleash Support
+usas:Anomalous Assassin's Mark
+sragev:Anomalous Rage Vortex
+aho:Replica Hotheaded
+sblink:Anomalous Blink Arrow
+ntes:Divergent Essence Drain
+ssha:Anomalous Shattering Steel
+sveng:Anomalous Vengeance
+asi:Replica Siegebreaker
+sshockn:Anomalous Shock Nova
+sclo:Anomalous Close Combat Support
+tper:Divergent Perforate
+sprec:Anomalous Precision
+ntarrow:Divergent Arrow Nova Support
+sancestralca:Anomalous Ancestral Call Support
+sdea:Anomalous Deadly Ailments Support
+tvu:Divergent Vulnerability
+sraises:Anomalous Raise Spectre
+tarm:Divergent Armageddon Brand
+ntrain:Divergent Rain of Arrows
+ssip:Anomalous Siphoning Trap
+usart:Anomalous Artillery Ballista
+tfireb:Divergent Fireball
+sblig:Anomalous Blight
+sinfu:Anomalous Infused Channelling Support
+aha:Replica Harvest
+sdeca:Anomalous Decay Support
+lbladeb:Phantasmal Blade Blast
+tfasterc:Divergent Faster Casting Support
+tchargedm:Divergent Charged Mines Support
+lro:Phantasmal Rolling Magma
+sheraldofas:Anomalous Herald of Ash
+ntn:Divergent Nightblade Support
+aab:Replica Abyssus
+sens:Anomalous Ensnaring Arrow
+ssta:Anomalous Static Strike
+scond:Anomalous Conductivity
+tsummonski:Divergent Summon Skitterbots
+caq:Replica Quill Rain
+tmira:Divergent Mirage Archer Support
+eer:Replica Leer Cast
+sgenera:Anomalous General's Cry
+stox:Anomalous Toxic Rain
+spurityofl:Anomalous Purity of Lightning
+usmal:Anomalous Malevolence
+svoids:Anomalous Void Sphere
+svoidm:Anomalous Void Manipulation Support
+srain:Anomalous Rain of Arrows
+sswiftas:Anomalous Swift Assembly Support
+twintero:Divergent Winter Orb
+cta:Replica Victario's Charity
+vei:Replica Veil of the Night
+tscor:Divergent Scorching Ray
+ahy:Replica Hyrri's Truth
+rim:Replica Primordial Might
+searthq:Anomalous Earthquake
+spoi:Anomalous Point Blank Support
+tvip:Divergent Viper Strike
+api:Replica Pillars of Arun
+tpuni:Divergent Punishment
+aad:Replica Advancing Fortress
+lcy:Phantasmal Cyclone
+rum:Replica Rumi's Concoction
+sflesha:Anomalous Flesh and Stone
