@@ -1,6 +1,8 @@
 # PoE-Enchantress
 The Poe-Enchantress tool help in pricing elements of Path of Exile (PoE) which you cannot simply copy to the clipboard. It uses an Optical Character Recognition (OCR) tool to convert selected portions of the screen to text. This text, either names of items or enchants, are looked up in user configurable files to price them.
 
+You can find the latest release on the releases page <https://github.com/LawTotem/PoE-Enchantress/releases>.
+The releases include an executable version of the autohotkey script and come in a more convenient zip file.
 ## Setup
 You will need the tool <code>Capture2Text</code> to perform the ORC. This will need to be downloaded separately and the folder <code>Capture2Text</code> should be moved into the folder with the PoE-Enchantress script.
 
@@ -28,8 +30,7 @@ In addition, two remapping files <code>HeistRemappingTxt</code> and <code>Enchan
 There are a couple of gems whose names are a subset of another gem so the tool will always miss-map them.
  - Arc (Arcmage, Arcane Surge, Arctic Armour, Arcane Cloak, Arcanist Brand)
  - Barrage (Barrage Support)
- - Wither
- - Withering Step
+ - Wither (Withering Step)
 
 # Settings
 
