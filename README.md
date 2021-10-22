@@ -24,6 +24,13 @@ To price enchants press the enchant hotkey, default Ctrl-y, and select a relativ
 Because the OCR can make mistakes in its CRing the tool by default always compares strings with no white space, so "h e l l o" and "hello" are the same, and no capitalization, "HeLlO" and "hello" are the same.
 
 In addition, two remapping files <code>HeistRemappingTxt</code> and <code>EnchantRemappingTxt</code> are provided. They have been generated to provide short strings which should be mostly unique to actual things that you are looking for. When these files are provided the associated scanned text will be searched for the short strings and replaced with the complete ones. This can result in the order of enchants being shuffled or lost and some heist gems being duplicated, Anomalous Withering Step going to Anomalous Wither and Anomalous Withering Step __BUT__ the anything that survives will be exactly correct. If something is missing you can manually type in the full text and click associated reprocesses buttons. If you hate this you can change the file name in settings to a non-existant file and the feature will not be used.
+
+There are a couple of gems whose names are a subset of another gem so the tool will always miss-map them.
+ - Arc (Arcmage, Arcane Surge, Arctic Armour, Arcane Cloak, Arcanist Brand)
+ - Barrage (Barrage Support)
+ - Wither
+ - Withering Step
+
 # Settings
 
 ## General
@@ -52,6 +59,10 @@ This file provides the string remapping for Enchants, see the OCR remapping feat
 ### SnapshotScreen
 You'll have to compile the snapper.cpp file yourself into a dll and put that into the same folder as the script to use this but when enabled it will save a time stamped snapshot every time you use the tool. Used in development to provide reference images.
 
+### SaveEnchant
+This option will save the scanned enchants to a date stamped text file if you want to keep statistics on what you have seen.
+If anything goes wrong with the scan, missed enchant or something, you can type in the correct enchant and press the reprocess enchant and it will save the file again, overwriting the file until you perform another screen grab.
+
 ## Other
 ### scale
 Untested but maybe corrects for some monitor scaling.
@@ -65,6 +76,8 @@ Untested but maybe allows for monitor selection.
  - Added an enchant scraper, still requires hand data analysis to create general_enchants.txt.
  - Added league variables to tools.
  - Corrected seperator in heist price scraper.
+ - Readme grammer/spelling.
+ - Added support for saving text version of enchant grabs.
 
 ## 0.2.0
  - Added settings menu, available from main GUI

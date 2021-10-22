@@ -40,7 +40,7 @@ import datetime
 # click the getbuildoverview request when selecting "builds" on the site
 # should give you a request URL
 
-# According to @Skid they rotate daily bot may not be invalid.
+# According to @Skid they rotate daily and may not be invalid.
 key = 'b1ead41788cede02ff8f49656c736490';
 
 # I recommend daily, but you can use the league name to pull the top Exp characters.
