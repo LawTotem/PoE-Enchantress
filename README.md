@@ -73,7 +73,7 @@ Untested but maybe allows for monitor selection.
 
 # Change List
 
-## 0.x.0
+## 0.3.0
  - Added an enchant scraper, still requires hand data analysis to create general_enchants.txt.
  - Added league variables to tools.
  - Corrected seperator in heist price scraper.
