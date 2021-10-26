@@ -22,6 +22,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 global version := "0.3.0"
+global show_update := false
 
 global PID := DllCall("Kernel32\GetCurrentProcessId")
 
@@ -156,6 +157,12 @@ if (FirstRun == 1) {
     goto help
 }
 
+if (checkUpdate())
+{
+    global show_update := true
+    MsgBox A new version of the tool is available, check https://github.com/LawTotem/PoE-Enchantress/releases
+}
+
 Return
 Return
 
@@ -236,7 +243,7 @@ newGUI() {
     {
         Gui add, picture, x5 y5 w50 h50 gHelp , resources\ScalesOfJustice.png
     }
-    Gui, add, text, x65 y20 w50, PoE-Enchantress v%version%
+    Gui, add, text, x65 y20 w100 vversiontext, PoE-Enchantress v%version%
     Gui, add, picture, x520 y10 w120 h40 gSettings, resources\settings.png
 
     Gui, add, text, x10 y60 vValue, Captured String
@@ -426,6 +433,18 @@ grabScreen(whitelist) {
     FormatTime, RawCaptureTime,, yyyy_MM_dd_HH_mm_ss
     
     GuiControl,, CaptureS, %RawTextCapture%
+
+    if (checkUpdate())
+    {
+        global show_update
+        if (!show_update)
+        {
+            MsgBox A new version of the tool is available, check https://github.com/LawTotem/PoE-Enchantress/releases
+            show_update := true
+        }
+
+        GuiControl, Text, versiontext, PoE-Enchantress v%version% Update
+    }
     return true
 }
 
@@ -676,4 +695,17 @@ SelectArea() {
     }
     Gui, EnchantressUI:Default
     return areaRect
+}
+
+checkUpdate() {
+    whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+    whr.Open("Get","https://raw.githubusercontent.com/LawTotem/PoE-Enchantress/dev/version.txt", true)
+    whr.Send()
+    whr.WaitForResponse()
+    online_version := whr.ResponseText()
+    if (online_version > version)
+    {
+        return true
+    }
+    return false
 }
