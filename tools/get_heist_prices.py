@@ -18,7 +18,7 @@ import json
 import urllib.request
 import time
 
-league = "Expedition"
+league = "Scourge"
 
 # We are going to get all the prices from poe.ninja - don't abuse this.
 sgems_req = urllib.request.Request("https://poe.ninja/api/data/itemoverview?league=" + league + "&type=SkillGem&language=en",headers={'User-Agent': 'Mozilla/5.0'})
