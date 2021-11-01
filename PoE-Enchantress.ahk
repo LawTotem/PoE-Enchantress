@@ -251,6 +251,7 @@ newGUI() {
     Gui, add, text, x10 y60 vValue, Captured String
     Gui, add, edit, x10 y80 vCaptureS r5 w600
     Gui, add, picture, x10 y180 gReprossEnchant, resources\enchant.png
+    Gui, add, picture, x240 y180 gDumpRaw, resources\dumpraw.png
     Gui, add, picture, x490 y180 gReprossHeist, resources\heist.png
 
     loop, 15 {
@@ -314,6 +315,10 @@ ReprossHeist:
         RemapScan(HeistRemappingTxt)
     }
     heistSort()
+Return
+
+DumpRaw:
+    GuiControl,, CaptureS, %RawTextCapture%
 Return
 
 Settings:

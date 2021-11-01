@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="40"
+   viewBox="0 0 31.75 10.583333"
+   version="1.1"
+   id="svg41519"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="dumpraw.svg"
+   inkscape:export-filename="C:\Users\drlowe\Documents\poe\lab_enchant\resources\settings.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41521"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="120mm"
+     units="px"
+     inkscape:snap-page="true"
+     inkscape:snap-center="true"
+     inkscape:zoom="3.1108586"
+     inkscape:cx="-36.485104"
+     inkscape:cy="85.346213"
+     inkscape:window-width="2152"
+     inkscape:window-height="1039"
+     inkscape:window-x="190"
+     inkscape:window-y="165"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs41516" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#1131a1;stroke-width:0.264583;fill-opacity:1"
+       id="rect41545"
+       width="31.75"
+       height="10.583333"
+       x="0"
+       y="0"
+       rx="2"
+       ry="2" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:0.230932"
+       id="rect44882"
+       width="29.860876"
+       height="8.5724993"
+       x="0.94456244"
+       y="1.0054166"
+       rx="1.8809999"
+       ry="1.62" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#37ee90;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.779312"
+       y="4.2533135"
+       id="text42367"
+       inkscape:export-filename="C:\Users\drlowe\Documents\poe\PoE-Enchantress\resources\dumpraw.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#37ee90;fill-opacity:1;stroke-width:0.264583"
+         x="15.779312"
+         y="4.2533135"
+         id="tspan45514">Dump Raw</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:3.88056px;text-align:center;text-anchor:middle;fill:#37ee90;fill-opacity:1;stroke-width:0.264583"
+         x="15.779312"
+         y="9.1040134"
+         id="tspan1197">Text</tspan></text>
+  </g>
+</svg>
