@@ -153,6 +153,8 @@ tooltip, Ready
 sleep, 250
 Tooltip
 
+global last_heist_grab := 0
+
 if (FirstRun == 1) {
     goto help
 }
@@ -385,6 +387,30 @@ SettingsGuiClose:
     Gui, Settings:Destroy
 Return
 
+getHeistPrices(heist_price_txt)
+{
+    ss := SubStr(heist_price_txt,1,4)
+    if (SubStr(heist_price_txt,1,4) = "http")
+    {
+        global last_heist_grab
+        Delta := %A_Now%
+        EnvSub Delta, %last_heist_grab%, hours
+        if (last_heist_grab = 0 or Delta > 1)
+        {
+            UrlDownloadToFile, %heist_price_txt%, local_heists.txt
+            last_heist_grab = %A_Now%
+        }
+        FileRead, HeistFile, local_heists.txt
+        return HeistFile
+    }
+    if (FileExist(heist_price_txt))
+    {
+        FileRead, HeistFile, %heist_price_txt%
+        return HeistFile
+    }
+    return ""
+}
+
 addOption(sect, set_name, offset, title)
 {
     global
@@ -526,10 +552,10 @@ heistSort() {
     }
 
     IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
-    current_row := 1    
-    if (FileExist(HeistPriceTxt))
+    current_row := 1
+    HeistFile := getHeistPrices(HeistPriceTxt)
+    if (StrLen(HeistFile) > 0)
     {
-        FileRead, HeistFile, %HeistPriceTxt%
         loop, parse, HeistFile, `n, `r
         {
             heistLine := % A_LoopField
