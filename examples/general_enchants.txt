@@ -29,7 +29,7 @@ Damage Penetrates 10% of Enemy Elemental Resistances if you haven't Killed Recen
 24% increased Blade Flurry Area of Effect: Blade Flurry AoE {Abyssus}
 24% increased Poisonous Concoction Area of Effect: Poisonous Concoction AoE {Lion Pelt (85)}
 24% increased Righteous Fire Area of Effect: Righteous Fire {Crown of the Inward Eye} {Royal Burgonet}
-30% increased Assassin's Mark Curse Effect: Assissin's Mark Effect {Hubris Circlet} {Asenath's Chant} {Devouring Diadem} {Viridi's Veil} 
+30% increased Assassin's Mark Curse Effect: Assassin's Mark Effect {Hubris Circlet} {Asenath's Chant} {Devouring Diadem} {Viridi's Veil} 
 30% increased Blade Vortex Duration: Blade Vortex Duration {Hubris Circlet}
 30% increased Despair Curse Effect: Despair Effect {Viridi's Veil} {Lion Pelt} {Hubris Circlet} {Crown of the Inward Eye}
 30% increased Elemental Weakness Curse Effect: Ele Weakness Effect {Eye of Malice} {Fractal Throughts} {Crown of the Inward Eye} {Devouring Diadem?}

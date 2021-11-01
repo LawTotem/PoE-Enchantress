@@ -155,6 +155,7 @@ Tooltip
 
 global last_version_grab := 0
 global last_heist_grab := 0
+global last_enchant_grab := 0
 
 if (FirstRun == 1) {
     goto help
@@ -349,7 +350,7 @@ Settings:
     Gui, font, s10
         offset := addOption("User", "HeistPriceTxt", offset, "Heist Price File")
         offset := addOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
-        offset := addOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+        offset := addOption("User", "GeneralEnchantTxt", offset, "General Enchant File")
         offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
         offset := addOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
         offset := addOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
@@ -379,7 +380,7 @@ SaveSettings:
     saveOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
     saveOption("User", "HeistPriceTxt", offset, "Heist Price File")
     saveOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
-    saveOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+    saveOption("User", "GeneralEnchantTxt", offset, "General Enchant File")
     saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
     saveOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
     saveOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
@@ -395,7 +396,6 @@ Return
 
 getHeistPrices(heist_price_txt)
 {
-    ss := SubStr(heist_price_txt,1,4)
     if (SubStr(heist_price_txt,1,4) = "http")
     {
         global last_heist_grab
@@ -413,6 +413,29 @@ getHeistPrices(heist_price_txt)
     {
         FileRead, HeistFile, %heist_price_txt%
         return HeistFile
+    }
+    return ""
+}
+
+getGeneralEnchants(general_enchants_txt)
+{
+    if (SubStr(general_enchants_txt,1,4) = "http")
+    {
+        global last_enchant_grab
+        Delta := %A_Now%
+        EnvSub Delta, %last_enchant_grab%, hours
+        if (last_enchant_grab = 0 or Delta > 1)
+        {
+            UrlDownloadToFile, %general_enchants_txt%, local_general_enchants.txt
+            last_enchant_grab = %A_Now%
+        }
+        FileRead, EnchantFile, local_general_enchants.txt
+        return EnchantFile
+    }
+    if (FileExist(general_enchants_txt))
+    {
+        FileRead, EnchantFile, %general_enchants_txt%
+        return EnchantFile
     }
     return ""
 }
@@ -522,10 +545,11 @@ enchantSort() {
         GuiControl,, enchant_%current_row%, No Service File
         current_row := current_row + 1
     }
+    
     IniRead, GeneralEnchantTxt, %SettingsPath%, User, GeneralEnchantTxt
-    if (FileExist(GeneralEnchantTxt))
+    GeneralFile := getGeneralEnchants(GeneralEnchantTxt)
+    if (StrLen(GeneralFile) > 0)
     {
-        FileRead, GeneralFile, %GeneralEnchantTxt%
         loop, parse, GeneralFile, `n, `r
         {
             enchantLine := % A_LoopField

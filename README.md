@@ -55,6 +55,7 @@ The file to use when alerting to enchant services, always appears before general
 ### GeneralEnchantTxt
 The file to use when giving general enchant recommendations.
 The format is "string to look for":"string to show". See <code>examples/general_enchants.txt</code> for an example.
+Can also be a url that starts with http which will be fetched every hour on use, for example https://pastebin.com/raw/Za0fgKzg
 ### HeistRemappingTxt
 This file provides the string remapping for Heist, see the ORC remapping feature.
 
@@ -78,6 +79,7 @@ Untested but maybe allows for monitor selection.
 # Change List
 
 ## 0.4.0
+ - Added genearl enchants from http like pastebin.
  - Added ability to dump raw capture to text. In the case where the remapping failed it should help.
  - Added update detection. The tool will now check gitlab to see if there is an update and display a message to user.
  - Added heist pricing from http like pastebin.
