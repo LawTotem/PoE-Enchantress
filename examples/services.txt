@@ -1,4 +1,4 @@
-General's Cry has +1: Wraith Guardian Royal Burgonet (ArandomAname, JustinBieber) [90]
+General's Cry has +1: Wraith Guardian Royal Burgonet (Player 1, Player 2) [90]
 increased Molten Shell Buff Effect: Alpha Howl (LawTotem) [102]
-Haste has 15% reduced Reservation: Honor Glance (Scrillex) [124]
-Hatred has 15% reduced Reservation: Honor Glance (Scrillex) [124]
+Haste has 15% reduced Reservation: Honor Glance (Player 3) [124]
+Hatred has 15% reduced Reservation: Honor Glance (Player 3) [124]
