@@ -21,7 +21,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-global version := "0.3.0"
+global version := "0.4.0"
 global show_update := false
 
 global PID := DllCall("Kernel32\GetCurrentProcessId")
