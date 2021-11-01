@@ -21,7 +21,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-global version := "0.3.0"
+global version := "0.4.0"
+global show_update := false
 
 global PID := DllCall("Kernel32\GetCurrentProcessId")
 
@@ -152,8 +153,18 @@ tooltip, Ready
 sleep, 250
 Tooltip
 
+global last_version_grab := 0
+global last_heist_grab := 0
+global last_enchant_grab := 0
+
 if (FirstRun == 1) {
     goto help
+}
+
+if (checkUpdate())
+{
+    global show_update := true
+    MsgBox A new version of the tool is available, check https://github.com/LawTotem/PoE-Enchantress/releases
 }
 
 Return
@@ -236,12 +247,13 @@ newGUI() {
     {
         Gui add, picture, x5 y5 w50 h50 gHelp , resources\ScalesOfJustice.png
     }
-    Gui, add, text, x65 y20 w50, PoE-Enchantress v%version%
+    Gui, add, text, x65 y20 w100 vversiontext, PoE-Enchantress v%version%
     Gui, add, picture, x520 y10 w120 h40 gSettings, resources\settings.png
 
     Gui, add, text, x10 y60 vValue, Captured String
     Gui, add, edit, x10 y80 vCaptureS r5 w600
     Gui, add, picture, x10 y180 gReprossEnchant, resources\enchant.png
+    Gui, add, picture, x240 y180 gDumpRaw, resources\dumpraw.png
     Gui, add, picture, x490 y180 gReprossHeist, resources\heist.png
 
     loop, 15 {
@@ -307,6 +319,10 @@ ReprossHeist:
     heistSort()
 Return
 
+DumpRaw:
+    GuiControl,, CaptureS, %RawTextCapture%
+Return
+
 Settings:
     Gui Settings:new,, PoE-Enchantress Settings
 
@@ -334,7 +350,7 @@ Settings:
     Gui, font, s10
         offset := addOption("User", "HeistPriceTxt", offset, "Heist Price File")
         offset := addOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
-        offset := addOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+        offset := addOption("User", "GeneralEnchantTxt", offset, "General Enchant File")
         offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
         offset := addOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
         offset := addOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
@@ -364,7 +380,7 @@ SaveSettings:
     saveOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
     saveOption("User", "HeistPriceTxt", offset, "Heist Price File")
     saveOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
-    saveOption("User", "GeneralEnchantTxt", offset, "Geneneral Enchant File")
+    saveOption("User", "GeneralEnchantTxt", offset, "General Enchant File")
     saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
     saveOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
     saveOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
@@ -377,6 +393,52 @@ Return
 SettingsGuiClose:
     Gui, Settings:Destroy
 Return
+
+getHeistPrices(heist_price_txt)
+{
+    if (SubStr(heist_price_txt,1,4) = "http")
+    {
+        global last_heist_grab
+        Delta := %A_Now%
+        EnvSub Delta, %last_heist_grab%, hours
+        if (last_heist_grab = 0 or Delta > 1)
+        {
+            UrlDownloadToFile, %heist_price_txt%, local_heists.txt
+            last_heist_grab = %A_Now%
+        }
+        FileRead, HeistFile, local_heists.txt
+        return HeistFile
+    }
+    if (FileExist(heist_price_txt))
+    {
+        FileRead, HeistFile, %heist_price_txt%
+        return HeistFile
+    }
+    return ""
+}
+
+getGeneralEnchants(general_enchants_txt)
+{
+    if (SubStr(general_enchants_txt,1,4) = "http")
+    {
+        global last_enchant_grab
+        Delta := %A_Now%
+        EnvSub Delta, %last_enchant_grab%, hours
+        if (last_enchant_grab = 0 or Delta > 1)
+        {
+            UrlDownloadToFile, %general_enchants_txt%, local_general_enchants.txt
+            last_enchant_grab = %A_Now%
+        }
+        FileRead, EnchantFile, local_general_enchants.txt
+        return EnchantFile
+    }
+    if (FileExist(general_enchants_txt))
+    {
+        FileRead, EnchantFile, %general_enchants_txt%
+        return EnchantFile
+    }
+    return ""
+}
 
 addOption(sect, set_name, offset, title)
 {
@@ -426,6 +488,18 @@ grabScreen(whitelist) {
     FormatTime, RawCaptureTime,, yyyy_MM_dd_HH_mm_ss
     
     GuiControl,, CaptureS, %RawTextCapture%
+
+    if (checkUpdate())
+    {
+        global show_update
+        if (!show_update)
+        {
+            MsgBox A new version of the tool is available, check https://github.com/LawTotem/PoE-Enchantress/releases
+            show_update := true
+        }
+
+        GuiControl, Text, versiontext, PoE-Enchantress v%version% Update
+    }
     return true
 }
 
@@ -471,10 +545,11 @@ enchantSort() {
         GuiControl,, enchant_%current_row%, No Service File
         current_row := current_row + 1
     }
+    
     IniRead, GeneralEnchantTxt, %SettingsPath%, User, GeneralEnchantTxt
-    if (FileExist(GeneralEnchantTxt))
+    GeneralFile := getGeneralEnchants(GeneralEnchantTxt)
+    if (StrLen(GeneralFile) > 0)
     {
-        FileRead, GeneralFile, %GeneralEnchantTxt%
         loop, parse, GeneralFile, `n, `r
         {
             enchantLine := % A_LoopField
@@ -507,10 +582,10 @@ heistSort() {
     }
 
     IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
-    current_row := 1    
-    if (FileExist(HeistPriceTxt))
+    current_row := 1
+    HeistFile := getHeistPrices(HeistPriceTxt)
+    if (StrLen(HeistFile) > 0)
     {
-        FileRead, HeistFile, %HeistPriceTxt%
         loop, parse, HeistFile, `n, `r
         {
             heistLine := % A_LoopField
@@ -676,4 +751,24 @@ SelectArea() {
     }
     Gui, EnchantressUI:Default
     return areaRect
+}
+
+checkUpdate() {
+    global last_version_grab
+    Delta := %A_Now%
+    EnvSub Delta, %last_version_grab%, hours
+    if (last_version_grab = 0 or Delta > 1)
+    {
+        whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+        whr.Open("Get","https://raw.githubusercontent.com/LawTotem/PoE-Enchantress/dev/version.txt", true)
+        whr.Send()
+        whr.WaitForResponse()
+        online_version := whr.ResponseText()
+        last_version_grab = %A_Now%
+        if (online_version > version)
+        {
+            return true
+        }
+    }
+    return false
 }

@@ -1,1068 +1,1072 @@
-Divergent Wrath:2480.07c
-Phantasmal Spectral Shield Throw:972.95c
-Anomalous Ice Spear:849.96c
-Divergent Creeping Frost:649.67c
-Anomalous Precision:607.1c
-Divergent Summon Skitterbots:557.55c
-Phantasmal Lightning Arrow:522.12c
-Anomalous Blood Rage:516.13c
-Divergent Pulverise Support:475.39c
-Divergent Life Gain on Hit Support:405.82c
-Phantasmal Toxic Rain:391.59c
-Anomalous Mirage Archer Support:391.59c
-Divergent Void Manipulation Support:391.59c
-Phantasmal Leap Slam:391.59c
-Anomalous Feeding Frenzy Support:361.77c
-Anomalous Malevolence:248.01c
-Divergent Static Strike:243.18c
-Divergent Tempest Shield:220.18c
-Divergent Urgent Orders Support:184.39c
-Divergent Arcane Cloak:182.74c
-Divergent Additional Accuracy Support:178.17c
-Divergent Cyclone:169.69c
-Divergent Minion Damage Support:140.74c
-Anomalous Defiance Banner:131.84c
-Divergent Inspiration Support:130.53c
-Phantasmal Ballista Totem Support:130.53c
-Divergent Animate Guardian:127.21c
-Divergent Dash:120.0c
-Divergent Purity of Elements:118.98c
-Divergent Convocation:109.64c
-Phantasmal Ancestral Protector:100.0c
-Anomalous Infernal Blow:100.0c
-Divergent Plague Bearer:99.56c
-Divergent Anger:90.15c
-Divergent Purity of Ice:84.8c
-Divergent Ball Lightning:83.67c
-Anomalous Vitality:80.0c
-Divergent Arctic Armour:75.37c
-Anomalous Forbidden Rite:75.0c
-Divergent Innervate Support:74.58c
-Divergent Vitality:72.1c
-Divergent Hypothermia Support:70.0c
-Divergent Elemental Damage with Attacks Support:70.0c
-Anomalous War Banner:64.76c
-Anomalous Second Wind Support:63.08c
-Phantasmal Desecrate:60.0c
-Anomalous Scourge Arrow:56.29c
-Anomalous Arrogance Support:54.76c
-Phantasmal Dominating Blow:54.68c
-Divergent Hatred:50.0c
-Divergent Berserk:50.0c
-Anomalous Fortify Support:49.98c
-Anomalous Summon Ice Golem:48.83c
-Anomalous Dread Banner:45.0c
-Anomalous Raise Spectre:44.56c
-Divergent Energy Leech Support:44.37c
-Anomalous Reckoning:43.5c
-Divergent Wither:40.73c
-Anomalous Summon Carrion Golem:40.0c
-Anomalous Flesh and Stone:40.0c
-Anomalous Efficacy Support:39.64c
-Divergent Flicker Strike:39.34c
-Divergent Precision:38.7c
-Phantasmal Earthquake:38.65c
-Divergent Charged Mines Support:37.86c
-Divergent Lifetap Support:37.74c
-Divergent Zealotry:35.1c
-Divergent Explosive Arrow:35.0c
-Divergent Bone Offering:34.94c
-Phantasmal Cyclone:34.0c
-Anomalous Lightning Strike:30.48c
-Anomalous Summon Stone Golem:30.0c
-Divergent Ice Trap:30.0c
-Anomalous Faster Casting Support:30.0c
-Anomalous Tornado Shot:30.0c
-Anomalous Mana Leech Support:30.0c
-Anomalous Ice Nova:30.0c
-Divergent Pride:30.0c
-Anomalous Clarity:30.0c
-Divergent Eye of Winter:30.0c
-Phantasmal Vengeance:29.37c
-Anomalous Blade Vortex:27.65c
-Anomalous Generosity Support:27.5c
-Anomalous Minion Life Support:25.84c
-Divergent Clarity:25.0c
-Anomalous Assassin's Mark:25.0c
-Anomalous Pride:25.0c
-Anomalous Hypothermia Support:25.0c
-Anomalous Determination:25.0c
-Divergent Herald of Ash:24.54c
-Anomalous Shrapnel Ballista:24.51c
-Divergent Ballista Totem Support:24.4c
-Divergent Volatile Dead:24.3c
-Divergent Lightning Strike:24.14c
-Divergent Culling Strike Support:23.61c
-Divergent Ancestral Call Support:23.6c
-Anomalous Summon Chaos Golem:23.59c
-Divergent Bane:22.14c
-Anomalous Nightblade Support:20.85c
-Divergent Increased Critical Strikes Support:20.38c
-Anomalous Wrath:20.0c
-Anomalous Endurance Charge on Melee Stun Support:20.0c
-Anomalous Increased Critical Damage Support:20.0c
-Divergent Righteous Fire:20.0c
-Divergent Predator Support:20.0c
-Divergent Herald of Agony:20.0c
-Anomalous Maim Support:20.0c
-Anomalous Power Siphon:20.0c
-Anomalous Hatred:20.0c
-Divergent Dread Banner:20.0c
-Anomalous Toxic Rain:20.0c
-Anomalous Grace:20.0c
-Anomalous Arctic Armour:19.93c
-Anomalous Zealotry:19.83c
-Divergent Shield Charge:19.64c
-Divergent Boneshatter:19.49c
-Divergent Discipline:19.48c
-Phantasmal Summon Skeletons:19.41c
-Anomalous Ice Bite Support:19.22c
-Anomalous Summon Lightning Golem:19.0c
-Phantasmal Blink Arrow:18.44c
-Divergent Impale Support:18.37c
-Anomalous Faster Projectiles Support:18.29c
-Phantasmal Flame Wall:18.18c
-Divergent Shockwave Support:18.0c
-Divergent Spectral Shield Throw:18.0c
-Anomalous Bear Trap:17.55c
-Divergent Herald of Purity:17.43c
-Phantasmal Sigil of Power:17.33c
-Divergent Immortal Call:16.39c
-Divergent Frost Bomb:15.54c
-Divergent Deadly Ailments Support:15.42c
-Divergent Malevolence:15.0c
-Anomalous Petrified Blood:15.0c
-Anomalous Summon Skeletons:15.0c
-Divergent Wave of Conviction:15.0c
-Anomalous Concentrated Effect Support:15.0c
-Divergent Second Wind Support:15.0c
-Divergent Storm Burst:15.0c
-Divergent Lightning Arrow:15.0c
-Divergent Discharge:15.0c
-Anomalous Steelskin:15.0c
-Divergent Riposte:15.0c
-Divergent Frostbite:15.0c
-Divergent Frostblink:15.0c
-Phantasmal Lightning Warp:15.0c
-Phantasmal Haste:15.0c
-Phantasmal Frost Bomb:15.0c
-Anomalous Kinetic Bolt:15.0c
-Divergent Barrage:15.0c
-Anomalous Spectral Shield Throw:15.0c
-Anomalous Manabond:15.0c
-Divergent Desecrate:14.78c
-Anomalous Rage Vortex:14.51c
-Divergent Elemental Army Support:14.3c
-Divergent Summon Holy Relic:14.1c
-Divergent Herald of Ice:14.0c
-Anomalous Melee Physical Damage Support:14.0c
-Anomalous Infused Channelling Support:14.0c
-Divergent Summon Reaper:14.0c
-Anomalous Eye of Winter:14.0c
-Divergent Summon Phantasm Support:13.89c
-Divergent Rallying Cry:13.24c
-Divergent Trinity Support:13.15c
-Anomalous Flame Dash:13.05c
-Divergent Assassin's Mark:13.0c
-Anomalous Impale Support:13.0c
-Divergent Volley Support:13.0c
-Anomalous Increased Critical Strikes Support:12.9c
-Phantasmal Raise Spectre:12.67c
-Divergent Purity of Lightning:12.65c
-Anomalous Pulverise Support:12.49c
-Anomalous Damage on Full Life Support:12.38c
-Divergent Swift Assembly Support:12.37c
-Anomalous Faster Attacks Support:12.3c
-Anomalous Immortal Call:12.0c
-Divergent Combustion Support:12.0c
-Anomalous Power Charge On Critical Support:12.0c
-Anomalous Ancestral Protector:12.0c
-Anomalous Sigil of Power:12.0c
-Anomalous Advanced Traps Support:12.0c
-Anomalous Storm Rain:12.0c
-Anomalous Physical to Lightning Support:11.99c
-Anomalous Frost Shield:11.96c
-Phantasmal Soulrend:11.44c
-Divergent Earthbreaker Support:11.19c
-Anomalous Wave of Conviction:11.0c
-Divergent Enduring Cry:11.0c
-Phantasmal Decoy Totem:10.96c
-Divergent Added Cold Damage Support:10.58c
-Divergent Fork Support:10.58c
-Phantasmal Mirror Arrow:10.3c
-Anomalous Shock Nova:10.17c
-Divergent Warlord's Mark:10.13c
-Divergent Hydrosphere:10.0c
-Divergent Meat Shield Support:10.0c
-Anomalous Molten Shell:10.0c
-Anomalous Infernal Legion Support:10.0c
-Anomalous Rage Support:10.0c
-Anomalous Trinity Support:10.0c
-Phantasmal Static Strike:10.0c
-Anomalous Vicious Projectiles Support:10.0c
-Anomalous Hydrosphere:10.0c
-Divergent Fortify Support:10.0c
-Anomalous Increased Duration Support:10.0c
-Anomalous Blazing Salvo:10.0c
-Divergent Elemental Hit:10.0c
-Anomalous Urgent Orders Support:10.0c
-Anomalous Frostbite:10.0c
-Anomalous Dash:10.0c
-Divergent Stormbind:10.0c
+Anomalous Blood Rage:311.97c
+Divergent Determination:276.13c
+Divergent Additional Accuracy Support:266.98c
+Divergent Wrath:251.7c
+Phantasmal Lightning Arrow:250.7c
+Divergent Innervate Support:234.84c
+Divergent Void Manipulation Support:227.64c
+Anomalous Kinetic Blast:222.32c
+Divergent Creeping Frost:191.83c
+Phantasmal Toxic Rain:190.24c
+Anomalous War Banner:180.59c
+Divergent Power Charge On Critical Support:140.39c
+Divergent Convocation:129.65c
+Anomalous Precision:128.64c
+Anomalous Defiance Banner:123.12c
+Divergent Melee Splash Support:101.97c
+Anomalous Infernal Blow:85.67c
+Phantasmal Mirror Arrow:84.18c
+Divergent Cyclone:80.0c
+Divergent Summon Skitterbots:80.0c
+Divergent Plague Bearer:79.0c
+Divergent Purity of Elements:76.97c
+Anomalous Feeding Frenzy Support:75.26c
+Anomalous Malevolence:74.95c
+Anomalous Mirage Archer Support:73.77c
+Divergent Tempest Shield:73.66c
+Anomalous Inspiration Support:69.06c
+Divergent Elemental Damage with Attacks Support:60.0c
+Anomalous Hexblast:60.0c
+Divergent Animate Guardian:59.45c
+Phantasmal Leap Slam:57.48c
+Anomalous Nightblade Support:56.4c
+Divergent Dash:56.31c
+Divergent Inspiration Support:55.0c
+Anomalous Concentrated Effect Support:55.0c
+Anomalous Blade Vortex:52.59c
+Phantasmal Spectral Shield Throw:50.0c
+Phantasmal Desecrate:49.02c
+Divergent Tornado Shot:49.0c
+Anomalous Lightning Strike:48.98c
+Divergent Flicker Strike:47.0c
+Anomalous Withering Step:44.51c
+Anomalous Scourge Arrow:44.43c
+Divergent Rallying Cry:44.24c
+Divergent Minion Damage Support:43.29c
+Divergent Rage Support:41.58c
+Phantasmal Blink Arrow:40.92c
+Divergent Impale Support:40.0c
+Phantasmal Ancestral Protector:40.0c
+Phantasmal Earthquake:40.0c
+Divergent Eye of Winter:40.0c
+Divergent Ball Lightning:39.83c
+Divergent Arcane Cloak:39.61c
+Divergent Lightning Trap:36.45c
+Anomalous Vitality:33.0c
+Phantasmal Flame Wall:29.0c
+Phantasmal Dominating Blow:28.49c
+Divergent Urgent Orders Support:26.52c
+Anomalous Power Siphon:25.0c
+Divergent Mirage Archer Support:24.0c
+Divergent Poisonous Concoction:24.0c
+Anomalous Efficacy Support:22.15c
+Divergent Efficacy Support:21.69c
+Divergent Zealotry:21.49c
+Divergent Hypothermia Support:20.0c
+Divergent Vitality:20.0c
+Anomalous Purity of Elements:20.0c
+Divergent Bane:20.0c
+Anomalous Second Wind Support:20.0c
+Anomalous Flesh and Stone:20.0c
+Divergent Bone Offering:20.0c
+Phantasmal Ballista Totem Support:20.0c
+Anomalous Ice Nova:19.56c
+Anomalous Tornado Shot:18.67c
+Anomalous Shrapnel Ballista:17.37c
+Anomalous Assassin's Mark:16.89c
+Anomalous Generosity Support:16.44c
+Divergent Storm Burst:16.22c
+Divergent Exsanguinate:15.87c
+Anomalous Grace:15.05c
+Anomalous Molten Shell:15.0c
+Divergent Charged Mines Support:15.0c
+Divergent Arcane Surge Support:15.0c
+Divergent Volatile Dead:15.0c
+Anomalous Flame Surge:15.0c
+Divergent Trinity Support:15.0c
+Anomalous Consecrated Path:15.0c
+Divergent Pride:15.0c
+Anomalous Toxic Rain:15.0c
+Phantasmal Cyclone:14.5c
+Divergent Precision:14.47c
+Anomalous Swiftbrand Support:14.0c
+Divergent Dread Banner:14.0c
+Anomalous Arc:14.0c
+Divergent Increased Critical Strikes Support:13.98c
+Anomalous Dread Banner:13.75c
+Divergent Withering Step:13.39c
+Phantasmal Wave of Conviction:13.29c
+Divergent Shattering Steel:13.14c
+Anomalous Petrified Blood:13.07c
+Anomalous Wrath:13.0c
+Anomalous Reckoning:13.0c
+Divergent Lifetap Support:13.0c
+Divergent Anger:12.63c
+Anomalous Siege Ballista:12.18c
+Divergent Explosive Arrow:12.0c
+Divergent Flesh Offering:12.0c
+Anomalous Melee Physical Damage Support:11.94c
+Divergent Arctic Armour:11.91c
+Divergent Blasphemy Support:11.9c
+Divergent Immortal Call:11.75c
+Anomalous Controlled Destruction Support:11.32c
+Anomalous Increased Critical Damage Support:10.94c
+Phantasmal Barrage:10.1c
+Divergent Culling Strike Support:10.03c
+Anomalous Summon Lightning Golem:10.0c
+Divergent Energy Leech Support:10.0c
+Anomalous Pulverise Support:10.0c
+Anomalous Ice Bite Support:10.0c
+Anomalous Herald of Purity:10.0c
+Anomalous Minion Life Support:10.0c
+Phantasmal Vengeance:10.0c
+Phantasmal Summon Skeletons:10.0c
+Anomalous Lifetap Support:10.0c
 Anomalous Enduring Cry:10.0c
+Divergent Predator Support:10.0c
+Anomalous Ancestral Protector:10.0c
 Anomalous Herald of Agony:10.0c
-Phantasmal Blast Rain:10.0c
-Anomalous Ball Lightning:10.0c
-Anomalous Flame Surge:10.0c
-Anomalous Phase Run:10.0c
-Anomalous Frost Bomb:10.0c
-Phantasmal Crackling Lance:10.0c
-Anomalous Flicker Strike:10.0c
-Anomalous Convocation:10.0c
-Anomalous Leap Slam:10.0c
-Anomalous Consecrated Path:10.0c
-Anomalous Flesh Offering:10.0c
-Phantasmal Creeping Frost:10.0c
-Divergent Swift Affliction Support:10.0c
-Anomalous Predator Support:10.0c
-Divergent Purity of Fire:10.0c
+Anomalous Raise Spectre:10.0c
+Anomalous Maim Support:10.0c
+Divergent Riposte:10.0c
+Anomalous Impale Support:10.0c
+Divergent Seismic Trap:10.0c
+Divergent Frostblink:10.0c
+Divergent Summon Holy Relic:10.0c
+Anomalous Hatred:10.0c
 Phantasmal Searing Bond:10.0c
-Anomalous Orb of Storms:10.0c
-Divergent Smoke Mine:10.0c
-Anomalous Culling Strike Support:10.0c
-Anomalous Vulnerability:10.0c
-Anomalous Despair:10.0c
-Anomalous Frenzy:10.0c
-Anomalous Trap and Mine Damage Support:10.0c
-Divergent Tectonic Slam:10.0c
-Divergent Blade Blast:10.0c
-Divergent Shockwave Totem:10.0c
-Divergent Rain of Arrows:10.0c
-Anomalous Multiple Traps Support:10.0c
-Divergent Incinerate:10.0c
-Phantasmal Siphoning Trap:10.0c
-Anomalous Controlled Destruction Support:10.0c
-Divergent Glacial Cascade:10.0c
-Divergent Fire Penetration Support:10.0c
-Divergent Consecrated Path:10.0c
-Phantasmal Cremation:10.0c
-Divergent Voltaxic Burst:10.0c
-Anomalous Vengeance:9.98c
-Divergent Blood Rage:9.95c
-Divergent Vicious Projectiles Support:9.82c
-Divergent Swiftbrand Support:9.73c
-Anomalous Detonate Dead:9.7c
-Anomalous Intimidating Cry:9.61c
-Divergent Artillery Ballista:9.6c
-Divergent Infused Channelling Support:9.58c
-Divergent Blasphemy Support:9.55c
-Divergent Summon Raging Spirit:9.54c
-Anomalous Cold to Fire Support:9.44c
-Anomalous Void Sphere:9.35c
-Anomalous Icicle Mine:9.3c
-Divergent Exsanguinate:9.27c
-Anomalous Holy Flame Totem:9.21c
-Anomalous Minion Damage Support:9.17c
-Phantasmal Infernal Cry:9.06c
-Anomalous Anger:9.0c
-Anomalous Summon Skitterbots:9.0c
-Anomalous Summon Flame Golem:9.0c
-Anomalous Cyclone:9.0c
-Anomalous Dark Pact:9.0c
-Divergent Less Duration Support:9.0c
-Anomalous Bone Offering:9.0c
-Divergent Efficacy Support:9.0c
-Anomalous Combustion Support:9.0c
-Divergent Steelskin:9.0c
-Anomalous Firestorm:9.0c
-Anomalous Crackling Lance:9.0c
-Divergent Conductivity:9.0c
-Divergent Trap and Mine Damage Support:9.0c
-Anomalous Summon Holy Relic:9.0c
-Divergent Sigil of Power:9.0c
-Anomalous Added Lightning Damage Support:9.0c
-Phantasmal Seismic Trap:9.0c
-Phantasmal Ice Spear:9.0c
-Divergent Divine Ire:9.0c
-Divergent Blade Trap:9.0c
-Phantasmal Winter Orb:8.99c
-Anomalous Animate Guardian:8.91c
-Anomalous Swiftbrand Support:8.77c
-Phantasmal Sweep:8.76c
-Anomalous Cold Snap:8.74c
-Phantasmal Bladestorm:8.68c
-Divergent Elemental Weakness:8.64c
-Anomalous Spectral Helix:8.61c
-Divergent Controlled Destruction Support:8.44c
-Phantasmal Unearth:8.4c
-Divergent Spell Cascade Support:8.36c
-Divergent Arc:8.33c
-Divergent Minion Speed Support:8.29c
-Divergent Whirling Blades:8.29c
-Anomalous Cold Penetration Support:8.0c
-Anomalous Siege Ballista:8.0c
-Anomalous Fork Support:8.0c
-Anomalous Berserk:8.0c
-Divergent Puncture:8.0c
-Anomalous Blade Flurry:8.0c
-Anomalous Herald of Ice:8.0c
-Anomalous Reave:8.0c
-Anomalous Meat Shield Support:8.0c
-Anomalous Blade Blast:8.0c
-Divergent Corrupting Fever:8.0c
-Phantasmal Tectonic Slam:8.0c
-Divergent Sweep:8.0c
-Divergent Increased Critical Damage Support:8.0c
-Anomalous Summon Phantasm Support:8.0c
-Divergent Maim Support:8.0c
-Anomalous Intensify Support:8.0c
+Anomalous Intensify Support:10.0c
+Anomalous Flame Dash:10.0c
+Divergent Dark Pact:10.0c
+Anomalous Determination:10.0c
+Divergent Barrage:10.0c
+Divergent Ancestral Call Support:10.0c
+Divergent Deadly Ailments Support:10.0c
+Divergent Infused Channelling Support:10.0c
+Anomalous Corrupting Fever:10.0c
+Anomalous Rage Vortex:10.0c
+Divergent Boneshatter:10.0c
+Anomalous Chance to Poison Support:10.0c
+Divergent Discharge:9.89c
+Phantasmal Cremation:9.88c
+Divergent Lightning Strike:9.82c
+Divergent Fork Support:9.76c
+Anomalous Shock Nova:9.71c
+Anomalous Convocation:9.59c
+Phantasmal Frost Bomb:9.47c
+Phantasmal Haste:9.41c
+Anomalous Bear Trap:9.39c
+Divergent Swift Assembly Support:9.33c
+Divergent Herald of Ash:9.06c
+Divergent Shockwave Support:9.0c
+Anomalous Vicious Projectiles Support:9.0c
+Anomalous Summon Skeletons:9.0c
+Divergent Haste:9.0c
+Anomalous Phase Run:9.0c
+Divergent Swiftbrand Support:9.0c
+Phantasmal Sigil of Power:9.0c
+Anomalous Intimidating Cry:9.0c
+Anomalous Increased Critical Strikes Support:9.0c
+Divergent Arc:9.0c
+Divergent Stun Support:9.0c
+Divergent Tectonic Slam:9.0c
+Divergent Advanced Traps Support:9.0c
+Divergent Rain of Arrows:9.0c
+Anomalous Storm Rain:9.0c
+Anomalous Advanced Traps Support:8.91c
+Divergent Hatred:8.8c
+Anomalous Arctic Armour:8.74c
+Anomalous Reave:8.74c
+Anomalous Crackling Lance:8.68c
+Anomalous Summon Carrion Golem:8.56c
+Divergent Elemental Focus Support:8.56c
+Divergent Desecrate:8.52c
+Divergent Ballista Totem Support:8.46c
+Anomalous Sigil of Power:8.39c
+Divergent Cold to Fire Support:8.35c
+Divergent Earthbreaker Support:8.3c
+Divergent Minion Speed Support:8.19c
+Anomalous Faster Attacks Support:8.08c
+Divergent Fire Penetration Support:8.06c
+Divergent Fire Trap:8.04c
+Anomalous Zealotry:8.03c
+Anomalous Immortal Call:8.0c
+Divergent Pierce Support:8.0c
+Divergent Knockback Support:8.0c
+Divergent Close Combat Support:8.0c
+Anomalous Dash:8.0c
+Divergent Frost Bomb:8.0c
+Anomalous Ball Lightning:8.0c
+Anomalous Steelskin:8.0c
+Divergent Clarity:8.0c
+Anomalous Icicle Mine:8.0c
+Divergent Discipline:8.0c
+Divergent Frostbite:8.0c
+Anomalous Holy Flame Totem:8.0c
+Anomalous Cold to Fire Support:8.0c
+Anomalous Reap:8.0c
+Divergent Infernal Blow:8.0c
+Divergent Conductivity:8.0c
 Phantasmal Reave:8.0c
-Divergent Soulrend:8.0c
-Anomalous Lightning Arrow:8.0c
-Divergent Feeding Frenzy Support:8.0c
-Divergent Phase Run:8.0c
-Divergent Lesser Multiple Projectiles Support:8.0c
-Anomalous Deadly Ailments Support:8.0c
-Anomalous Vortex:8.0c
+Anomalous Detonate Dead:8.0c
+Anomalous Clarity:8.0c
+Anomalous Frenzy:8.0c
+Anomalous Frost Shield:8.0c
+Anomalous Faster Projectiles Support:8.0c
+Divergent Wither:8.0c
 Divergent Storm Brand:8.0c
-Divergent Punishment:8.0c
-Anomalous Unbound Ailments Support:8.0c
-Anomalous Less Duration Support:8.0c
-Divergent Chance to Poison Support:8.0c
-Anomalous Boneshatter:8.0c
-Anomalous Battlemage's Cry:7.97c
-Divergent Chain Hook:7.93c
-Divergent Ancestral Protector:7.9c
-Anomalous High-Impact Mine Support:7.9c
-Divergent Cremation:7.86c
-Divergent Grace:7.85c
-Phantasmal Consecrated Path:7.78c
-Divergent Herald of Thunder:7.75c
-Divergent Vigilant Strike:7.73c
-Anomalous Rallying Cry:7.71c
-Divergent Winter Orb:7.69c
-Anomalous Smoke Mine:7.69c
-Anomalous Archmage Support:7.67c
-Divergent Knockback Support:7.63c
-Anomalous Elemental Weakness:7.52c
-Divergent Void Sphere:7.49c
-Divergent Reckoning:7.48c
-Divergent Shattering Steel:7.36c
-Divergent Elemental Focus Support:7.35c
-Anomalous Lancing Steel:7.34c
-Divergent Spellslinger:7.23c
-Divergent Advanced Traps Support:7.14c
-Divergent Charged Traps Support:7.09c
-Phantasmal Storm Call:7.08c
-Anomalous Lesser Multiple Projectiles Support:7.07c
-Anomalous Shield Charge:7.05c
-Divergent Blazing Salvo:7.02c
-Anomalous Charged Dash:7.01c
-Anomalous Volatile Dead:7.0c
-Divergent Bladestorm:7.0c
-Divergent Arrogance Support:7.0c
-Anomalous Flameblast:7.0c
-Divergent Cruelty Support:7.0c
-Divergent Intimidating Cry:7.0c
-Divergent Lightning Penetration Support:7.0c
-Anomalous Lifetap Support:7.0c
-Anomalous Arcane Cloak:7.0c
-Divergent Melee Physical Damage Support:7.0c
-Anomalous Added Cold Damage Support:7.0c
-Anomalous Lacerate:7.0c
-Divergent General's Cry:7.0c
-Anomalous Reap:7.0c
-Divergent Flammability:7.0c
-Divergent Physical to Lightning Support:7.0c
-Divergent Cold Penetration Support:7.0c
-Anomalous Spirit Offering:7.0c
-Anomalous Explosive Arrow:7.0c
-Anomalous Elemental Army Support:7.0c
-Anomalous Sunder:7.0c
+Divergent Shield Charge:8.0c
+Phantasmal Arc:8.0c
+Phantasmal Dual Strike:7.94c
+Divergent Blazing Salvo:7.93c
+Anomalous Flicker Strike:7.86c
+Anomalous Blazing Salvo:7.85c
+Phantasmal Soulrend:7.77c
+Anomalous Eye of Winter:7.77c
+Anomalous Deadly Ailments Support:7.65c
+Divergent Venom Gyre:7.64c
+Anomalous Spirit Offering:7.6c
+Divergent Smoke Mine:7.58c
+Anomalous Lightning Arrow:7.51c
+Phantasmal Bladestorm:7.26c
+Anomalous Vulnerability:7.26c
+Divergent Focused Ballista Support:7.25c
+Divergent Physical to Lightning Support:7.2c
+Anomalous Mana Leech Support:7.19c
+Anomalous Infernal Cry:7.17c
+Anomalous Archmage Support:7.09c
+Anomalous Void Manipulation Support:7.0c
+Anomalous Anger:7.0c
+Anomalous Cyclone:7.0c
+Anomalous Wave of Conviction:7.0c
+Divergent Ice Trap:7.0c
+Anomalous Ballista Totem Support:7.0c
+Divergent Added Cold Damage Support:7.0c
+Anomalous Urgent Orders Support:7.0c
+Divergent Contagion:7.0c
+Anomalous Combustion Support:7.0c
+Divergent Second Wind Support:7.0c
+Phantasmal Infernal Cry:7.0c
+Phantasmal Crackling Lance:7.0c
+Divergent Assassin's Mark:7.0c
+Divergent Warlord's Mark:7.0c
+Anomalous Blade Blast:7.0c
+Anomalous Flesh Offering:7.0c
+Divergent Ancestral Protector:7.0c
+Anomalous Predator Support:7.0c
+Divergent Purity of Fire:7.0c
+Anomalous Pride:7.0c
+Anomalous Blind Support:7.0c
+Anomalous Trap and Mine Damage Support:7.0c
+Phantasmal Wild Strike:7.0c
+Divergent Kinetic Blast:7.0c
+Anomalous Fortify Support:7.0c
+Anomalous Vortex:7.0c
 Anomalous Flammability:7.0c
-Anomalous Storm Brand:7.0c
-Anomalous Bloodthirst Support:7.0c
-Divergent Frenzy:7.0c
-Phantasmal Arc:7.0c
-Divergent Decoy Totem:7.0c
-Anomalous Trap Support:7.0c
-Divergent Flameblast:6.98c
-Divergent Slower Projectiles Support:6.97c
-Phantasmal Summon Raging Spirit:6.93c
-Divergent Life Leech Support:6.91c
-Divergent Ensnaring Arrow:6.82c
-Anomalous Melee Splash Support:6.77c
-Anomalous Purity of Lightning:6.74c
-Phantasmal Frost Shield:6.74c
-Anomalous Bloodlust Support:6.67c
-Anomalous Iron Will Support:6.59c
-Divergent Ancestral Warchief:6.56c
-Divergent Storm Call:6.55c
-Divergent Sniper's Mark:6.48c
-Anomalous Focused Ballista Support:6.48c
-Anomalous Herald of Ash:6.47c
-Anomalous Slower Projectiles Support:6.46c
-Divergent Cold to Fire Support:6.44c
-Anomalous Close Combat Support:6.43c
-Anomalous Puncture:6.4c
-Anomalous Wild Strike:6.34c
-Divergent Unearth:6.28c
-Divergent Bloodlust Support:6.25c
-Divergent Reap:6.17c
-Divergent Faster Attacks Support:6.11c
-Divergent Added Chaos Damage Support:6.09c
-Anomalous Creeping Frost:6.08c
-Phantasmal Sunder:6.07c
-Divergent Leap Slam:6.06c
-Phantasmal Animate Weapon:6.06c
-Anomalous Voltaxic Burst:6.06c
-Anomalous Minion Speed Support:6.05c
-Anomalous Poacher's Mark:6.0c
-Phantasmal Vortex:6.0c
-Divergent Increased Duration Support:6.0c
-Phantasmal Lightning Strike:6.0c
-Phantasmal Ice Crash:6.0c
-Anomalous Ice Trap:6.0c
-Anomalous Animate Weapon:6.0c
-Divergent Blind Support:6.0c
-Anomalous Caustic Arrow:6.0c
-Divergent Pestilent Strike:6.0c
-Divergent Forbidden Rite:6.0c
-Divergent Spectral Helix:6.0c
-Divergent Trap Support:5.99c
-Divergent Stun Support:5.94c
-Anomalous Ensnaring Arrow:5.94c
-Divergent Blade Flurry:5.93c
-Anomalous Earthshatter:5.63c
-Divergent Vulnerability:5.61c
-Divergent Scourge Arrow:5.56c
-Divergent Blade Vortex:5.44c
-Anomalous Temporal Chains:5.41c
-Anomalous Purity of Fire:5.37c
-Anomalous Iron Grip Support:5.33c
-Anomalous Decoy Totem:5.32c
-Anomalous Sweep:5.31c
-Divergent Unbound Ailments Support:5.29c
-Divergent Nightblade Support:5.28c
-Anomalous Shockwave Support:5.18c
-Divergent Lancing Steel:5.18c
-Divergent Contagion:5.14c
-Divergent Despair:5.07c
+Anomalous Unbound Ailments Support:7.0c
+Phantasmal Animate Weapon:7.0c
+Divergent Summon Reaper:7.0c
+Anomalous Earthbreaker Support:6.97c
+Anomalous Volatile Dead:6.9c
+Divergent Combustion Support:6.88c
+Anomalous Power Charge On Critical Support:6.87c
+Anomalous Void Sphere:6.87c
+Divergent Meat Shield Support:6.86c
+Phantasmal Unearth:6.83c
+Divergent Hydrosphere:6.75c
+Divergent Endurance Charge on Melee Stun Support:6.7c
+Divergent Malevolence:6.66c
+Divergent Slower Projectiles Support:6.65c
+Divergent Spectral Helix:6.61c
+Phantasmal Bear Trap:6.53c
+Phantasmal Siphoning Trap:6.46c
+Divergent Cruelty Support:6.4c
+Anomalous Infernal Legion Support:6.38c
+Anomalous Blast Rain:6.38c
+Divergent Lightning Arrow:6.37c
+Anomalous Minion Damage Support:6.31c
+Anomalous Added Fire Damage Support:6.24c
+Anomalous Tornado:6.2c
+Divergent Trap and Mine Damage Support:6.14c
+Divergent Blink Arrow:6.11c
+Divergent Purity of Lightning:6.06c
+Divergent Ensnaring Arrow:6.05c
+Phantasmal Sweep:6.04c
+Anomalous Summon Flame Golem:6.0c
+Divergent Flameblast:6.0c
+Divergent Fortify Support:6.0c
+Anomalous Melee Splash Support:6.0c
+Anomalous Shockwave Support:6.0c
+Phantasmal Raise Spectre:6.0c
+Divergent Faster Projectiles Support:6.0c
+Anomalous Despair:6.0c
+Phantasmal Sunder:6.0c
+Anomalous Trinity Support:5.98c
+Divergent Swift Affliction Support:5.98c
+Anomalous Charged Dash:5.98c
+Divergent Sniper's Mark:5.97c
+Anomalous Bloodthirst Support:5.94c
+Anomalous Rallying Cry:5.91c
+Divergent Elemental Army Support:5.86c
+Anomalous Hydrosphere:5.85c
+Divergent Elemental Weakness:5.82c
+Anomalous Puncture:5.82c
+Divergent Summon Phantasm Support:5.8c
+Anomalous Summon Phantasm Support:5.79c
+Anomalous Summon Holy Relic:5.79c
+Divergent Melee Physical Damage Support:5.75c
+Divergent Voltaxic Burst:5.75c
+Anomalous Summon Raging Spirit:5.73c
+Divergent Grace:5.69c
+Anomalous Orb of Storms:5.68c
+Divergent Intensify Support:5.62c
+Divergent Infernal Legion Support:5.6c
+Anomalous Frostblink:5.38c
+Divergent Wild Strike:5.38c
+Divergent Unbound Ailments Support:5.34c
+Divergent Seismic Cry:5.28c
+Divergent Increased Duration Support:5.27c
+Anomalous Smoke Mine:5.2c
+Divergent Bloodlust Support:5.12c
+Anomalous Mirror Arrow:5.08c
 Anomalous Scorching Ray:5.0c
+Anomalous Blink Arrow:5.0c
+Anomalous Rain of Arrows:5.0c
 Divergent Damage on Full Life Support:5.0c
 Divergent Animate Weapon:5.0c
+Anomalous Poacher's Mark:5.0c
+Divergent Ancestral Warchief:5.0c
+Anomalous Cold Penetration Support:5.0c
+Divergent Blade Flurry:5.0c
+Anomalous Summon Skitterbots:5.0c
 Divergent Flesh and Stone:5.0c
 Divergent Added Fire Damage Support:5.0c
-Divergent Endurance Charge on Melee Stun Support:5.0c
+Divergent Unearth:5.0c
+Anomalous Minion Speed Support:5.0c
+Anomalous Rage Support:5.0c
 Phantasmal Infernal Blow:5.0c
-Divergent Bladefall:5.0c
-Phantasmal Intimidating Cry:5.0c
-Anomalous Whirling Blades:5.0c
-Anomalous General's Cry:5.0c
+Divergent Bladestorm:5.0c
 Divergent Frost Wall:5.0c
 Divergent Rejuvenation Totem:5.0c
-Divergent Ancestral Cry:5.0c
+Divergent Reap:5.0c
 Divergent Shock Nova:5.0c
-Phantasmal Bear Trap:5.0c
-Anomalous Riposte:5.0c
-Anomalous Haste:5.0c
+Divergent Less Duration Support:5.0c
+Phantasmal Vortex:5.0c
+Divergent Arrogance Support:5.0c
+Anomalous Bone Offering:5.0c
 Anomalous Conductivity:5.0c
-Phantasmal Storm Brand:5.0c
-Divergent Wintertide Brand:5.0c
+Phantasmal Rolling Magma:5.0c
 Divergent Ice Nova:5.0c
-Anomalous Purity of Elements:5.0c
+Divergent Bloodthirst Support:5.0c
+Anomalous Flameblast:5.0c
 Anomalous Lightning Warp:5.0c
-Divergent Conversion Trap:5.0c
 Anomalous Charged Traps Support:5.0c
+Divergent Summon Carrion Golem:5.0c
+Divergent Added Chaos Damage Support:5.0c
+Divergent Lightning Penetration Support:5.0c
 Anomalous Life Gain on Hit Support:5.0c
-Anomalous Bladestorm:5.0c
+Divergent Wave of Conviction:5.0c
+Anomalous Earthquake:5.0c
+Anomalous Frostbite:5.0c
+Anomalous Frost Blades:5.0c
+Divergent Essence Drain:5.0c
+Divergent Steelskin:5.0c
+Anomalous Armageddon Brand:5.0c
 Anomalous Sniper's Mark:5.0c
-Anomalous Energy Leech Support:5.0c
-Anomalous Elemental Hit:5.0c
-Anomalous Warlord's Mark:5.0c
-Divergent Toxic Rain:5.0c
-Phantasmal Reckoning:5.0c
-Anomalous Dominating Blow:5.0c
-Divergent Flame Dash:5.0c
-Divergent Concentrated Effect Support:5.0c
+Anomalous Lancing Steel:5.0c
+Anomalous Rejuvenation Totem:5.0c
+Anomalous Flamethrower Trap:5.0c
+Divergent Storm Call:5.0c
+Anomalous Arcane Cloak:5.0c
+Anomalous Cold Snap:5.0c
+Anomalous Vengeance:5.0c
+Divergent Void Sphere:5.0c
+Phantasmal Lightning Strike:5.0c
+Anomalous Elemental Damage with Attacks Support:5.0c
+Anomalous Venom Gyre:5.0c
+Anomalous Frost Bomb:5.0c
 Anomalous Tempest Shield:5.0c
-Phantasmal Pyroclast Mine:5.0c
+Phantasmal Winter Orb:5.0c
+Anomalous Herald of Ice:5.0c
 Divergent Flame Wall:5.0c
-Phantasmal Ice Nova:5.0c
+Anomalous Added Cold Damage Support:5.0c
+Divergent Iron Grip Support:5.0c
+Phantasmal Ice Crash:5.0c
 Anomalous Barrage:5.0c
-Phantasmal Earthshatter:5.0c
-Anomalous Infernal Cry:5.0c
-Anomalous Spell Cascade Support:5.0c
+Anomalous Flame Wall:5.0c
+Anomalous Lacerate:5.0c
+Anomalous Ice Shot:5.0c
+Anomalous Ice Trap:5.0c
+Anomalous Slower Projectiles Support:5.0c
+Divergent Siphoning Trap:5.0c
+Anomalous Ice Crash:5.0c
+Anomalous Meat Shield Support:5.0c
 Anomalous Siphoning Trap:5.0c
-Anomalous Discharge:5.0c
-Anomalous Storm Burst:5.0c
-Anomalous Frost Wall:5.0c
+Anomalous Animate Weapon:5.0c
+Anomalous Chain Hook:5.0c
+Divergent Molten Shell:5.0c
+Divergent General's Cry:5.0c
+Anomalous Chance to Flee Support:5.0c
+Divergent Blind Support:5.0c
+Phantasmal Summon Raging Spirit:5.0c
+Divergent Armageddon Brand:5.0c
+Divergent Vigilant Strike:5.0c
+Anomalous Firestorm:5.0c
+Divergent Herald of Ice:5.0c
+Divergent Bear Trap:5.0c
 Anomalous Exsanguinate:5.0c
 Anomalous Blasphemy Support:5.0c
 Anomalous Herald of Thunder:5.0c
-Divergent Infernal Blow:5.0c
-Anomalous Ancestral Cry:5.0c
+Divergent Vicious Projectiles Support:5.0c
+Phantasmal Tectonic Slam:5.0c
 Phantasmal Ancestral Warchief:5.0c
-Anomalous Purity of Ice:5.0c
-Divergent Petrified Blood:5.0c
 Divergent Spell Totem Support:5.0c
-Anomalous Burning Damage Support:5.0c
-Divergent Vengeance:5.0c
-Divergent Orb of Storms:5.0c
-Divergent Earthshatter:5.0c
-Divergent Explosive Trap:5.0c
+Divergent Flammability:5.0c
+Divergent Increased Critical Damage Support:5.0c
+Anomalous Ancestral Warchief:5.0c
+Anomalous Sweep:5.0c
+Divergent Spell Cascade Support:5.0c
+Divergent Cremation:5.0c
+Divergent Chain Hook:5.0c
+Anomalous Culling Strike Support:5.0c
+Anomalous Desecrate:5.0c
 Anomalous Spell Totem Support:5.0c
-Anomalous Frostblink:5.0c
-Anomalous Shockwave Totem:5.0c
+Anomalous Righteous Fire:5.0c
+Divergent Herald of Thunder:5.0c
 Divergent Summon Skeletons:5.0c
-Anomalous Vigilant Strike:5.0c
+Divergent Feeding Frenzy Support:5.0c
+Divergent Phase Run:5.0c
 Anomalous Searing Bond:5.0c
 Phantasmal Intensify Support:5.0c
 Anomalous Punishment:5.0c
-Phantasmal Void Sphere:5.0c
+Divergent Faster Attacks Support:5.0c
 Divergent Poacher's Mark:5.0c
-Phantasmal Wild Strike:5.0c
+Divergent Trap Support:5.0c
+Divergent Blade Blast:5.0c
 Divergent Spirit Offering:5.0c
 Divergent Shrapnel Ballista:5.0c
-Divergent Dark Pact:5.0c
-Divergent Intensify Support:5.0c
-Anomalous Swift Affliction Support:5.0c
+Divergent Pyroclast Mine:5.0c
+Divergent Sigil of Power:5.0c
+Anomalous Elemental Weakness:5.0c
 Divergent Scorching Ray:5.0c
-Divergent Arrow Nova Support:5.0c
-Anomalous Lightning Penetration Support:5.0c
-Anomalous Pyroclast Mine:5.0c
-Divergent Raise Spectre:5.0c
-Divergent Lightning Spire Trap:5.0c
-Anomalous Bladefall:5.0c
+Divergent Blastchain Mine Support:5.0c
+Divergent Charged Traps Support:5.0c
+Anomalous Sunder:5.0c
+Anomalous Bodyswap:5.0c
+Phantasmal Vigilant Strike:5.0c
 Anomalous Plague Bearer:5.0c
-Divergent Bodyswap:5.0c
 Divergent Detonate Dead:5.0c
 Anomalous Item Rarity Support:5.0c
+Anomalous Charged Mines Support:5.0c
+Anomalous Storm Brand:5.0c
+Divergent Whirling Blades:5.0c
 Anomalous Blastchain Mine Support:5.0c
-Anomalous Innervate Support:5.0c
-Phantasmal Puncture:5.0c
-Divergent Seismic Cry:5.0c
-Anomalous Summon Raging Spirit:5.0c
-Anomalous Devouring Totem:5.0c
-Divergent Fire Trap:5.0c
+Divergent Incinerate:5.0c
+Phantasmal Seismic Trap:5.0c
+Anomalous Decoy Totem:5.0c
 Divergent Mana Leech Support:5.0c
-Phantasmal Stormblast Mine:5.0c
+Anomalous Pestilent Strike:5.0c
 Divergent Iron Will Support:5.0c
-Anomalous Added Fire Damage Support:5.0c
-Phantasmal Lancing Steel:5.0c
+Anomalous Tectonic Slam:5.0c
+Anomalous High-Impact Mine Support:5.0c
 Divergent Ice Bite Support:5.0c
-Divergent Added Lightning Damage Support:5.0c
 Anomalous Storm Call:5.0c
-Phantasmal Scourge Arrow:5.0c
-Phantasmal Rallying Cry:5.0c
-Anomalous Added Chaos Damage Support:5.0c
-Anomalous Volley Support:5.0c
+Phantasmal Holy Flame Totem:5.0c
+Divergent Holy Flame Totem:5.0c
+Divergent Artillery Ballista:5.0c
+Anomalous Life Leech Support:5.0c
+Anomalous Shield Charge:5.0c
+Divergent Glacial Cascade:5.0c
+Divergent Life Leech Support:5.0c
+Divergent Firestorm:5.0c
 Divergent Generosity Support:5.0c
-Divergent Infernal Legion Support:5.0c
 Phantasmal Bodyswap:5.0c
-Phantasmal Frenzy:5.0c
+Divergent Volley Support:5.0c
+Divergent Consecrated Path:5.0c
+Divergent Decoy Totem:5.0c
+Anomalous Lightning Spire Trap:5.0c
 Divergent Temporal Chains:5.0c
-Anomalous Corrupting Fever:5.0c
-Anomalous Mirror Arrow:5.0c
-Anomalous Pinpoint Support:5.0c
-Phantasmal Barrage:5.0c
-Divergent Burning Damage Support:5.0c
-Divergent Searing Bond:5.0c
-Divergent Critical Strike Affliction Support:5.0c
-Anomalous Critical Strike Affliction Support:5.0c
-Anomalous Ambush:5.0c
-Anomalous Earthbreaker Support:5.0c
-Divergent Defiance Banner:5.0c
+Anomalous Trap Support:5.0c
+Divergent Spellslinger:5.0c
+Divergent Divine Ire:5.0c
+Anomalous Spectral Helix:5.0c
+Anomalous Focused Ballista Support:5.0c
 Anomalous Summon Reaper:5.0c
+Divergent Storm Rain:5.0c
 Divergent Absolution:5.0c
-Divergent Explosive Concoction:5.0c
-Divergent Focused Ballista Support:5.0c
+Anomalous Absolution:5.0c
+Anomalous Forbidden Rite:5.0c
+Anomalous Boneshatter:5.0c
+Divergent Blade Trap:5.0c
+Anomalous Voltaxic Burst:5.0c
 Divergent Ambush:5.0c
-Anomalous Flamethrower Trap:4.94c
-Anomalous Bane:4.94c
-Divergent Mirror Arrow:4.91c
-Anomalous Stun Support:4.88c
-Phantasmal Blade Vortex:4.88c
-Divergent Ice Crash:4.87c
-Anomalous Elemental Focus Support:4.86c
-Anomalous Chance to Flee Support:4.84c
-Anomalous Flame Wall:4.83c
-Divergent Iron Grip Support:4.81c
-Divergent Battlemage's Cry:4.75c
-Phantasmal Siege Ballista:4.74c
-Divergent Siphoning Trap:4.73c
-Anomalous Explosive Concoction:4.73c
-Divergent Archmage Support:4.62c
+Divergent Tornado:5.0c
+Divergent Soul Link:5.0c
+Anomalous Energy Blade:5.0c
+Divergent Temporal Rift:5.0c
+Divergent Energy Blade:5.0c
+Anomalous Temporal Rift:5.0c
+Anomalous Poisonous Concoction:5.0c
+Anomalous Destructive Link:5.0c
+Divergent Intuitive Link:5.0c
+Divergent Protective Link:5.0c
+Anomalous Soul Link:5.0c
+Anomalous Pinpoint Support:4.99c
+Anomalous Arrow Nova Support:4.98c
+Anomalous Frost Wall:4.98c
+Divergent Lesser Multiple Projectiles Support:4.98c
+Anomalous Bladefall:4.96c
+Anomalous Less Duration Support:4.95c
+Anomalous Temporal Chains:4.94c
+Anomalous Wild Strike:4.94c
+Anomalous Stun Support:4.91c
+Anomalous Splitting Steel:4.88c
+Divergent Burning Damage Support:4.88c
+Phantasmal Reckoning:4.85c
+Anomalous Stormbind:4.83c
+Phantasmal Frenzy:4.82c
+Divergent Sweep:4.8c
+Divergent Scourge Arrow:4.78c
+Divergent Wintertide Brand:4.77c
+Divergent Lacerate:4.77c
+Anomalous General's Cry:4.75c
+Divergent Ancestral Cry:4.7c
+Anomalous Swift Affliction Support:4.7c
+Phantasmal Ice Spear:4.69c
+Anomalous Critical Strike Affliction Support:4.68c
+Divergent Punishment:4.66c
+Anomalous Penance Brand:4.66c
+Anomalous Iron Grip Support:4.6c
+Divergent Destructive Link:4.57c
 Anomalous Knockback Support:4.56c
-Anomalous Bodyswap:4.56c
-Anomalous Righteous Fire:4.48c
-Anomalous Unearth:4.47c
-Anomalous Static Strike:4.43c
-Divergent Armageddon Brand:4.42c
-Divergent Holy Flame Totem:4.42c
-Divergent Pinpoint Support:4.37c
-Divergent Blast Rain:4.34c
-Anomalous Tectonic Slam:4.27c
-Divergent High-Impact Mine Support:4.19c
-Divergent Cold Snap:4.19c
-Anomalous Lightning Spire Trap:4.16c
-Divergent Blastchain Mine Support:4.13c
-Anomalous Additional Accuracy Support:4.12c
-Anomalous Enfeeble:4.1c
-Anomalous Winter Orb:4.1c
-Divergent Faster Casting Support:4.08c
-Phantasmal Stormbind:4.03c
-Divergent Power Siphon:4.0c
-Phantasmal Rain of Arrows:4.0c
-Divergent Summon Lightning Golem:4.0c
-Divergent Dominating Blow:4.0c
-Divergent Summon Flame Golem:4.0c
-Anomalous Armageddon Brand:4.0c
+Anomalous Flame Link:4.56c
+Anomalous Wither:4.52c
+Phantasmal Rallying Cry:4.5c
+Phantasmal Storm Call:4.49c
+Divergent Puncture:4.49c
+Divergent Power Siphon:4.48c
+Divergent Siege Ballista:4.46c
+Divergent Flamethrower Trap:4.45c
+Anomalous Static Strike:4.41c
+Anomalous Devouring Totem:4.38c
+Phantasmal Pestilent Strike:4.37c
+Divergent Added Lightning Damage Support:4.35c
+Divergent Blood Rage:4.34c
+Phantasmal Siege Ballista:4.33c
+Anomalous Elemental Hit:4.33c
+Divergent Earthshatter:4.33c
+Divergent Leap Slam:4.33c
+Divergent Elemental Hit:4.27c
+Anomalous Fork Support:4.27c
+Anomalous Vigilant Strike:4.27c
+Divergent Faster Casting Support:4.11c
+Anomalous Bloodlust Support:4.09c
+Divergent Lightning Spire Trap:4.04c
+Divergent Manabond:4.04c
+Divergent Critical Strike Affliction Support:4.02c
+Divergent Rage Vortex:4.01c
+Anomalous Haste:4.0c
+Anomalous Purity of Fire:4.0c
+Divergent High-Impact Mine Support:4.0c
+Divergent Intimidating Cry:4.0c
+Divergent Stormbind:4.0c
+Anomalous Energy Leech Support:4.0c
+Divergent Archmage Support:4.0c
+Anomalous Herald of Ash:4.0c
 Divergent Summon Ice Golem:4.0c
-Phantasmal Blade Blast:4.0c
-Anomalous Ice Crash:4.0c
-Anomalous Chain Hook:4.0c
-Divergent Molten Shell:4.0c
-Divergent Earthquake:4.0c
-Divergent Lacerate:4.0c
+Anomalous Dominating Blow:4.0c
+Divergent War Banner:4.0c
+Phantasmal Pyroclast Mine:4.0c
+Anomalous Winter Orb:4.0c
+Anomalous Spell Cascade Support:4.0c
+Anomalous Discharge:4.0c
+Anomalous Creeping Frost:4.0c
+Divergent Penance Brand:4.0c
 Anomalous Point Blank Support:4.0c
-Anomalous Fire Penetration Support:4.0c
-Phantasmal Shattering Steel:4.0c
-Phantasmal Shrapnel Ballista:4.0c
-Divergent Charged Dash:4.0c
-Divergent Kinetic Blast:4.0c
-Divergent Wild Strike:4.0c
-Anomalous Incinerate:4.0c
+Anomalous Molten Strike:4.0c
+Divergent Petrified Blood:4.0c
+Divergent Vengeance:4.0c
+Anomalous Glacial Cascade:4.0c
+Divergent Ice Crash:4.0c
+Divergent Maim Support:4.0c
+Divergent Lightning Warp:4.0c
+Divergent Cold Penetration Support:4.0c
+Anomalous Shockwave Totem:4.0c
+Anomalous Cremation:4.0c
+Divergent Icicle Mine:4.0c
+Anomalous Seismic Cry:4.0c
+Anomalous Ensnaring Arrow:4.0c
+Anomalous Explosive Arrow:4.0c
+Anomalous Elemental Army Support:4.0c
+Anomalous Elemental Proliferation Support:4.0c
+Divergent Flame Surge:4.0c
 Divergent Enfeeble:4.0c
 Divergent Sunder:4.0c
-Phantasmal Vigilant Strike:4.0c
-Divergent Multiple Traps Support:4.0c
-Anomalous Life Leech Support:4.0c
+Divergent Raise Spectre:4.0c
+Anomalous Iron Will Support:4.0c
+Anomalous Innervate Support:4.0c
+Phantasmal Puncture:4.0c
+Phantasmal Seismic Cry:4.0c
+Phantasmal Blade Vortex:4.0c
+Anomalous Seismic Trap:4.0c
+Divergent Kinetic Bolt:4.0c
+Phantasmal Lancing Steel:4.0c
 Divergent Crackling Lance:4.0c
-Anomalous Blade Trap:4.0c
-Anomalous Absolution:4.0c
-Anomalous Seismic Cry:3.88c
-Anomalous Penance Brand:3.85c
-Divergent Reave:3.8c
-Anomalous Divine Ire:3.77c
-Divergent Manabond:3.72c
-Anomalous Fire Trap:3.6c
-Anomalous Venom Gyre:3.58c
-Anomalous Stormbind:3.43c
-Anomalous Glacial Cascade:3.29c
-Anomalous Wither:3.22c
-Divergent Point Blank Support:3.2c
-Divergent Bear Trap:3.17c
-Anomalous Ancestral Call Support:3.1c
-Divergent Icicle Mine:3.08c
-Divergent Blink Arrow:3.08c
-Anomalous Arrow Nova Support:3.07c
+Anomalous Wintertide Brand:4.0c
+Anomalous Spectral Shield Throw:4.0c
+Divergent Forbidden Rite:4.0c
+Anomalous Protective Link:4.0c
+Divergent Flame Link:4.0c
+Divergent Summon Lightning Golem:3.98c
+Divergent Battlemage's Cry:3.97c
+Anomalous Riposte:3.92c
+Divergent Explosive Concoction:3.92c
+Divergent Controlled Destruction Support:3.87c
+Anomalous Explosive Concoction:3.83c
+Divergent Winter Orb:3.78c
+Divergent Searing Bond:3.77c
+Divergent Conversion Trap:3.73c
+Divergent Reave:3.68c
+Divergent Summon Chaos Golem:3.65c
+Divergent Pestilent Strike:3.54c
+Phantasmal Shockwave Totem:3.44c
+Divergent Vampiric Link:3.42c
+Anomalous Purity of Lightning:3.41c
+Anomalous Lightning Trap:3.36c
+Anomalous Unearth:3.33c
+Divergent Reckoning:3.27c
+Anomalous Pyroclast Mine:3.23c
+Divergent Double Strike:3.22c
+Anomalous Divine Ire:3.07c
 Anomalous Artillery Ballista:3.0c
-Phantasmal Shockwave Totem:3.0c
-Divergent Summon Chaos Golem:3.0c
-Divergent War Banner:3.0c
-Anomalous Essence Drain:3.0c
-Divergent Penance Brand:3.0c
-Anomalous Cremation:3.0c
-Divergent Infernal Cry:3.0c
-Anomalous Lightning Trap:3.0c
-Phantasmal Seismic Cry:3.0c
-Divergent Storm Rain:3.0c
-Anomalous Conversion Trap:2.96c
-Divergent Flamethrower Trap:2.86c
-Anomalous Wintertide Brand:2.57c
-Anomalous Shattering Steel:2.46c
-Anomalous Blink Arrow:2.17c
-Anomalous Rejuvenation Totem:2.0c
-Anomalous Pestilent Strike:2.0c
-Phantasmal Flameblast:1.9c
-Divergent Determination:~984.38c
-Anomalous Elemental Penetration Support:~391.59c
-Divergent Rage Support:~370.89c
-Divergent Power Charge On Critical Support:~359.4c
-Divergent Hexblast:~352.43c
-Divergent Cast when Damage Taken Support:~307.7c
-Phantasmal Smite:~307.56c
-Anomalous Enlighten Support:~261.06c
-Anomalous Kinetic Blast:~261.06c
-Anomalous Inspiration Support:~169.69c
-Anomalous Enhance Support:~130.53c
-Divergent Multistrike Support:~130.53c
-Anomalous Greater Multiple Projectiles Support:~117.48c
-Divergent Bonechill Support:~112.52c
-Divergent Melee Splash Support:~89.0c
-Divergent Arcane Surge Support:~79.73c
-Anomalous Cruelty Support:~74.5c
-Anomalous Spark:~66.96c
-Divergent Shield Crush:~64.01c
-Divergent Lightning Trap:~51.27c
-Anomalous Cast when Damage Taken Support:~49.87c
-Anomalous Discipline:~48.23c
-Anomalous Arcane Surge Support:~37.34c
-Divergent Spark:~35.75c
-Divergent Chance to Bleed Support:~35.0c
-Anomalous Spell Echo Support:~35.0c
-Divergent Tornado Shot:~34.0c
-Divergent Greater Volley Support:~30.83c
-Divergent Haste:~30.0c
-Divergent Vortex:~30.0c
-Divergent Venom Gyre:~28.51c
-Phantasmal Frostbolt:~25.0c
-Anomalous Brutality Support:~24.39c
-Anomalous Withering Step:~20.0c
-Divergent Frost Shield:~19.22c
-Divergent Cast when Stunned Support:~19.04c
-Divergent Mirage Archer Support:~19.0c
-Phantasmal Raise Zombie:~18.0c
-Divergent Flesh Offering:~18.0c
-Divergent Purifying Flame:~18.0c
-Phantasmal Wave of Conviction:~17.55c
-Divergent Withering Touch Support:~16.95c
-Anomalous Withering Touch Support:~15.3c
-Anomalous Herald of Purity:~15.0c
-Anomalous Blood and Sand:~15.0c
-Divergent Cluster Traps Support:~15.0c
-Divergent Onslaught Support:~15.0c
-Anomalous Pierce Support:~15.0c
-Anomalous Barrage Support:~14.81c
-Divergent Spell Echo Support:~14.18c
-Divergent Ice Spear:~14.11c
-Anomalous Onslaught Support:~14.0c
-Divergent Withering Step:~13.22c
-Anomalous Ruthless Support:~13.03c
-Anomalous Portal:~12.97c
-Phantasmal Perforate:~12.58c
-Divergent Multiple Totems Support:~12.48c
-Divergent Greater Multiple Projectiles Support:~11.27c
-Anomalous Blind Support:~11.0c
-Anomalous Chance to Poison Support:~10.64c
-Anomalous Shield Crush:~10.06c
-Anomalous Void Manipulation Support:~10.0c
-Divergent Blood and Sand:~10.0c
-Phantasmal Rolling Magma:~10.0c
+Anomalous Contagion:3.0c
+Phantasmal Intimidating Cry:3.0c
+Phantasmal Rain of Arrows:3.0c
+Anomalous Elemental Focus Support:3.0c
+Divergent Dominating Blow:3.0c
+Divergent Summon Flame Golem:3.0c
+Anomalous Warlord's Mark:3.0c
+Divergent Toxic Rain:3.0c
+Anomalous Ruthless Support:3.0c
+Anomalous Spellslinger:3.0c
+Phantasmal Blade Blast:3.0c
+Phantasmal Flameblast:3.0c
+Anomalous Swift Assembly Support:3.0c
+Anomalous Purity of Ice:3.0c
+Divergent Soulrend:3.0c
+Anomalous Fire Trap:3.0c
+Phantasmal Shrapnel Ballista:3.0c
+Divergent Charged Dash:3.0c
+Anomalous Incinerate:3.0c
+Anomalous Conversion Trap:3.0c
+Divergent Multiple Traps Support:3.0c
+Phantasmal Consecrated Path:3.0c
+Divergent Chance to Poison Support:3.0c
+Anomalous Intuitive Link:3.0c
+Phantasmal Shattering Steel:2.93c
+Anomalous Vampiric Link:2.47c
+Anomalous Ice Spear:~275.1c
+Anomalous Enlighten Support:~210.89c
+Divergent Pulverise Support:~207.3c
+Divergent Cast when Damage Taken Support:~200.56c
+Divergent Static Strike:~118.86c
+Anomalous Greater Multiple Projectiles Support:~110.76c
+Phantasmal Hexblast:~100.28c
+Divergent Multistrike Support:~94.32c
+Divergent Greater Volley Support:~64.52c
+Divergent Corrupting Fever:~55.49c
+Divergent Herald of Agony:~48.0c
+Phantasmal Smite:~42.88c
+Divergent Withering Touch Support:~39.82c
+Anomalous Arrogance Support:~34.0c
+Divergent Spark:~33.4c
+Divergent Vortex:~31.93c
+Phantasmal Frostbolt:~29.18c
+Anomalous Barrage Support:~27.24c
+Anomalous Cast when Damage Taken Support:~20.0c
+Divergent Bonechill Support:~19.66c
+Anomalous Frostbolt:~19.44c
+Anomalous Summon Ice Golem:~19.0c
+Divergent Life Gain on Hit Support:~19.0c
+Divergent Chance to Bleed Support:~18.63c
+Anomalous Arcane Surge Support:~17.0c
+Anomalous Spell Echo Support:~16.52c
+Divergent Berserk:~15.0c
+Anomalous Kinetic Bolt:~14.2c
+Divergent Ice Spear:~14.0c
+Anomalous Enhance Support:~13.43c
+Divergent Spell Echo Support:~12.99c
+Anomalous Chain Support:~12.58c
+Anomalous Summon Stone Golem:~12.23c
+Divergent Greater Multiple Projectiles Support:~11.69c
+Phantasmal Raise Zombie:~11.0c
+Divergent Shield Crush:~11.0c
+Divergent Frost Shield:~10.0c
+Anomalous Withering Touch Support:~10.0c
 Anomalous Increased Area of Effect Support:~10.0c
-Anomalous Bonechill Support:~10.0c
-Anomalous Elemental Damage with Attacks Support:~10.0c
-Anomalous Fist of War Support:~10.0c
-Phantasmal Fireball:~10.0c
-Anomalous Frostbolt:~10.0c
-Divergent Molten Strike:~10.0c
-Anomalous Arc:~10.0c
-Divergent Brutality Support:~10.0c
+Anomalous Summon Chaos Golem:~10.0c
+Anomalous Faster Casting Support:~10.0c
+Anomalous Additional Accuracy Support:~10.0c
+Anomalous Onslaught Support:~10.0c
+Divergent Increased Area of Effect Support:~10.0c
+Anomalous Pierce Support:~10.0c
+Divergent Purifying Flame:~10.0c
 Anomalous Cluster Traps Support:~10.0c
-Divergent Elemental Proliferation Support:~10.0c
-Anomalous Multistrike Support:~9.74c
-Anomalous Glacial Hammer:~9.72c
-Divergent Increased Area of Effect Support:~9.67c
-Divergent Pyroclast Mine:~9.46c
-Anomalous Smite:~9.0c
-Divergent Seismic Trap:~9.0c
-Anomalous Ancestral Warchief:~9.0c
-Divergent Faster Projectiles Support:~9.0c
-Divergent Blight:~8.62c
-Divergent Summon Stone Golem:~8.44c
-Anomalous Chain Support:~8.2c
-Anomalous Raise Zombie:~8.13c
-Anomalous Multiple Totems Support:~8.03c
-Anomalous Ballista Totem Support:~8.0c
-Divergent Close Combat Support:~8.0c
-Anomalous Frost Blades:~8.0c
-Anomalous Unleash Support:~8.0c
-Anomalous Cast while Channelling Support:~8.0c
-Anomalous Cast On Critical Strike Support:~8.0c
-Divergent Unleash Support:~8.0c
-Anomalous Elemental Proliferation Support:~8.0c
-Anomalous Charged Mines Support:~8.0c
-Divergent Fireball:~8.0c
-Anomalous Split Arrow:~8.0c
-Anomalous Behead Support:~8.0c
-Divergent Spectral Throw:~7.89c
-Divergent Heavy Strike:~7.89c
-Phantasmal Dual Strike:~7.51c
-Divergent Glacial Hammer:~7.42c
-Divergent Ruthless Support:~7.21c
-Divergent Barrage Support:~7.0c
-Anomalous Vile Toxins Support:~7.0c
-Divergent Ice Shot:~7.0c
-Anomalous Immolate Support:~7.0c
-Divergent Raise Zombie:~7.0c
-Anomalous Seismic Trap:~7.0c
-Anomalous Splitting Steel:~6.93c
-Anomalous Dual Strike:~6.84c
-Divergent Cast On Critical Strike Support:~6.69c
-Anomalous Cast when Stunned Support:~6.54c
-Divergent Ethereal Knives:~6.5c
-Anomalous Fireball:~6.35c
-Anomalous Purifying Flame:~6.33c
-Anomalous Greater Volley Support:~6.13c
-Divergent Vile Toxins Support:~6.0c
-Phantasmal Purifying Flame:~6.0c
-Anomalous Ignite Proliferation Support:~6.0c
-Divergent Behead Support:~6.0c
-Divergent Pierce Support:~5.83c
-Anomalous Arcanist Brand:~5.81c
-Divergent Minefield Support:~5.8c
-Phantasmal Spark:~5.78c
-Phantasmal Lightning Tendrils:~5.72c
-Phantasmal Arcanist Brand:~5.71c
-Anomalous Blast Rain:~5.68c
-Divergent Smite:~5.63c
-Phantasmal Cleave:~5.5c
-Divergent Ignite Proliferation Support:~5.47c
-Anomalous Ethereal Knives:~5.38c
-Divergent Firestorm:~5.25c
-Divergent Immolate Support:~5.23c
-Divergent Galvanic Arrow:~5.0c
+Anomalous Discipline:~10.0c
+Divergent Enduring Cry:~10.0c
+Divergent Frenzy:~10.0c
+Phantasmal Perforate:~10.0c
+Divergent Molten Strike:~9.95c
+Divergent Point Blank Support:~9.92c
+Anomalous Hypothermia Support:~9.9c
+Divergent Righteous Fire:~9.67c
+Divergent Shockwave Totem:~9.36c
+Anomalous Endurance Charge on Melee Stun Support:~9.0c
+Anomalous Infused Channelling Support:~9.0c
+Divergent Cast when Stunned Support:~9.0c
+Anomalous Manabond:~9.0c
+Anomalous Portal:~8.82c
+Anomalous Greater Volley Support:~8.75c
+Divergent Spectral Throw:~8.43c
+Divergent Cobra Lash:~8.0c
+Anomalous Lesser Multiple Projectiles Support:~8.0c
+Anomalous Earthshatter:~8.0c
+Anomalous Blood and Sand:~8.0c
+Phantasmal Lightning Warp:~8.0c
+Divergent Multiple Totems Support:~8.0c
+Anomalous Multistrike Support:~8.0c
+Divergent Elemental Proliferation Support:~8.0c
+Divergent Ignite Proliferation Support:~8.0c
+Divergent Fireball:~7.98c
+Phantasmal Creeping Frost:~7.94c
+Phantasmal Purifying Flame:~7.76c
+Divergent Herald of Purity:~7.74c
+Anomalous Detonate Mines:~7.74c
+Divergent Brutality Support:~7.5c
+Anomalous Multiple Totems Support:~7.11c
+Anomalous Damage on Full Life Support:~7.11c
+Anomalous Animate Guardian:~7.07c
+Anomalous Physical to Lightning Support:~7.01c
+Phantasmal Spark:~7.0c
+Phantasmal Viper Strike:~7.0c
+Divergent Summon Stone Golem:~7.0c
+Anomalous Bonechill Support:~7.0c
+Divergent Cluster Traps Support:~7.0c
+Divergent Onslaught Support:~7.0c
+Anomalous Shield Crush:~7.0c
+Divergent Concentrated Effect Support:~6.96c
+Anomalous Spark:~6.59c
+Divergent Galvanic Arrow:~6.36c
+Anomalous Raise Zombie:~6.34c
+Phantasmal Lightning Tendrils:~6.32c
+Anomalous Cast when Stunned Support:~6.2c
+Anomalous Cast On Critical Strike Support:~6.16c
+Divergent Blood and Sand:~6.0c
+Anomalous Dark Pact:~6.0c
+Divergent Chain Support:~6.0c
+Divergent Ruthless Support:~6.0c
+Anomalous Brutality Support:~6.0c
+Anomalous Cruelty Support:~6.0c
+Phantasmal Stormbind:~6.0c
+Anomalous Brand Recall:~5.98c
+Divergent Purity of Ice:~5.86c
+Anomalous Glacial Hammer:~5.84c
+Anomalous Unleash Support:~5.51c
+Phantasmal Discharge:~5.23c
+Anomalous Increased Duration Support:~5.17c
 Divergent Lightning Tendrils:~5.0c
-Anomalous Rain of Arrows:~5.0c
-Divergent Frostbolt:~5.0c
-Anomalous Brand Recall:~5.0c
-Anomalous Contagion:~5.0c
+Anomalous Smite:~5.0c
+Phantasmal Static Strike:~5.0c
 Anomalous Chance to Bleed Support:~5.0c
-Divergent Cobra Lash:~5.0c
-Divergent Bloodthirst Support:~5.0c
-Divergent Summon Carrion Golem:~5.0c
-Anomalous Cobra Lash:~5.0c
-Divergent Devouring Totem:~5.0c
+Phantasmal Storm Brand:~5.0c
+Divergent Barrage Support:~5.0c
+Divergent Nightblade Support:~5.0c
+Divergent Summon Raging Spirit:~5.0c
 Divergent Arcanist Brand:~5.0c
-Divergent Essence Drain:~5.0c
-Divergent Chain Support:~5.0c
+Anomalous Enfeeble:~5.0c
+Anomalous Berserk:~5.0c
+Phantasmal Arcanist Brand:~5.0c
+Divergent Flame Dash:~5.0c
+Phantasmal Blast Rain:~5.0c
+Anomalous Vile Toxins Support:~5.0c
+Divergent Rolling Magma:~5.0c
+Anomalous Purifying Flame:~5.0c
+Divergent Cleave:~5.0c
+Divergent Dual Strike:~5.0c
 Divergent Decay Support:~5.0c
-Anomalous Ice Shot:~5.0c
-Anomalous Cast on Melee Kill Support:~5.0c
-Anomalous Ground Slam:~5.0c
-Anomalous Freezing Pulse:~5.0c
-Anomalous Cast on Death Support:~5.0c
-Phantasmal Discharge:~5.0c
+Phantasmal Ice Nova:~5.0c
+Anomalous Fist of War Support:~5.0c
+Divergent Smite:~5.0c
+Divergent Perforate:~5.0c
+Divergent Caustic Arrow:~5.0c
+Divergent Cast on Death Support:~5.0c
+Anomalous Cast while Channelling Support:~5.0c
+Anomalous Leap Slam:~5.0c
+Phantasmal Fireball:~5.0c
+Divergent Blade Vortex:~5.0c
+Divergent Mirror Arrow:~5.0c
+Divergent Despair:~5.0c
 Divergent Burning Arrow:~5.0c
-Anomalous Double Strike:~5.0c
-Anomalous Molten Strike:~5.0c
+Anomalous Arcanist Brand:~5.0c
+Divergent Pinpoint Support:~5.0c
+Anomalous Burning Damage Support:~5.0c
 Divergent Split Arrow:~5.0c
-Divergent Lightning Warp:~5.0c
-Anomalous Desecrate:~5.0c
+Divergent Spectral Shield Throw:~5.0c
 Phantasmal Splitting Steel:~5.0c
-Anomalous Galvanic Arrow:~5.0c
-Divergent Fist of War Support:~5.0c
-Divergent Flame Surge:~5.0c
-Anomalous Lightning Tendrils:~5.0c
-Divergent Hextouch Support:~5.0c
-Phantasmal Pestilent Strike:~5.0c
-Divergent Ground Slam:~5.0c
+Divergent Cast On Critical Strike Support:~5.0c
+Divergent Cold Snap:~5.0c
+Phantasmal Void Sphere:~5.0c
+Anomalous Fireball:~5.0c
+Divergent Cast while Channelling Support:~5.0c
+Anomalous Ethereal Knives:~5.0c
+Divergent Arrow Nova Support:~5.0c
+Anomalous Dual Strike:~5.0c
+Divergent Minefield Support:~5.0c
+Phantasmal Frost Shield:~5.0c
+Divergent Raise Zombie:~5.0c
 Anomalous Hextouch Support:~5.0c
-Anomalous Stormblast Mine:~5.0c
-Divergent Kinetic Bolt:~5.0c
-Divergent Siege Ballista:~5.0c
+Anomalous Added Lightning Damage Support:~5.0c
+Anomalous Multiple Traps Support:~5.0c
+Divergent Cast on Melee Kill Support:~5.0c
+Divergent Glacial Hammer:~5.0c
+Divergent Blast Rain:~5.0c
+Anomalous Perforate:~5.0c
+Anomalous Caustic Arrow:~5.0c
+Anomalous Ignite Proliferation Support:~5.0c
+Anomalous Close Combat Support:~5.0c
 Divergent Stormblast Mine:~5.0c
-Phantasmal Holy Flame Totem:~5.0c
-Anomalous Detonate Mines:~5.0c
-Divergent Rage Vortex:~5.0c
-Divergent Viper Strike:~4.9c
-Phantasmal Viper Strike:~4.89c
-Anomalous Blight:~4.89c
-Divergent Minion Life Support:~4.5c
-Divergent Cleave:~4.49c
-Divergent Caustic Arrow:~4.35c
-Phantasmal Molten Strike:~4.28c
-Divergent Freezing Pulse:~4.19c
-Anomalous Viper Strike:~4.0c
-Divergent Splitting Steel:~4.0c
-Divergent Rolling Magma:~4.0c
+Anomalous Cleave:~5.0c
+Phantasmal Scourge Arrow:~5.0c
+Anomalous Added Chaos Damage Support:~5.0c
+Anomalous Soulrend:~5.0c
+Divergent Heavy Strike:~5.0c
+Divergent Lancing Steel:~5.0c
+Anomalous Blade Trap:~5.0c
+Divergent Behead Support:~5.0c
+Divergent Defiance Banner:~5.0c
+Anomalous Battlemage's Cry:~5.0c
+Anomalous Behead Support:~5.0c
+Anomalous Split Arrow:~4.98c
+Divergent Unleash Support:~4.9c
+Anomalous Minefield Support:~4.87c
+Anomalous Freezing Pulse:~4.81c
+Anomalous Bladestorm:~4.8c
+Divergent Splitting Steel:~4.6c
+Phantasmal Earthshatter:~4.6c
+Phantasmal Decoy Totem:~4.59c
+Divergent Bodyswap:~4.54c
+Anomalous Volley Support:~4.46c
+Phantasmal Molten Strike:~4.43c
+Anomalous Viper Strike:~4.29c
+Divergent Ethereal Knives:~4.14c
+Anomalous Ambush:~4.11c
+Divergent Vulnerability:~4.0c
+Divergent Frostbolt:~4.0c
+Divergent Bladefall:~4.0c
+Divergent Immolate Support:~4.0c
+Anomalous Cobra Lash:~4.0c
+Anomalous Shattering Steel:~4.0c
+Divergent Freezing Pulse:~4.0c
+Anomalous Blade Flurry:~4.0c
+Anomalous Ancestral Call Support:~4.0c
+Divergent Ice Shot:~4.0c
 Divergent Frost Blades:~4.0c
-Anomalous Burning Arrow:~4.0c
-Divergent Perforate:~4.0c
-Divergent Cast while Channelling Support:~4.0c
-Divergent Double Strike:~4.0c
-Anomalous Perforate:~4.0c
-Anomalous Spectral Throw:~4.0c
-Divergent Dual Strike:~3.88c
-Anomalous Swift Assembly Support:~3.8c
-Anomalous Minefield Support:~3.79c
-Anomalous Decay Support:~3.68c
-Divergent Cast on Melee Kill Support:~3.67c
-Anomalous Earthquake:~3.64c
-Anomalous Heavy Strike:~3.6c
-Anomalous Cleave:~3.46c
-Anomalous Explosive Trap:~3.23c
-Anomalous Rolling Magma:~3.19c
-Anomalous Spellslinger:~3.16c
-Anomalous Soulrend:~3.0c
-Divergent Cast on Death Support:~2.99c
-Replica Duskdawn:58.42c
-Replica Paradoxica:20.0c
-Replica Soul Taker:12.92c
-Replica Frostbreath:9.96c
-Replica Kongor's Undying Rage:8.97c
-Replica Last Resort:8.0c
-Replica Cold Iron Point:7.14c
-Replica Nebulis:6.43c
-Replica Windripper:5.7c
-Replica Bitterdream:5.0c
-Replica Midnight Bargain:5.0c
+Anomalous Storm Burst:~4.0c
+Anomalous Ground Slam:~4.0c
+Anomalous Heavy Strike:~4.0c
+Anomalous Cast on Death Support:~4.0c
+Anomalous Ancestral Cry:~4.0c
+Divergent Orb of Storms:~4.0c
+Divergent Vile Toxins Support:~4.0c
+Divergent Explosive Trap:~4.0c
+Anomalous Bane:~4.0c
+Divergent Blight:~4.0c
+Anomalous Blight:~4.0c
+Anomalous Explosive Trap:~4.0c
+Anomalous Rolling Magma:~4.0c
+Anomalous Stormblast Mine:~4.0c
+Phantasmal Stormblast Mine:~4.0c
+Anomalous Decay Support:~4.0c
+Phantasmal Cleave:~3.87c
+Anomalous Immolate Support:~3.81c
+Divergent Ground Slam:~3.74c
+Divergent Infernal Cry:~3.63c
+Divergent Viper Strike:~3.56c
+Anomalous Cast on Melee Kill Support:~3.4c
+Anomalous Essence Drain:~3.39c
+Anomalous Burning Arrow:~3.36c
+Divergent Minion Life Support:~3.01c
+Anomalous Whirling Blades:~3.0c
+Divergent Earthquake:~3.0c
+Anomalous Fire Penetration Support:~3.0c
+Anomalous Double Strike:~3.0c
+Anomalous Galvanic Arrow:~3.0c
+Divergent Fist of War Support:~3.0c
+Anomalous Lightning Penetration Support:~3.0c
+Anomalous Lightning Tendrils:~3.0c
+Anomalous Spectral Throw:~3.0c
+Divergent Hextouch Support:~2.91c
+Divergent Devouring Totem:~2.58c
+Replica Frostbreath:20.0c
+Replica Duskdawn:13.0c
+Replica Paradoxica:10.0c
+Replica Last Resort:9.0c
+Replica Cold Iron Point:9.0c
 Replica Dreamfeather:5.0c
-Replica Trypanon:5.0c
-Replica Quill Rain:4.0c
-Replica Allure:3.84c
-Replica Tempestuous Steel:3.0c
-Replica Harvest:3.0c
-Replica Bloodplay:3.0c
-Replica Earendel's Embrace:3.0c
+Replica Nebulis:4.72c
+Replica Kongor's Undying Rage:4.66c
+Replica Soul Taker:4.16c
+Replica Bitterdream:4.0c
+Replica Windripper:4.0c
+Replica Trypanon:3.39c
 Replica Advancing Fortress:3.0c
-Replica Fencoil:3.0c
-Replica Heartbreaker:3.0c
-Replica Innsbury Edge:3.0c
-Replica Blood Thorn:3.0c
 Replica Wings of Entropy:3.0c
-Replica Infractem:3.0c
+Replica Midnight Bargain:3.0c
 Replica Ungil's Gauche:3.0c
-Replica Tulfall:3.0c
+Replica Oro's Sacrifice:3.0c
+Replica Allure:3.0c
+Replica Tulfall:2.93c
+Replica Quill Rain:2.67c
+Replica Harvest:2.11c
 Replica Iron Commander:2.0c
+Replica Bloodplay:2.0c
+Replica Earendel's Embrace:2.0c
 Replica Twyzel:2.0c
-Replica Oro's Sacrifice:2.0c
-Replica Forbidden Shako:11617.17c
-Replica Farrul's Fur:2088.48c
-Replica Shroud of the Lightless:1957.95c
-Replica Alberon's Warpath:117.48c
-Replica Maloney's Mechanism:110.16c
-Replica Abyssus:30.0c
-Replica Kaom's Heart:15.0c
-Replica Eternity Shroud:15.0c
-Replica Atziri's Acuity:10.0c
-Replica Stampede:9.0c
-Replica Mistwall:8.0c
-Replica Loreweave:7.0c
-Replica Tukohama's Fortress:6.77c
-Replica Victario's Charity:6.0c
+Replica Fencoil:2.0c
+Replica Heartbreaker:2.0c
+Replica Innsbury Edge:2.0c
+Replica Blood Thorn:2.0c
+Replica Infractem:2.0c
+Replica Tempestuous Steel:1.82c
+Replica Farrul's Fur:808.12c
+Replica Alberon's Warpath:799.81c
+Replica Shroud of the Lightless:651.82c
+Replica Abyssus:54.82c
+Replica Maloney's Mechanism:30.0c
+Replica Loreweave:8.0c
+Replica Atziri's Acuity:8.0c
+Replica Eternity Shroud:6.75c
+Replica Mistwall:5.0c
 Replica Inya's Epiphany:5.0c
-Replica Alpha's Howl:5.0c
-Replica Soul Strike:4.9c
-Replica Perfect Form:4.05c
-Replica Volkuur's Guidance:4.0c
-Replica Voidwalker:4.0c
-Replica Red Trail:3.2c
-Replica Lioneye's Paws:3.0c
-Replica Ambu's Charge:3.0c
-Replica Veil of the Night:3.0c
-Replica Grip of the Council:3.0c
+Replica Stampede:5.0c
+Replica Kaom's Heart:5.0c
+Replica Tukohama's Fortress:4.0c
+Replica Volkuur's Guidance:3.0c
+Replica Victario's Charity:3.0c
+Replica Perfect Form:3.0c
+Replica Soul Strike:3.0c
+Replica Lioneye's Paws:2.0c
+Replica Ambu's Charge:2.0c
 Replica Bones of Ullr:2.0c
+Replica Grip of the Council:2.0c
+Replica Voidwalker:2.0c
 Replica Kalisa's Grace:2.0c
 Replica Three-step Assault:2.0c
 Replica Allelopathy:2.0c
+Replica Alpha's Howl:2.0c
 Replica Leer Cast:2.0c
+Replica Red Trail:2.0c
 Replica Restless Ward:2.0c
-Replica Bated Breath:9683.86c
-Replica Headhunter:1504.96c
-Replica Atziri's Foible:38.0c
-Replica Hyrri's Truth:37.53c
-Replica Siegebreaker:15.0c
-Replica Tasalio's Sign:10.0c
-Replica Karui Ward:10.0c
-Replica Soul Tether:9.97c
-Replica Emberwake:8.8c
-Replica Doedre's Damning:5.77c
+Replica Veil of the Night:1.5c
+Replica Bated Breath:4724.53c
+Replica Headhunter:1069.7c
+Replica Soul Tether:330.92c
+Replica Hyrri's Truth:50.0c
+Replica Emberwake:38.0c
+Replica Atziri's Foible:15.0c
+Replica Tasalio's Sign:5.0c
+Replica Karui Ward:5.0c
+Replica Siegebreaker:5.0c
 Replica Prismweave:4.0c
-Replica Voideye:3.0c
-Replica Malachai's Artifice:3.0c
-Replica Winterheart:3.0c
-Replica Cortex:497.4c
-Replica Poorjoy's Asylum:9.7c
-Replica Pillars of Arun:5.0c
-Replica Hotheaded:40.0c
-Replica Fragile Bloom:35.0c
-Replica Conqueror's Efficiency:20.0c
-Replica Reckless Defence:20.0c
-Replica Pure Talent:9.99c
-Replica Cheap Construction:8.0c
-Replica Unstable Payload:5.0c
+Replica Doedre's Damning:3.0c
+Replica Voideye:2.0c
+Replica Malachai's Artifice:2.0c
+Replica Winterheart:2.0c
+Replica Cortex:109.83c
+Replica Poorjoy's Asylum:11.52c
+Replica Pillars of Arun:4.0c
+Replica Conqueror's Efficiency:25.0c
+Replica Fragile Bloom:15.0c
+Replica Pure Talent:9.0c
+Replica Hotheaded:5.0c
+Replica Cheap Construction:4.93c
 Replica Primordial Might:3.0c
-Replica Blood Sacrifice:3.0c
-Replica Rumi's Concoction:12.0c
-Replica Lavianga's Spirit:3.0c
+Replica Reckless Defence:3.0c
+Replica Blood Sacrifice:2.0c
+Replica Unstable Payload:2.0c
+Replica Rumi's Concoction:5.0c
 Replica Sorrow of the Divine:2.0c
-Psychotic Axe:ilvl86 80.0c
-Psychotic Axe:ilvl83 38.4c
-Banishing Blade:ilvl84 35.09c
-Psychotic Axe:ilvl85 34.68c
-Eventuality Rod:ilvl83 32.28c
-Battery Staff:ilvl86 30.0c
-Eventuality Rod:ilvl84 30.0c
-Impact Force Propagator:ilvl82 30.0c
-Battery Staff:ilvl85 29.26c
-Psychotic Axe:ilvl84 27.64c
-Psychotic Axe:ilvl82 27.49c
-Eventuality Rod:ilvl86 27.42c
-Apex Cleaver:ilvl86 26.59c
-Impact Force Propagator:ilvl86 25.79c
-Apex Cleaver:ilvl82 25.05c
-Void Fangs:ilvl86 25.0c
-Simplex Amulet:ilvl86 24.16c
-Void Fangs:ilvl84 24.06c
-Battery Staff:ilvl82 21.9c
-Simplex Amulet:ilvl85 20.39c
-Infernal Blade:ilvl82 20.0c
-Alternating Sceptre:ilvl86 20.0c
-Alternating Sceptre:ilvl84 20.0c
-Pneumatic Dagger:ilvl86 20.0c
-Eventuality Rod:ilvl85 19.72c
-Pneumatic Dagger:ilvl85 19.61c
-Void Fangs:ilvl83 18.55c
-Heat-attuned Tower Shield:ilvl82 18.24c
-Solarine Bow:ilvl86 18.12c
-Simplex Amulet:ilvl83 17.28c
-Solarine Bow:ilvl82 16.5c
-Boom Mace:ilvl82 16.0c
-Alternating Sceptre:ilvl82 15.67c
-Infernal Blade:ilvl84 15.39c
-Alternating Sceptre:ilvl85 15.0c
-Cold-attuned Buckler:ilvl86 15.0c
-Pneumatic Dagger:ilvl82 13.57c
-Void Fangs:ilvl82 13.17c
-Boom Mace:ilvl85 12.58c
-Solarine Bow:ilvl83 12.5c
-Boom Mace:ilvl84 12.3c
-Void Fangs:ilvl85 11.87c
-Alternating Sceptre:ilvl83 11.7c
-Impact Force Propagator:ilvl84 11.63c
-Boom Mace:ilvl86 11.61c
-Banishing Blade:ilvl86 11.57c
-Simplex Amulet:ilvl84 11.46c
-Apex Cleaver:ilvl85 11.04c
-Micro-Distillery Belt:ilvl86 10.72c
-Banishing Blade:ilvl85 10.66c
-Solarine Bow:ilvl84 10.47c
-Banishing Blade:ilvl82 10.0c
-Battery Staff:ilvl83 10.0c
+Replica Lavianga's Spirit:2.0c
+Impact Force Propagator:ilvl82 200.56c
+Cold-attuned Buckler:ilvl86 63.09c
+Eventuality Rod:ilvl86 47.6c
+Heat-attuned Tower Shield:ilvl82 38.27c
+Eventuality Rod:ilvl84 36.24c
+Impact Force Propagator:ilvl85 35.0c
+Eventuality Rod:ilvl85 31.45c
+Eventuality Rod:ilvl83 30.48c
+Psychotic Axe:ilvl86 28.02c
+Boom Mace:ilvl86 22.24c
+Heat-attuned Tower Shield:ilvl86 20.0c
+Pneumatic Dagger:ilvl86 19.39c
+Solarine Bow:ilvl86 19.03c
+Eventuality Rod:ilvl82 18.06c
+Void Fangs:ilvl83 15.54c
+Impact Force Propagator:ilvl83 15.0c
+Heat-attuned Tower Shield:ilvl83 13.82c
+Battery Staff:ilvl86 13.55c
+Battery Staff:ilvl83 12.71c
+Psychotic Axe:ilvl85 12.65c
+Cold-attuned Buckler:ilvl85 12.52c
+Void Fangs:ilvl86 12.22c
+Banishing Blade:ilvl83 11.5c
+Pneumatic Dagger:ilvl82 10.0c
 Cold-attuned Buckler:ilvl83 10.0c
+Cold-attuned Buckler:ilvl82 10.0c
+Infernal Blade:ilvl82 10.0c
 Solarine Bow:ilvl85 10.0c
-Cogwork Ring:ilvl86 10.0c
-Mechalarm Belt:ilvl84 10.0c
-Heat-attuned Tower Shield:ilvl86 10.0c
-Accumulator Wand:ilvl86 10.0c
-Cold-attuned Buckler:ilvl85 10.0c
-Heat-attuned Tower Shield:ilvl85 10.0c
-Cold-attuned Buckler:ilvl84 10.0c
+Alternating Sceptre:ilvl86 10.0c
+Alternating Sceptre:ilvl84 10.0c
+Alternating Sceptre:ilvl85 10.0c
+Void Fangs:ilvl85 10.0c
+Boom Mace:ilvl85 10.0c
 Infernal Blade:ilvl85 10.0c
-Battery Staff:ilvl84 10.0c
-Pneumatic Dagger:ilvl84 10.0c
-Impact Force Propagator:ilvl85 10.0c
-Simplex Amulet:ilvl82 9.95c
-Cold-attuned Buckler:ilvl82 9.93c
-Infernal Blade:ilvl83 9.89c
-Heat-attuned Tower Shield:ilvl84 9.8c
-Heat-attuned Tower Shield:ilvl83 9.7c
-Accumulator Wand:ilvl84 9.57c
-Mechalarm Belt:ilvl85 9.54c
-Boom Mace:ilvl83 9.43c
-Micro-Distillery Belt:ilvl82 9.09c
-Accumulator Wand:ilvl83 9.0c
-Infernal Blade:ilvl86 8.94c
-Pneumatic Dagger:ilvl83 8.85c
-Accumulator Wand:ilvl82 8.64c
-Accumulator Wand:ilvl85 8.1c
-Mechalarm Belt:ilvl86 8.07c
-Micro-Distillery Belt:ilvl84 8.0c
-Cogwork Ring:ilvl85 6.79c
-Micro-Distillery Belt:ilvl83 6.34c
-Geodesic Ring:ilvl86 6.18c
-Eventuality Rod:ilvl82 6.07c
-Apex Cleaver:ilvl83 5.99c
-Micro-Distillery Belt:ilvl85 5.97c
+Banishing Blade:ilvl85 10.0c
+Psychotic Axe:ilvl84 10.0c
+Battery Staff:ilvl82 9.96c
+Infernal Blade:ilvl86 9.65c
+Heat-attuned Tower Shield:ilvl85 9.62c
+Solarine Bow:ilvl82 9.4c
+Banishing Blade:ilvl82 9.22c
+Solarine Bow:ilvl83 9.21c
+Apex Cleaver:ilvl86 9.2c
+Simplex Amulet:ilvl86 9.0c
+Boom Mace:ilvl82 8.82c
+Banishing Blade:ilvl84 8.63c
+Psychotic Axe:ilvl82 8.48c
+Heat-attuned Tower Shield:ilvl84 8.4c
+Micro-Distillery Belt:ilvl86 8.36c
+Pneumatic Dagger:ilvl85 8.01c
+Cogwork Ring:ilvl86 8.0c
+Accumulator Wand:ilvl86 8.0c
+Boom Mace:ilvl84 8.0c
+Apex Cleaver:ilvl83 7.99c
+Impact Force Propagator:ilvl86 7.6c
+Mechalarm Belt:ilvl86 7.22c
+Void Fangs:ilvl82 7.11c
+Void Fangs:ilvl84 7.08c
+Apex Cleaver:ilvl85 7.0c
+Pneumatic Dagger:ilvl84 6.75c
+Battery Staff:ilvl85 6.7c
+Alternating Sceptre:ilvl83 6.69c
+Battery Staff:ilvl84 6.6c
+Alternating Sceptre:ilvl82 6.52c
+Accumulator Wand:ilvl85 6.31c
+Psychotic Axe:ilvl83 6.21c
+Accumulator Wand:ilvl82 6.0c
+Boom Mace:ilvl83 5.89c
+Cold-attuned Buckler:ilvl84 5.78c
+Simplex Amulet:ilvl85 5.61c
+Infernal Blade:ilvl83 5.37c
+Mechalarm Belt:ilvl84 5.15c
+Geodesic Ring:ilvl86 4.0c

@@ -13,6 +13,9 @@ To practice you can snapshot any text which has the name of the item/enchant to 
 
 # Features
 
+## Feature Requests
+There is a discussions page on the github page, <https://github.com/LawTotem/PoE-Enchantress/discussions>, or you can find me, LawTotem, on discord.
+
 ## Heist Pricing
 To price heist items press the heist hotkey, default Ctrl-u, and select a relatively tight selection of the screen which includes the name of the unique, jewel, or heist base. The tool will then attempt to provide you with a price for the item based on the contents of the <code>HeistPriceTxt</code>, defaults to <code>heists.txt</code>.
 The file follows the format "heists item name":"price", when the item is matched a line "item name" --price-- "price" will appear on one of the lines below the captured text.
@@ -46,11 +49,13 @@ The key sequence to start a Heist screen grab, defaults to Ctrl-u
 ## User
 ### HeistPriceTxt
 The file to use when pricing items from a Heist scan.
+Can also be a url that starts with http which will be fetched every hour on use, for example https://pastebin.com/raw/Z5udVRZS
 ### ServiceEnchantTxt
 The file to use when alerting to enchant services, always appears before general enchants.
 ### GeneralEnchantTxt
 The file to use when giving general enchant recommendations.
 The format is "string to look for":"string to show". See <code>examples/general_enchants.txt</code> for an example.
+Can also be a url that starts with http which will be fetched every hour on use, for example https://pastebin.com/raw/Za0fgKzg
 ### HeistRemappingTxt
 This file provides the string remapping for Heist, see the ORC remapping feature.
 
@@ -73,7 +78,13 @@ Untested but maybe allows for monitor selection.
 
 # Change List
 
-## 0.x.0
+## 0.4.0
+ - Added genearl enchants from http like pastebin.
+ - Added ability to dump raw capture to text. In the case where the remapping failed it should help.
+ - Added update detection. The tool will now check gitlab to see if there is an update and display a message to user.
+ - Added heist pricing from http like pastebin.
+
+## 0.3.0
  - Added an enchant scraper, still requires hand data analysis to create general_enchants.txt.
  - Added league variables to tools.
  - Corrected seperator in heist price scraper.
