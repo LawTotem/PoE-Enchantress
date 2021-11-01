@@ -153,6 +153,7 @@ tooltip, Ready
 sleep, 250
 Tooltip
 
+global last_version_grab := 0
 global last_heist_grab := 0
 
 if (FirstRun == 1) {
@@ -729,14 +730,21 @@ SelectArea() {
 }
 
 checkUpdate() {
-    whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-    whr.Open("Get","https://raw.githubusercontent.com/LawTotem/PoE-Enchantress/dev/version.txt", true)
-    whr.Send()
-    whr.WaitForResponse()
-    online_version := whr.ResponseText()
-    if (online_version > version)
+    global last_version_grab
+    Delta := %A_Now%
+    EnvSub Delta, %last_version_grab%, hours
+    if (last_version_grab = 0 or Delta > 1)
     {
-        return true
+        whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+        whr.Open("Get","https://raw.githubusercontent.com/LawTotem/PoE-Enchantress/dev/version.txt", true)
+        whr.Send()
+        whr.WaitForResponse()
+        online_version := whr.ResponseText()
+        last_version_grab = %A_Now%
+        if (online_version > version)
+        {
+            return true
+        }
     }
     return false
 }
