@@ -3,13 +3,29 @@ The Poe-Enchantress tool help in pricing elements of Path of Exile (PoE) which y
 
 You can find the latest release on the releases page <https://github.com/LawTotem/PoE-Enchantress/releases>.
 The releases include an executable version of the autohotkey script and come in a more convenient zip file.
-## Setup
+
 You will need the tool <code>Capture2Text</code> to perform the ORC. This will need to be downloaded separately and the folder <code>Capture2Text</code> should be moved into the folder with the PoE-Enchantress script.
 
 PoE-Enchantress does not use any external sites/tools to perform Heist item pricing.
 To start you can copy the example <code>heists.txt</code> to the root folder for heist prices.
 You will probably have to manually configure <code>general_enchants.txt</code> and <code>services.txt</code> because I'm no good at that stuff.
 To practice you can snapshot any text which has the name of the item/enchant to see what the tool will do or manually hand type it into the GUI's captured text box and press the desired Reprocess button.
+
+## Setup
+
+1. Download the latest release <https://github.com/LawTotem/PoE-Enchantress/releases>
+2. Unzip the tool into a directory
+3. Download Capture2Text <https://sourceforge.net/projects/capture2text/files/Capture2Text/>
+4. Extract the Capture2Text folder into the folder with Enchantress
+5. Start up Enchantress
+6. Open the menu with either Ctrl-Shift+Y or select **Enchantress** line from the tray icon
+7. Open the settings menu by clicking the *Settings* button in the top right
+8. Set the Heist prices, either copy heists.txt from `examples` folder or use a pastebin https://pastebin.com/raw/Z5udVRZS
+9. Set the General Enchants, either copy `general_enchants.txt` or use the pastebin https://pastebin.com/raw/Za0fgKzg
+10. Create a services.txt, either blank or enter your current services
+11. In Lab use Ctrl-Y to highlight the font options
+12. In Heist use Ctrl-U to highlight the heist items
+13. ... Profit
 
 # Features
 
