@@ -1,70 +1,70 @@
-tofb:Trigger Commandment of Blades on Hit
-meso:Trigger Commandment of Flames on Hit
-ffr:Trigger Commandment of Frost on Kill
-heg:Trigger Commandment of the Grave when your Skills or Minions Kill
-ref:Trigger Commandment of Reflection when Hit
-ffo:Trigger Commandment of Force on Hit
-htw:Trigger Commandment of Light when you take a Critical Strike
-dero:Trigger Commandment of Thunder on Kill
-fwa:Trigger Commandment of War on Kill
-rno:Trigger Commandment of Inferno on Kill
-terw:Trigger Commandment of Winter when Hit
-het:Trigger Commandment of the Tempest on Hit
-ffu:Trigger Commandment of Fury on Hit
-fsp:Trigger Commandment of Spite when Hit
-rew:Trigger Commandment of Ire when Hit
-68f:Adds 45 to 68 Fire Damage if you've Killed Recently
-te2:Regenerate 2% of Life per second if you were Hit Recently
-8%r:18% reduced Mana Cost of Skills if you've been Hit Recently
-80%:80% chance to Avoid being Stunned if you've Killed Recently
-+8%:+8% chance to Suppress Spell Damage if you've taken Spell Damage Recently
+ntofb:Trigger Commandment of Blades on Hit
+toffl:Trigger Commandment of Flames on Hit
+toffr:Trigger Commandment of Frost on Kill
+ftheg:Trigger Commandment of the Grave when your Skills or Minions Kill
+ntofr:Trigger Commandment of Reflection when Hit
+toffo:Trigger Commandment of Force on Hit
+ntofl:Trigger Commandment of Light when you take a Critical Strike
+ndero:Trigger Commandment of Thunder on Kill
+tofwa:Trigger Commandment of War on Kill
+tofin:Trigger Commandment of Inferno on Kill
+tofwi:Trigger Commandment of Winter when Hit
+fthet:Trigger Commandment of the Tempest on Hit
+toffu:Trigger Commandment of Fury on Hit
+ntofs:Trigger Commandment of Spite when Hit
+firew:Trigger Commandment of Ire when Hit
+to68f:Adds 45 to 68 Fire Damage if you've Killed Recently
+rate2:Regenerate 2% of Life per second if you were Hit Recently
+18%re:18% reduced Mana Cost of Skills if you've been Hit Recently
+80%ch:80% chance to Avoid being Stunned if you've Killed Recently
++8%ch:+8% chance to Suppress Spell Damage if you've taken Spell Damage Recently
 stspeedi:16% increased Attack and Cast Speed if you've Killed Recently
-68c:Adds 45 to 68 Cold Damage if you've been Hit Recently
-s1t:Adds 1 to 160 Lightning Damage if you haven't Killed Recently
-0.6:0.6% of Damage Leeched as Life if you've Killed Recently
-omc:You take 10% reduced Extra Damage from Critical Strikes if you've taken a Critical Strike Recently
-itei:10% chance to Freeze, Shock and Ignite if you haven't Crit Recently
-'tb:10% increased Movement Speed if you haven't been Hit Recently
-120%:120% increased Critical Strike Chance if you haven't Crit Recently
-fen:Damage Penetrates 10% of Enemy Elemental Resistances if you haven't Killed Recently
-20t:Adds 120 to 180 Chaos Damage if you've taken a Critical Strike Recently
-35%:35% increased Mana Regeneration Rate if you've cast a Spell Recently
+to68c:Adds 45 to 68 Cold Damage if you've been Hit Recently
+dds1t:Adds 1 to 160 Lightning Damage if you haven't Killed Recently
+0.6%o:0.6% of Damage Leeched as Life if you've Killed Recently
+e10%r:You take 10% reduced Extra Damage from Critical Strikes if you've taken a Critical Strike Recently
+10%ch:10% chance to Freeze, Shock and Ignite if you haven't Crit Recently
+en'tb:10% increased Movement Speed if you haven't been Hit Recently
+120%i:120% increased Critical Strike Chance if you haven't Crit Recently
+0%ofe:Damage Penetrates 10% of Enemy Elemental Resistances if you haven't Killed Recently
+dds12:Adds 120 to 180 Chaos Damage if you've taken a Critical Strike Recently
+35%in:35% increased Mana Regeneration Rate if you've cast a Spell Recently
 llightningd:40% increased Ball Lightning Damage
 tbladesd:40% increased Frost Blades Damage
 despr:30% increased Frost Blades Projectile Speed
 ithas3:Summon Raging Spirit has 30% increased Duration
-nex:Summon Raging Spirit has 18% chance to summon an extra Minion
-ford:30% chance for Discharge to deal Damage without removing Charges
-geh:Discharge has +5 to Radius
+s18%c:Summon Raging Spirit has 18% chance to summon an extra Minion
+eford:30% chance for Discharge to deal Damage without removing Charges
+argeh:Discharge has +5 to Radius
 anger:Anger has 30% increased Mana Reservation Efficiency
 rtotemd:Ancestral Protector Totem deals 40% increased Damage
 ftotemd:40% increased Ancestral Warchief Totem Damage
 rtotemp:18% increased Ancestral Protector Totem Placement Speed
-oanc:+36% to Ancestral Protector Totem Elemental Resistances
-ts18:Ancestral Protector Totem grants 18% increased Attack Speed while Active
-ians:Animated Guardians deal 40% increased Damage
-dwe:Animated Weapons deal 40% increased Damage
-cda:40% increased Arc Damage
+toanc:+36% to Ancestral Protector Totem Elemental Resistances
+nts18:Ancestral Protector Totem grants 18% increased Attack Speed while Active
+dians:Animated Guardians deal 40% increased Damage
+atedw:Animated Weapons deal 40% increased Damage
+darcd:40% increased Arc Damage
 ostda:40% increased Creeping Frost Damage
 nbrandde:Armageddon Brand deals 40% increased Damage
-aned:Bane deals 40% increased Damage
+baned:Bane deals 40% increased Damage
 raged:40% increased Barrage Damage
 dbear:40% increased Bear Trap Damage
 detrapd:40% increased Blade Trap Damage
-xsp:40% increased Blade Vortex Spell Damage
+texsp:40% increased Blade Vortex Spell Damage
 falld:40% increased Bladefall Damage
 traind:Blast Rain deals 40% increased Damage
-vod:Blazing Salvo deals 40% increased Damage
-htd:40% increased Blight Damage
+alvod:Blazing Salvo deals 40% increased Damage
+ightd:40% increased Blight Damage
 neshave4:Blink Arrow and Blink Arrow Clones have 40% increased Damage
-eapd:Reap deals 40% increased Damage
-dbur:40% increased Burning Arrow Damage
+reapd:Reap deals 40% increased Damage
+edbur:40% increased Burning Arrow Damage
 ticarrowda:40% increased Caustic Arrow Damage
-rryd:40% increased Blade Flurry Damage
+urryd:40% increased Blade Flurry Damage
 edcha:40% increased Charged Dash Damage
 leaved:40% increased Cleave Damage
-napd:40% increased Cold Snap Damage
-athd:Consecrated Path deals 40% increased Damage
+snapd:40% increased Cold Snap Damage
+pathd:Consecrated Path deals 40% increased Damage
 gionda:40% increased Contagion Damage
 verde:Corrupting Fever deals 40% increased Damage
 nvert:Converted Enemies have 40% increased Damage
@@ -77,38 +77,38 @@ cerateda:40% increased Lacerate Damage
 estriked:40% increased Double Strike Damage
 lstriked:40% increased Dual Strike Damage
 akeda:40% increased Earthquake Damage
-itd:Elemental Hit deals 40% increased Damage
+lhitd:Elemental Hit deals 40% increased Damage
 drainda:40% increased Essence Drain Damage
-vesd:40% increased Ethereal Knives Damage
+ivesd:40% increased Ethereal Knives Damage
 vearrowd:Explosive Arrow deals 40% increased Damage
 econcoctiond:40% increased Explosive Concoction Damage
 inatede:Exsanguinate deals 40% increased Damage
 nterd:40% increased Eye of Winter Damage
-rmda:40% increased Firestorm Damage
+ormda:40% increased Firestorm Damage
 retrapda:40% increased Fire Trap Damage
 balld:40% increased Fireball Damage
-ayd:40% increased Scorching Ray Damage
+grayd:40% increased Scorching Ray Damage
 edashd:40% increased Flame Dash Damage
 40%increasedflames:40% increased Flame Surge Damage
 ertrapd:Flamethrower Trap deals 40% increased Damage
 metotemd:Holy Flame Totem deals 40% increased Damage
 meblastd:40% increased Flameblast Damage
-llde:Flame Wall deals 40% increased Damage
+allde:Flame Wall deals 40% increased Damage
 0%increasedfli:40% increased Flicker Strike Damage
 rited:40% increased Forbidden Rite Damage
-lsed:40% increased Freezing Pulse Damage
+ulsed:40% increased Freezing Pulse Damage
 0%increasedfren:40% increased Frenzy Damage
-ltd:40% increased Frostbolt Damage
-mbd:40% increased Frost Bomb Damage
-aded:40% increased Glacial Cascade Damage
-merd:40% increased Glacial Hammer Damage
+boltd:40% increased Frostbolt Damage
+bombd:40% increased Frost Bomb Damage
+caded:40% increased Glacial Cascade Damage
+mmerd:40% increased Glacial Hammer Damage
 dslamd:40% increased Ground Slam Damage
 ystriked:40% increased Heavy Strike Damage
 fashd:40% increased Herald of Ash Damage
-iced:40% increased Herald of Ice Damage
+ficed:40% increased Herald of Ice Damage
 derda:40% increased Herald of Thunder Damage
 xblastd:Hexblast deals 40% increased Damage
-csd:Summoned Holy Relics deal 40% increased Damage
+licsd:Summoned Holy Relics deal 40% increased Damage
 rashd:40% increased Ice Crash Damage
 enovad:40% increased Ice Nova Damage
 eshotd:40% increased Ice Shot Damage
@@ -121,30 +121,30 @@ cingsteeld:Lancing Steel deals 40% increased Damage
 pslamd:40% increased Leap Slam Damage
 tningarrowd:40% increased Lightning Arrow Damage
 gstriked:40% increased Lightning Strike Damage
-ilsd:40% increased Lightning Tendrils Damage
+rilsd:40% increased Lightning Tendrils Damage
 retrapde:Lightning Spire Trap deals 40% increased Damage
 dlightningtrapd:40% increased Lightning Trap Damage
-rpda:40% increased Lightning Warp Damage
-mad:40% increased Rolling Magma Damage
+arpda:40% increased Lightning Warp Damage
+agmad:40% increased Rolling Magma Damage
 abondd:40% increased Manabond Damage
-nesd:Mirror Arrow and Mirror Arrow Clones deal 40% increased Damage
-ellh:Molten Shell has 40% increased Skill Effect Duration
-llb:150% increased Molten Shell Buff Effect
+onesd:Mirror Arrow and Mirror Arrow Clones deal 40% increased Damage
+hellh:Molten Shell has 40% increased Skill Effect Duration
+hellb:150% increased Molten Shell Buff Effect
 nstriked:40% increased Molten Strike Damage
-rmsd:40% increased Orb of Storms Damage
-rmsh:Orb of Storms has 30% increased Cast Speed
+ormsd:40% increased Orb of Storms Damage
+ormsh:Orb of Storms has 30% increased Cast Speed
 ctrapd:Seismic Trap deals 40% increased Damage
 sconcoctiond:40% increased Poisonous Concoction Damage
-hond:40% increased Power Siphon Damage
+phond:40% increased Power Siphon Damage
 ureda:40% increased Puncture Damage
-mede:Purifying Flame deals 40% increased Damage
-wsd:40% increased Rain of Arrows Damage
+amede:Purifying Flame deals 40% increased Damage
+rowsd:40% increased Rain of Arrows Damage
 reshave4:Spectres have 40% increased Damage
 biesd:Raised Zombies deal 40% increased Damage
 reaved:40% increased Reave Damage
 dreck:40% increased Reckoning Damage
 usfired:40% increased Righteous Fire Damage
-drip:40% increased Riposte Damage
+edrip:40% increased Riposte Damage
 gearrowd:Scourge Arrow deals 40% increased Damage
 gbondd:40% increased Searing Bond Damage
 ldcharged:40% increased Shield Charge Damage
@@ -153,15 +153,15 @@ vetrapd:Explosive Trap deals 40% increased Damage
 derhas4:Sunder has 40% increased Damage
 ringsteeld:Shattering Steel deals 40% increased Damage
 vetotemd:40% increased Shockwave Totem Damage
-dga:40% increased Galvanic Arrow Damage
-tade:Siege Ballista deals 40% increased Damage
-actd:40% increased Dark Pact Damage
-ctc:12% increased Dark Pact Cast Speed
-acta:24% increased Dark Pact Area of Effect
+sedga:40% increased Galvanic Arrow Damage
+stade:Siege Ballista deals 40% increased Damage
+pactd:40% increased Dark Pact Damage
+pactc:12% increased Dark Pact Cast Speed
+pacta:24% increased Dark Pact Area of Effect
 mited:Smite deals 40% increased Damage
-endd:Soulrend deals 40% increased Damage
-rkda:40% increased Spark Damage
-ixd:40% increased Spectral Helix Damage
+rendd:Soulrend deals 40% increased Damage
+parkd:40% increased Spark Damage
+elixd:40% increased Spectral Helix Damage
 dthrowd:40% increased Spectral Shield Throw Damage
 lthrowd:40% increased Spectral Throw Damage
 tarrowd:40% increased Split Arrow Damage
@@ -174,560 +174,560 @@ sgolemsd:Chaos Golems deal 40% increased Damage
 mshave4:Flame Golems have 40% increased Damage
 cegolemsd:Ice Golems deal 40% increased Damage
 ggolemsd:Lightning Golems deal 40% increased Damage
-tsd:Summoned Raging Spirits deal 40% increased Damage
-tons:Skeletons deal 40% increased Damage
+nedra:Summoned Raging Spirits deal 40% increased Damage
+etons:Skeletons deal 40% increased Damage
 negolemsd:Stone Golems deal 40% increased Damage
-epd:40% increased Sweep Damage
-amde:Tectonic Slam deals 40% increased Damage
-eldd:40% increased Tempest Shield Damage
-dod:40% increased Tornado Damage
+weepd:40% increased Sweep Damage
+lamde:Tectonic Slam deals 40% increased Damage
+ieldd:40% increased Tempest Shield Damage
+nadod:40% increased Tornado Damage
 oshotd:40% increased Tornado Shot Damage
 craind:Toxic Rain deals 40% increased Damage
-dve:40% increased Vengeance Damage
+sedve:40% increased Vengeance Damage
 tstrikeda:40% increased Vigilant Strike Damage
 perstrikeda:40% increased Viper Strike Damage
 cburstda:40% increased Voltaxic Burst Damage
 dvortexda:40% increased Vortex Damage
 erede:Hydrosphere deals 40% increased Damage
-onde:Wave of Conviction deals 40% increased Damage
+ionde:Wave of Conviction deals 40% increased Damage
 gbladesd:40% increased Whirling Blades Damage
 dstriked:40% increased Wild Strike Damage
-rbd:Winter Orb deals 40% increased Damage
+rorbd:Winter Orb deals 40% increased Damage
 utiond:30% increased Absolution Duration
 utionc:12% increased Absolution Cast Speed
-fab:Summoned Sentinels of Absolution have 24% increased Area of Effect
-oani:+36% to Animated Guardian Elemental Resistances
-dani:30% increased Animate Weapon Duration
-cop:24% chance to create an additional Animate Weapon copy
-rcc:Arc Chains an additional time
-chas:Arc has +30% chance to Shock
-cde:Arc deals 12% increased Damage for each time it has Chained
-aks:Arcane Cloak Spends an additional 15% of current Mana
-akg:Arcane Cloak grants Life Regeneration equal to 15% of Mana Spent per Second
-aneh:Bane has 24% increased Area of Effect
-sap:15% increased Effect of Curses applied by Bane
-iva:Armageddon Brand has 12% increased Activation Frequency
-'sf:Armageddon Brand Damage Penetrates 12% of Branded Enemy's Fire Resistance
+nedse:Summoned Sentinels of Absolution have 24% increased Area of Effect
+toani:+36% to Animated Guardian Elemental Resistances
+edani:30% increased Animate Weapon Duration
+nalan:24% chance to create an additional Animate Weapon copy
+arcch:Arc Chains an additional time
+archa:Arc has +30% chance to Shock
+arcde:Arc deals 12% increased Damage for each time it has Chained
+loaks:Arcane Cloak Spends an additional 15% of current Mana
+loakg:Arcane Cloak grants Life Regeneration equal to 15% of Mana Spent per Second
+baneh:Bane has 24% increased Area of Effect
+rsesa:15% increased Effect of Curses applied by Bane
+edact:Armageddon Brand has 12% increased Activation Frequency
+my'sf:Armageddon Brand Damage Penetrates 12% of Branded Enemy's Fire Resistance
 ftotema:24% increased Ancestral Warchief Totem Area of Effect
-edme:Ancestral Warchief Totem grants 30% increased Melee Damage while Active
-yan:Attacks Exerted by Ancestral Cry deal 50% increased Damage
+sedme:Ancestral Warchief Totem grants 30% increased Melee Damage while Active
+dbyan:Attacks Exerted by Ancestral Cry deal 50% increased Damage
 ralcryh:Ancestral Cry has a minimum of 10 Power
-urb:36% increased Arctic Armour Buff Effect
-urh:Arctic Armour has 75% increased Mana Reservation Efficiency
-stdu:36% increased Creeping Frost Duration
-osta:24% increased Creeping Frost Area of Effect
-st':Creeping Frost's Chilling Area has 38% increased Movement Speed
+darct:36% increased Arctic Armour Buff Effect
+mourh:Arctic Armour has 75% increased Mana Reservation Efficiency
+ostdu:36% increased Creeping Frost Duration
+rosta:24% increased Creeping Frost Area of Effect
+rost':Creeping Frost's Chilling Area has 38% increased Movement Speed
 n'smarkc:30% increased Assassin's Mark Curse Effect
 n'smarkd:45% increased Assassin's Mark Duration
 gareao:24% increased Ball Lightning Area of Effect
-gfi:Ball Lightning fires an additional Projectile
+ningf:Ball Lightning fires an additional Projectile
 ragea:15% increased Barrage Attack Speed
-gefi:Barrage fires an additional Projectile
-dbat:15% increased Battlemage's Cry Buff Effect
+ragef:Barrage fires an additional Projectile
+edbat:15% increased Battlemage's Cry Buff Effect
 scrye:Battlemage's Cry Exerts 1 additional Attack
 artraph:Bear Trap has 15% increased Cooldown Recovery Rate
-saf:Enemies affected by Bear Trap take 10% increased Damage from Trap or Mine Hits
+miesa:Enemies affected by Bear Trap take 10% increased Damage from Trap or Mine Hits
 fallc:90% increased Bladefall Critical Strike Chance
 falla:24% increased Bladefall Area of Effect
-asan:Bladefall has an additional Volley
+fallh:Bladefall has an additional Volley
 detrapa:24% increased Blade Trap Area of Effect
-1ti:Blade Trap rotates +1 times
+rapro:Blade Trap rotates +1 times
 devortexd:30% increased Blade Vortex Duration
 devortexa:24% increased Blade Vortex Area of Effect
-+3%:Blade Vortex has +3% to Critical Strike Multiplier for each blade
+xhas+:Blade Vortex has +3% to Critical Strike Multiplier for each blade
 nhas2:Blast Rain has 24% increased Area of Effect
 trainf:Blast Rain fires an additional Arrow
-vof:Blazing Salvo fires an additional Projectile
-vop:Blazing Salvo Projectiles land in a 30% increased Area
-hta:24% increased Blight Area of Effect
-hth:Blight has 30% increased Hinder Duration
+alvof:Blazing Salvo fires an additional Projectile
+alvop:Blazing Salvo Projectiles land in a 30% increased Area
+ighta:24% increased Blight Area of Effect
+ighth:Blight has 30% increased Hinder Duration
 karrowcloneshave1:Blink Arrow and Blink Arrow Clones have 15% increased Attack Speed
 karrowh:Blink Arrow has 30% increased Cooldown Recovery Rate
-l12:Blood Rage grants additional 12% increased Attack Speed
-naf:Blood Rage grants additional 30% chance to gain a Frenzy Charge on Kill
-eapa:24% increased Reap Area of Effect
-odc:+1 to Maximum Blood Charges
+nal12:Blood Rage grants additional 12% increased Attack Speed
+l30%c:Blood Rage grants additional 30% chance to gain a Frenzy Charge on Kill
+reapa:24% increased Reap Area of Effect
+umblo:+1 to Maximum Blood Charges
 dboneo:45% increased Bone Offering Duration
-al+:Bone Offering grants an additional +9% Chance to Block Attack Damage
+onal+:Bone Offering grants an additional +9% Chance to Block Attack Damage
 whas+:Burning Arrow has +30% chance to Ignite
-fbu:15% of Burning Arrow Physical Damage gained as Extra Fire Damage
-wdu:30% increased Caustic Arrow Duration
+5%ofb:15% of Burning Arrow Physical Damage gained as Extra Fire Damage
+rowdu:30% increased Caustic Arrow Duration
 carrowa:24% increased Caustic Arrow Area of Effect
-dsb:Caustic Arrow has 20% chance to inflict Withered on Hit for 2 seconds base Duration
-urch:100% increased Effect of the Buff granted by your Chaos Golems
+s20%c:Caustic Arrow has 20% chance to inflict Withered on Hit for 2 seconds base Duration
+ourch:100% increased Effect of the Buff granted by your Chaos Golems
 6%toc:+36% to Chaos Golem Elemental Resistances
-rya:24% increased Blade Flurry Area of Effect
-rys:+1 to maximum Blade Flurry stages
-s+6:Charged Dash has +6 to Radius of each Wave's last damage Area
-5%m:Charged Dash has 15% more Movement Speed
-clar:Clarity has 75% increased Mana Reservation Efficiency
-veat:15% increased Cleave Attack Speed
+urrya:24% increased Blade Flurry Area of Effect
+umbla:+1 to maximum Blade Flurry stages
+has+6:Charged Dash has +6 to Radius of each Wave's last damage Area
+s15%m:Charged Dash has 15% more Movement Speed
+clari:Clarity has 75% increased Mana Reservation Efficiency
+aveat:15% increased Cleave Attack Speed
 veare:24% increased Cleave Area of Effect
-naph:Cold Snap has 30% increased Cooldown Recovery Rate
-napa:24% increased Cold Snap Area of Effect
+snaph:Cold Snap has 30% increased Cooldown Recovery Rate
+snapa:24% increased Cold Snap Area of Effect
 vityc:30% increased Conductivity Curse Effect
 vityd:45% increased Conductivity Duration
-dtel:Consecrated Path has 15% increased teleport range
+edtel:Consecrated Path has 15% increased teleport range
 giondu:30% increased Contagion Duration
 giona:24% increased Contagion Area of Effect
 hhas2:Consecrated Path has 24% increased Area of Effect
-dcor:30% increased Corrupting Fever Duration
-+50:Corrupting Fever has +50% chance to inflict an additional Corrupted Blood Debuff
-ap3:Conversion Trap 30% increased Cooldown Recovery Rate
+edcor:30% increased Corrupting Fever Duration
+everh:Corrupting Fever has +50% chance to inflict an additional Corrupted Blood Debuff
+nvers:Conversion Trap 30% increased Cooldown Recovery Rate
 cationh:Convocation has 30% increased Cooldown Recovery Rate
-ionb:36% increased Convocation Buff Effect
-s16:Crackling Lance has 16% increased Cast Speed
-dbr:Crackling Lance has 36% increased branching angle
-onea:15% increased Cyclone Attack Speed
+dconv:36% increased Convocation Buff Effect
+has16:Crackling Lance has 16% increased Cast Speed
+sedbr:Crackling Lance has 36% increased branching angle
+lonea:15% increased Cyclone Attack Speed
 ytoteml:60% increased Decoy Totem Life
 ytotema:24% increased Decoy Totem Area of Effect
-dese:Desecrate Spawns 3 additional corpses
-ird:45% increased Despair Duration
-irc:30% increased Despair Curse Effect
-erm:Determination has 30% increased Mana Reservation Efficiency
-adh:Detonate Dead has a 45% chance to detonate an additional corpse
-adar:24% increased Detonate Dead Area of Effect
-tru:30% increased Destructive Link Duration
-60%c:Devouring Totem has 60% Chance to Consume an additional corpse
-chp:36% increased Devouring Totem Leech per second
-sci:Discipline has 45% increased Mana Reservation Efficiency
-wid:Divine Ire's beam has 15% increased width
-aln:Divine Ire Damages 2 additional nearby Enemies when gaining Stages
-cedu:30% increased Sentinel of Dominance Duration
-on3:Dominating Blow can summon 3 additional Magic Sentinels of Dominance
-lra:Dominating Blow can summon an additional Rare Sentinel of Dominance
+desec:Desecrate Spawns 3 additional corpses
+paird:45% increased Despair Duration
+pairc:30% increased Despair Curse Effect
+deter:Determination has 30% increased Mana Reservation Efficiency
+deadh:Detonate Dead has a 45% chance to detonate an additional corpse
+deada:24% increased Detonate Dead Area of Effect
+ddest:30% increased Destructive Link Duration
+mhas6:Devouring Totem has 60% Chance to Consume an additional corpse
+eddev:36% increased Devouring Totem Leech per second
+disci:Discipline has 45% increased Mana Reservation Efficiency
+eire':Divine Ire's beam has 15% increased width
+mages:Divine Ire Damages 2 additional nearby Enemies when gaining Stages
+ncedu:30% increased Sentinel of Dominance Duration
+mmon3:Dominating Blow can summon 3 additional Magic Sentinels of Dominance
+onalr:Dominating Blow can summon an additional Rare Sentinel of Dominance
 tecri:60% increased Lacerate Critical Strike Chance
-tear:24% increased Lacerate Area of Effect
-ls(:Lacerate deals (14–18) to (20–25) added Physical Damage against Bleeding Enemies
+ratea:24% increased Lacerate Area of Effect
+eals(:Lacerate deals (14–18) to (20–25) added Physical Damage against Bleeding Enemies
 estrikea:15% increased Double Strike Attack Speed
 estrikec:90% increased Double Strike Critical Strike Chance
-oble:Double Strike has a 15% chance to deal Double Damage to Bleeding Enemies
-adb:Dread Banner has 40% increased Aura Effect
+getob:Double Strike has a 15% chance to deal Double Damage to Bleeding Enemies
+dread:Dread Banner has 40% increased Aura Effect
 lstrikea:15% increased Dual Strike Attack Speed
 lstrikecr:90% increased Dual Strike Critical Strike Chance
 uakea:24% increased Earthquake Area of Effect
-ls8:Earthquake deals 8% increased Damage per 0.1 seconds Duration
-hita:15% increased Elemental Hit Attack Speed
-hith:Elemental Hit has +30% chance to Freeze, Shock and Ignite
-ssc:30% increased Elemental Weakness Curse Effect
-ssd:45% increased Elemental Weakness Duration
+akede:Earthquake deals 8% increased Damage per 0.1 seconds Duration
+lhita:15% increased Elemental Hit Attack Speed
+lhith:Elemental Hit has +30% chance to Freeze, Shock and Ignite
+nessc:30% increased Elemental Weakness Curse Effect
+nessd:45% increased Elemental Weakness Duration
 ringcryh:Enduring Cry has 30% increased Cooldown Recovery Rate
-ryg:Enduring Cry grants 1 additional Endurance Charge
-desh:Energy Blades have 15% increased Attack Speed
-ksw:Attacks with Energy Blades Penetrate 12% Lightning Resistance
-blec:30% increased Enfeeble Curse Effect
-ledu:45% increased Enfeeble Duration
+gcryg:Enduring Cry grants 1 additional Endurance Charge
+adesh:Energy Blades have 15% increased Attack Speed
+acksw:Attacks with Energy Blades Penetrate 12% Lightning Resistance
+eblec:30% increased Enfeeble Curse Effect
+ebled:45% increased Enfeeble Duration
 vespr:30% increased Ethereal Knives Projectile Speed
-spie:Ethereal Knives Pierces an additional Target
+vespi:Ethereal Knives Pierces an additional Target
 whas24:Explosive Arrow has 24% increased Area of Effect
 whas1:Explosive Arrow has 15% increased Attack Speed
 econcoctiona:24% increased Explosive Concoction Area of Effect
 econcoctionu:Explosive Concoction uses 12% reduced Flask Charges
-dexs:30% increased Exsanguinate Duration
+edexs:30% increased Exsanguinate Duration
 nateh:Exsanguinate has a 25% chance to Chain an additional time
-rpr:30% increased Eye of Winter Projectile Speed
-ssh:Eye of Winter fires Shard projectiles with 12% increased Frequency during flight
-llca:12% increased Fireball Cast Speed
+nterp:30% increased Eye of Winter Projectile Speed
+nterf:Eye of Winter fires Shard projectiles with 12% increased Frequency during flight
+ballc:12% increased Fireball Cast Speed
 ballh:Fireball has +30% chance to Ignite
-ayc:12% increased Scorching Ray Cast Speed
-aml:15% increased Scorching Ray beam length
-mdu:30% increased Firestorm Duration
-rme:24% increased Firestorm explosion Area of Effect
+grayc:12% increased Scorching Ray Cast Speed
+grayb:15% increased Scorching Ray beam length
+ormdu:30% increased Firestorm Duration
+torme:24% increased Firestorm explosion Area of Effect
 rningd:60% increased Fire Trap Burning Damage
-ggro:45% increased Fire Trap Burning Ground Duration
-stc:90% increased Flameblast Critical Strike Chance
+nggro:45% increased Fire Trap Burning Ground Duration
+lastc:90% increased Flameblast Critical Strike Chance
 eblasta:24% increased Flameblast Area of Effect
 edashh:Flame Dash has 30% increased Cooldown Recovery Rate
 %toin:+36% to increased Flame Golem Elemental Resistances
-urf:150% increased Effect of the Buff granted by your Flame Golems
-gec:90% increased Flame Surge Critical Strike Chance
-tbu:60% increased Flame Surge Damage against Burning Enemies
+yourf:150% increased Effect of the Buff granted by your Flame Golems
+urgec:90% increased Flame Surge Critical Strike Chance
+nstbu:60% increased Flame Surge Damage against Burning Enemies
 ertraphas1:Flamethrower Trap has 15% increased Cooldown Recovery Rate
 rtraphas3:Flamethrower Trap has 30% increased Skill Effect Duration
-lfl:Flamethrower Trap has 2 additional Flames
-emf:Holy Flame Totem fires 2 additional Projectiles
+has2a:Flamethrower Trap has 2 additional Flames
+otemf:Holy Flame Totem fires 2 additional Projectiles
 mhas3:Holy Flame Totem has 30% increased Projectile Speed
-omh:Consecrated Ground from Holy Flame Totem applies 9% increased Damage taken to Enemies
-llg:Flame Wall grants 31 to 47 Added Fire Damage to Projectiles
-roff:+1 to maximum number of Flame Walls
+fromh:Consecrated Ground from Holy Flame Totem applies 9% increased Damage taken to Enemies
+wallg:Flame Wall grants 31 to 47 Added Fire Damage to Projectiles
+eroff:+1 to maximum number of Flame Walls
 mabilityc:30% increased Flammability Curse Effect
 mabilityd:45% increased Flammability Duration
-dfle:45% increased Flesh Offering Duration
-al2:Flesh Offering grants an additional 21% increased Attack Speed
-ltca:15% increased Frostbolt Cast Speed
-+15:Frostbolt has +15% chance to Freeze
-dspi:45% increased Spirit Offering Duration
-+12:Spirit Offering grants +12% of Physical Damage as Extra Chaos Damage
-amel:30% increased Flame Link Duration
+edfle:45% increased Flesh Offering Duration
+onal2:Flesh Offering grants an additional 21% increased Attack Speed
+oltca:15% increased Frostbolt Cast Speed
+as+15:Frostbolt has +15% chance to Freeze
+edspi:45% increased Spirit Offering Duration
+nts+1:Spirit Offering grants +12% of Physical Damage as Extra Chaos Damage
+lamel:30% increased Flame Link Duration
 kehas3:Flicker Strike has 30% increased Cooldown Recovery Rate
 edamagep:9% increased Flicker Strike Damage per Frenzy Charge
-itep:30% increased Forbidden Rite Projectile Speed
-itef:Forbidden Rite fires an additional Projectile
-seca:12% increased Freezing Pulse Cast Speed
-sep:30% increased Freezing Pulse Projectile Speed
-zyt:30% Chance on Frenzy to gain an additional Frenzy Charge
+ritep:30% increased Forbidden Rite Projectile Speed
+ritef:Forbidden Rite fires an additional Projectile
+ulsec:12% increased Freezing Pulse Cast Speed
+ulsep:30% increased Freezing Pulse Projectile Speed
+anceo:30% Chance on Frenzy to gain an additional Frenzy Charge
 ydamagep:9% increased Frenzy Damage per Frenzy Charge
-itec:30% increased Frostbite Curse Effect
+bitec:30% increased Frostbite Curse Effect
 bited:45% increased Frostbite Duration
 bhas30%increasedc:Frost Bomb has 30% increased Cooldown Recovery Rate
-mba:24% increased Frost Bomb Area of Effect
-ffdu:Frost Bomb has 30% increased Debuff Duration
-+1c:Frost Shield has +1 Cooldown Use
-+18:Frost Shield has +180 to maximum Life per Stage
+bomba:24% increased Frost Bomb Area of Effect
+uffdu:Frost Bomb has 30% increased Debuff Duration
+as+1c:Frost Shield has +1 Cooldown Use
+as+18:Frost Shield has +180 to maximum Life per Stage
 wallh:Frost Wall has 30% increased Cooldown Recovery Rate
 twalld:36% increased Frost Wall Duration
 scryhas3:General's Cry has 30% increased Cooldown Recovery Rate
-fmi:General's Cry has +1 to maximum number of Mirage Warriors
+yhas+:General's Cry has +1 to maximum number of Mirage Warriors
 cadea:24% increased Glacial Cascade Area of Effect
-deg:Glacial Cascade gains 10% of Physical Damage as Extra Cold Damage
-merh:Glacial Hammer has +30% chance to Freeze
-fgl:15% of Glacial Hammer Physical Damage gained as Extra Cold Damage
-grac:Grace has 30% increased Mana Reservation Efficiency
+cadeg:Glacial Cascade gains 10% of Physical Damage as Extra Cold Damage
+mmerh:Glacial Hammer has +30% chance to Freeze
+%ofgl:15% of Glacial Hammer Physical Damage gained as Extra Cold Damage
+grace:Grace has 30% increased Mana Reservation Efficiency
 dslama:24% increased Ground Slam Area of Effect
-a24:Ground Slam has a 24% increased angle
-hast:Haste has 30% increased Mana Reservation Efficiency
-atr:Hatred has 30% increased Mana Reservation Efficiency
+mhasa:Ground Slam has a 24% increased angle
+haste:Haste has 30% increased Mana Reservation Efficiency
+hatre:Hatred has 30% increased Mana Reservation Efficiency
 ystrikea:15% increased Heavy Strike Attack Speed
-a12:Heavy Strike has a 12% chance to deal Double Damage
-fag:Herald of Agony has 75% increased Mana Reservation Efficiency
-dag:Summoned Agony Crawler fires 2 additional Projectiles
+asa12:Heavy Strike has a 12% chance to deal Double Damage
+dofag:Herald of Agony has 75% increased Mana Reservation Efficiency
+nedag:Summoned Agony Crawler fires 2 additional Projectiles
 fashh:Herald of Ash has 75% increased Mana Reservation Efficiency
 cehas7:Herald of Ice has 75% increased Mana Reservation Efficiency
-dofp:Herald of Purity has 75% increased Mana Reservation Efficiency
-fse:+1 to maximum number of Sentinels of Purity
+ldofp:Herald of Purity has 75% increased Mana Reservation Efficiency
+erofs:+1 to maximum number of Sentinels of Purity
 erhas7:Herald of Thunder has 75% increased Mana Reservation Efficiency
 xblasthas2:Hexblast has 24% increased Area of Effect
-ahe:Hexblast has 15% chance to not remove a Hex
+onotr:Hexblast has 15% chance to not remove a Hex
 shave2:Summoned Holy Relics have 24% increased Area of Effect
-ve10:Summoned Holy Relics have 100% increased Buff Effect
-shp:15% of Ice Crash Physical Damage gained as Extra Cold Damage
-asha:24% increased Ice Crash Area of Effect
-oic:+36% to Ice Golem Elemental Resistances
-uric:150% increased Effect of the Buff granted by your Ice Golems
-vaha:Ice Nova has +30% chance to Freeze
+ave10:Summoned Holy Relics have 100% increased Buff Effect
+%ofic:15% of Ice Crash Physical Damage gained as Extra Cold Damage
+rasha:24% increased Ice Crash Area of Effect
+%toic:+36% to Ice Golem Elemental Resistances
+youri:150% increased Effect of the Buff granted by your Ice Golems
+ovaha:Ice Nova has +30% chance to Freeze
 enovaa:24% increased Ice Nova Area of Effect
-lsf:Chills from Ice Nova Hits always reduce Action Speed by at least 8%
-hota:24% increased Ice Shot Area of Effect
-otha:Ice Shot has 60% increased Area of Effect angle
+hills:Chills from Ice Nova Hits always reduce Action Speed by at least 8%
+shota:24% increased Ice Shot Area of Effect
+shoth:Ice Shot has 60% increased Area of Effect angle
 phas45:Siphoning Trap has 45% increased Skill Effect Duration
-ap':Siphoning Trap's beam to you grants 1% reduced Damage taken for each other beam
+trap':Siphoning Trap's beam to you grants 1% reduced Damage taken for each other beam
 phas40:Siphoning Trap has 40% increased Chill Effect
-kew:15% Chance to gain a Power Charge on Critical Strike with Ice Spear
-300%:300% increased Ice Spear Critical Strike Chance in second form
-arf:Ice Spear fires an additional Projectile
-bef:Ice Spear travels 30% reduced distance before changing forms
+ainap:15% Chance to gain a Power Charge on Critical Strike with Ice Spear
+300%i:300% increased Ice Spear Critical Strike Chance in second form
+pearf:Ice Spear fires an additional Projectile
+peart:Ice Spear travels 30% reduced distance before changing forms
 cetrapa:24% increased Ice Trap Area of Effect
-%co:Ice Trap Damage Penetrates 10% Cold Resistance
-dim:36% increased Immortal Call Duration
+s10%c:Ice Trap Damage Penetrates 10% Cold Resistance
+sedim:36% increased Immortal Call Duration
 eratehas2:Incinerate has 24% increased Area of Effect
-+2t:Incinerate has +2 to maximum stages
-chs:10% increased Incinerate Damage for each stage
-lowp:15% of Infernal Blow Physical Damage gained as Extra Fire Damage
-lowa:24% increased Infernal Blow Area of Effect
-fde:Infernal Blow Debuff deals an additional 5% of Damage per Charge
+as+2t:Incinerate has +2 to maximum stages
+eachs:10% increased Incinerate Damage for each stage
+%ofin:15% of Infernal Blow Physical Damage gained as Extra Fire Damage
+blowa:24% increased Infernal Blow Area of Effect
+lowde:Infernal Blow Debuff deals an additional 5% of Damage per Charge
 rnalc:Infernal Cry has 30% increased Cooldown Recovery Rate
-comb:Combust has 30% increased Area of Effect
+combu:Combust has 30% increased Area of Effect
 tingcryhas3:Intimidating Cry has 30% increased Cooldown Recovery Rate
 yhas2:Intimidating Cry has 24% increased Area of Effect
-ntu:30% increased Intuitive Link Duration
+edint:30% increased Intuitive Link Duration
 cblasta:24% increased Kinetic Blast Area of Effect
-sa7:Kinetic Blast has a 75% chance for an additional explosion
-umi:Lancing Steel has 30% chance to count as consuming Steel Shards without Consuming them
-elf:Lancing Steel fires an additional Projectile
-amat:15% increased Leap Slam Attack Speed
+hasa7:Kinetic Blast has a 75% chance for an additional explosion
+tocou:Lancing Steel has 30% chance to count as consuming Steel Shards without Consuming them
+teelf:Lancing Steel fires an additional Projectile
+lamat:15% increased Leap Slam Attack Speed
 pslamar:24% increased Leap Slam Area of Effect
 garrowa:24% increased Lightning Arrow Area of Effect
-ts2:Lightning Arrow hits 2 additional Enemies
-url:150% increased Effect of the Buff granted by your Lightning Golems
-tol:+36% to Lightning Golem Elemental Resistances
+rowhi:Lightning Arrow hits 2 additional Enemies
+yourl:150% increased Effect of the Buff granted by your Lightning Golems
+6%tol:+36% to Lightning Golem Elemental Resistances
 efires3:Lightning Strike fires 3 additional Projectiles
-kep:Lightning Strike pierces 3 additional Targets
-ilsa:24% increased Lightning Tendrils Area of Effect
-lsc:60% increased Lightning Tendrils Critical Strike Chance
-pth:12% increased Lightning Spire Trap Throwing Speed
+rikep:Lightning Strike pierces 3 additional Targets
+rilsa:24% increased Lightning Tendrils Area of Effect
+rilsc:60% increased Lightning Tendrils Critical Strike Chance
+rapth:12% increased Lightning Spire Trap Throwing Speed
 etraphas3:Lightning Spire Trap has 30% increased Skill Effect Duration
 etraphas1:Lightning Spire Trap has 15% increased Cooldown Recovery Rate
-pst:Lightning Spire Trap strikes an additional area
-ppi:Lightning Trap pierces 3 additional Targets
-0%l:Lightning Trap Damage Penetrates 10% Lightning Resistance
-apl:40% increased Lightning Trap Lightning Ailment Effect
-rpc:12% increased Lightning Warp Cast Speed
-pdu:30% reduced Lightning Warp Duration
-mac:Rolling Magma Chains an additional time
-maa:24% increased Rolling Magma Area of Effect
-male:Malevolence has 30% increased Mana Reservation Efficiency
+traps:Lightning Spire Trap strikes an additional area
+trapp:Lightning Trap pierces 3 additional Targets
+s10%l:Lightning Trap Damage Penetrates 10% Lightning Resistance
+trapl:40% increased Lightning Trap Lightning Ailment Effect
+warpc:12% increased Lightning Warp Cast Speed
+arpdu:30% reduced Lightning Warp Duration
+agmac:Rolling Magma Chains an additional time
+agmaa:24% increased Rolling Magma Area of Effect
+malev:Malevolence has 30% increased Mana Reservation Efficiency
 bonda:24% increased Manabond Area of Effect
-ndp:Manabond Penetrates 12% Lightning Resistance while on Low Mana
+bondp:Manabond Penetrates 12% Lightning Resistance while on Low Mana
 rarrowclonesh:Mirror Arrow and Mirror Arrow Clones have 15% increased Attack Speed
 rarrowh:Mirror Arrow has 30% increased Cooldown Recovery Rate
 efires2:Molten Strike fires 2 additional Projectiles
 nstrikea:24% increased Molten Strike Area of Effect
-nwi:30% chance for Phase Run to increase Duration without removing Frenzy Charges
-dpha:36% increased Phase Run Duration
+forph:30% chance for Phase Run to increase Duration without removing Frenzy Charges
+sedph:36% increased Phase Run Duration
 ctraphas3:Seismic Trap has 30% increased Skill Effect Duration
 ctraphas1:Seismic Trap has 15% increased Cooldown Recovery Rate
-apre:Seismic Trap releases an additional Wave
-pet:Petrified Blood has 45% increased Mana Reservation Efficiency
+rapre:Seismic Trap releases an additional Wave
+petri:Petrified Blood has 45% increased Mana Reservation Efficiency
 r'smarkc:30% increased Poacher's Mark Curse Effect
 r'smarkd:45% increased Poacher's Mark Duration
 4%increasedp:24% increased Poisonous Concoction Area of Effect
 sconcoctionu:Poisonous Concoction uses 12% reduced Flask Charges
-lpo:45% Chance to gain an additional Power Charge on Kill with Power Siphon
-hona:15% increased Power Siphon Attack Speed
-honf:Power Siphon fires 2 additional Projectiles
-pri:Pride has 30% increased Mana Reservation Efficiency
-eci:Precision has 75% increased Mana Reservation Efficiency
-dcu:Sniper's Mark has 30% increased Curse Effect
+nalpo:45% Chance to gain an additional Power Charge on Kill with Power Siphon
+phona:15% increased Power Siphon Attack Speed
+phonf:Power Siphon fires 2 additional Projectiles
+pride:Pride has 30% increased Mana Reservation Efficiency
+preci:Precision has 75% increased Mana Reservation Efficiency
+sedcu:Sniper's Mark has 30% increased Curse Effect
 khas45:Sniper's Mark has 45% increased Duration
 dprot:30% increased Protective Link Duration
 uredu:45% increased Puncture Duration
-rpu:30% Chance for Puncture to Maim on hit
-ntc:30% increased Punishment Curse Effect
-ntd:45% increased Punishment Duration
-meh:Purifying Flame has 30% increased Area of Effect if targeting Consecrated Ground
-omp:Consecrated Ground from Purifying Flame applies 9% increased Damage taken to Enemies
-fel:Purity of Elements has 30% increased Mana Reservation Efficiency
-yoff:Purity of Fire has 45% increased Mana Reservation Efficiency
-yofi:Purity of Ice has 45% increased Mana Reservation Efficiency
-yofl:Purity of Lightning has 45% increased Mana Reservation Efficiency
-wsat:15% increased Rain of Arrows Attack Speed
-wsar:24% increased Rain of Arrows Area of Effect
-wsh:Rain of Arrows has 15% chance to fire an additional sequence of arrows
-dral:15% increased Rallying Cry Buff Effect
+forpu:30% Chance for Puncture to Maim on hit
+mentc:30% increased Punishment Curse Effect
+mentd:45% increased Punishment Duration
+lameh:Purifying Flame has 30% increased Area of Effect if targeting Consecrated Ground
+fromp:Consecrated Ground from Purifying Flame applies 9% increased Damage taken to Enemies
+tyofe:Purity of Elements has 30% increased Mana Reservation Efficiency
+tyoff:Purity of Fire has 45% increased Mana Reservation Efficiency
+tyofi:Purity of Ice has 45% increased Mana Reservation Efficiency
+tyofl:Purity of Lightning has 45% increased Mana Reservation Efficiency
+owsat:15% increased Rain of Arrows Attack Speed
+owsar:24% increased Rain of Arrows Area of Effect
+rowsh:Rain of Arrows has 15% chance to fire an additional sequence of arrows
+edral:15% increased Rallying Cry Buff Effect
 gcrye:Rallying Cry Exerts 1 additional Attack
-erad:24% increased Reave Radius
+eaver:24% increased Reave Radius
 ghas3:Reckoning has 30% increased Cooldown Recovery Rate
-in1:Gain 15% of Rejuvenation Totem Life Regeneration as extra Mana Regeneration
-mau:45% increased Rejuvenation Totem Aura Effect
+gain1:Gain 15% of Rejuvenation Totem Life Regeneration as extra Mana Regeneration
+edrej:45% increased Rejuvenation Totem Aura Effect
 irear:24% increased Righteous Fire Area of Effect
-ireg:Righteous Fire grants 30% increased Spell Damage
+fireg:Righteous Fire grants 30% increased Spell Damage
 osteh:Riposte has 30% increased Cooldown Recovery Rate
-as8:Scourge Arrow has 8% chance to Poison per Stage
-lsp:Scourge Arrow creates an additional spore pod at Maximum Stages
+whas8:Scourge Arrow has 8% chance to Poison per Stage
+owcre:Scourge Arrow creates an additional spore pod at Maximum Stages
 ndtotemp:60% increased Searing Bond Totem Placement Speed
 dtoteme:36% increased Searing Bond Totem Elemental Resistances
-byse:Attacks Exerted by Seismic Cry deal 50% increased Damage
+dbyse:Attacks Exerted by Seismic Cry deal 50% increased Damage
 ccryh:Seismic Cry has a minimum of 10 Power
 argea:15% increased Shield Charge Attack Speed
-var:Shock Nova ring deals 60% increased Damage
+novar:Shock Nova ring deals 60% increased Damage
 knovaa:24% increased Shock Nova Area of Effect
-err:Sigil of Power requires 20% reduced Mana Spent to gain a Stage
-sbu:Sigil of Power's Buff also grants 30% increased Critical Strike Chance per Stage
-orl:Smite has a 15% chance for lightning to strike another target
+owerr:Sigil of Power requires 20% reduced Mana Spent to gain a Stage
+ower':Sigil of Power's Buff also grants 30% increased Critical Strike Chance per Stage
+eforl:Smite has a 15% chance for lightning to strike another target
 itehas3:Smite has 30% increased Aura Effect
 xprojectilespe:30% increased Spectral Helix Projectile Speed
-gh+:Spectral Helix Projectile spirals through +1 rotations
-dal:Soulrend also Hinders Enemies, with 40% reduced Movement Speed
-endf:Soulrend fires an additional Projectile
-a18:Storm Brand has a 18% chance to Chain an additional time
-y'sl:Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance
+lespi:Spectral Helix Projectile spirals through +1 rotations
+renda:Soulrend also Hinders Enemies, with 40% reduced Movement Speed
+rendf:Soulrend fires an additional Projectile
+asa18:Storm Brand has a 18% chance to Chain an additional time
+my'sl:Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance
 mbursta:24% increased Storm Burst Area of Effect
-rsth:Storm Burst has a 15% chance to create an additional Orb
+ursth:Storm Burst has a 15% chance to create an additional Orb
 derhas24:Sunder has 24% increased Area of Effect
-ela:Sunder has 20% reduced delay between Areas in the Wave
-elg:Shattering Steel grants Fortify on Hitting an Enemy at Close Range
+cedde:Sunder has 20% reduced delay between Areas in the Wave
+teelg:Shattering Steel grants Fortify on Hitting an Enemy at Close Range
 ringsteelh:Shattering Steel has 30% chance to not consume Steel Shards
-emc:15% increased Shockwave Totem Cast Speed
+otemc:15% increased Shockwave Totem Cast Speed
 vetotema:24% increased Shockwave Totem Area of Effect
 phas24:Explosive Trap has 24% increased Area of Effect
-lsm:Explosive Trap causes 2 additional smaller explosions
-fga:15% of Galvanic Arrow Physical Damage gained as extra Lightning Damage
+trapc:Explosive Trap causes 2 additional smaller explosions
+%ofga:15% of Galvanic Arrow Physical Damage gained as extra Lightning Damage
 lhas2:Splitting Steel has 24% increased Area of Effect
 tingsteelhas3:Splitting Steel has 30% chance to not consume Steel Shards
 nicarrowh:Galvanic Arrow has 30% increased Projectile Speed
 ahas1:Siege Ballista has 15% increased Attack Speed
 ahas4:Siege Ballista has 45% increased Totem Placement Speed
-indu:30% increased Essence Drain Duration
-dsm:30% increased Smoke Mine Duration
-ineg:Smoke Mine grants additional 30% increased Movement Speed
-ull:30% increased Soul Link Duration
-rkf:Spark fires 3 additional Projectiles
-kpr:30% increased Spark Projectile Speed
+aindu:30% increased Essence Drain Duration
+sedsm:30% increased Smoke Mine Duration
+mineg:Smoke Mine grants additional 30% increased Movement Speed
+sedso:30% increased Soul Link Duration
+parkf:Spark fires 3 additional Projectiles
+parkp:30% increased Spark Projectile Speed
 dthrowp:30% increased Spectral Shield Throw Projectile Speed
 hrowf:Spectral Shield Throw fires 3 additional Shard Projectiles
-cel:30% reduced Spectral Throw Projectile Deceleration
+cedsp:30% reduced Spectral Throw Projectile Deceleration
 sedspectralthrowp:30% increased Spectral Throw Projectile Speed
-ve12:Spectres have 12% increased Attack and Cast Speed
-orai:+36% to Raised Spectre Elemental Resistances
-wcri:90% increased Split Arrow Critical Strike Chance
+ave12:Spectres have 12% increased Attack and Cast Speed
+%tora:+36% to Raised Spectre Elemental Resistances
+owcri:90% increased Split Arrow Critical Strike Chance
 rrowf:Split Arrow fires 3 additional Projectiles
 cstrikedu:45% increased Static Strike Duration
 cstrikea:24% increased Static Strike Area of Effect
-mta:Static Strike has +2 maximum Beam Targets
-%tos:+36% to Stone Golem Elemental Resistances
-rsto:150% increased Effect of the Buff granted by your Stone Golems
+mumbe:Static Strike has +2 maximum Beam Targets
+6%tos:+36% to Stone Golem Elemental Resistances
+ourst:150% increased Effect of the Buff granted by your Stone Golems
 cedst:30% reduced Storm Call Duration
 calla:24% increased Storm Call Area of Effect
-msc:90% increased Orb of Storms Critical Strike Chance
-msa:24% increased Orb of Storms Area of Effect
-nwa:40% chance to Summon an additional Skeleton Warrior with Summon Skeleton
-sa3:Sweep has a 30% chance to grant an Endurance Charge on Hit
-eepa:24% increased Sweep Area of Effect
+ormsc:90% increased Orb of Storms Critical Strike Chance
+ormsa:24% increased Orb of Storms Area of Effect
+nalsk:40% chance to Summon an additional Skeleton Warrior with Summon Skeleton
+weeph:Sweep has a 30% chance to grant an Endurance Charge on Hit
+weepa:24% increased Sweep Area of Effect
 mhas2:Tectonic Slam has 24% increased Area of Effect
-20%f:Tectonic Slam has +20% fissure branching chance
-l3t:Tempest Shield chains an additional 3 times
-insc:30% increased Temporal Chains Curse Effect
-insd:45% increased Temporal Chains Duration
-lri:Temporal Rift has 30% increased Cooldown Recovery Rate
-doa:24% increased Tornado Area of Effect
-doh:Tornado has 30% increased Movement Speed
-hotc:90% increased Tornado Shot Critical Strike Chance
-otf:Tornado Shot fires an additional secondary Projectile
-aing:Toxic Rain gains 10% of Physical Damage as Extra Chaos Damage
-res1:Toxic Rain fires 1 additional Arrow
-dva:30% increased Vampiric Link Duration
+mhas+:Tectonic Slam has +20% fissure branching chance
+dchai:Tempest Shield chains an additional 3 times
+ainsc:30% increased Temporal Chains Curse Effect
+ainsd:45% increased Temporal Chains Duration
+oralr:Temporal Rift has 30% increased Cooldown Recovery Rate
+nadoa:24% increased Tornado Area of Effect
+nadoh:Tornado has 30% increased Movement Speed
+shotc:90% increased Tornado Shot Critical Strike Chance
+shotf:Tornado Shot fires an additional secondary Projectile
+raing:Toxic Rain gains 10% of Physical Damage as Extra Chaos Damage
+ires1:Toxic Rain fires 1 additional Arrow
+sedva:30% increased Vampiric Link Duration
 eanceh:Vengeance has 30% increased Cooldown Recovery Rate
-fyd:45% increased Vigilant Strike Fortify Duration
+ikefo:45% increased Vigilant Strike Fortify Duration
 rstrikec:90% increased Viper Strike Critical Strike Chance
 rstrikedu:30% increased Viper Strike Duration
-vita:Vitality has 75% increased Mana Reservation Efficiency
+vital:Vitality has 75% increased Mana Reservation Efficiency
 dspherehas3:Void Sphere has 30% increased Cooldown Recovery Rate
-inv:Enemies in Void Sphere's range take up to 10% increased Damage, based on distance from the Void Sphere
+esinv:Enemies in Void Sphere's range take up to 10% increased Damage, based on distance from the Void Sphere
 rehas1:Void Sphere has 18% increased Pulse Frequency
 cbursta:24% increased Voltaxic Burst Area of Effect
-als3:Voltaxic Burst deals 3% increased Damage per 0.1 seconds of Duration
+rstde:Voltaxic Burst deals 3% increased Damage per 0.1 seconds of Duration
 dvortexdu:30% increased Vortex Duration
-henc:Vortex has 45% increased Area of Effect when Cast on Frostbolt
+xhas4:Vortex has 45% increased Area of Effect when Cast on Frostbolt
 xhas3:Vortex has 30% increased Cooldown Recovery Rate
 rabilityc:30% increased Vulnerability Curse Effect
 rabilityd:45% increased Vulnerability Duration
 ospherehas:Hydrosphere has 30% increased Pulse Frequency
-sdr:Enemies Drenched by Hydrosphere have Cold and Lightning Exposure, applying -6% to Resistances
-rba:War Banner has 40% increased Aura Effect
+miesd:Enemies Drenched by Hydrosphere have Cold and Lightning Exposure, applying -6% to Resistances
+warba:War Banner has 40% increased Aura Effect
 d'smarkc:30% increased Warlord's Mark Curse Effect
 d'smarkd:45% increased Warlord's Mark Duration
-on':Wave of Conviction's Exposure applies -6% Elemental Resistance
+tion':Wave of Conviction's Exposure applies -6% Elemental Resistance
 ctionh:Wave of Conviction has 30% increased Duration
-desa:15% increased Whirling Blades Attack Speed
-ke':Wild Strike's Beam Chains an additional 6 times
+adesa:15% increased Whirling Blades Attack Speed
+rike':Wild Strike's Beam Chains an additional 6 times
 dstrikea:36% increased Wild Strike Area of Effect
 bhas+:Winter Orb has +2 Maximum Stages
-ctp:Winter Orb has 3% increased Area of Effect per Stage
+has3%:Winter Orb has 3% increased Area of Effect per Stage
 rhas36:Wither has 36% increased Duration
 herhas2:Wither has 24% increased Area of Effect
-wra:Wrath has 30% increased Mana Reservation Efficiency
+wrath:Wrath has 30% increased Mana Reservation Efficiency
 ieshave1:Raised Zombies have 15% increased Attack Speed
-oel:Raised Zombies have +36% to Elemental Resistances
-zea:Zealotry has 30% increased Mana Reservation Efficiency
-adco:Volatile Dead Consumes up to 1 additional corpse
+6%toe:Raised Zombies have +36% to Elemental Resistances
+zealo:Zealotry has 30% increased Mana Reservation Efficiency
+eadco:Volatile Dead Consumes up to 1 additional corpse
 ledeadd:40% increased Volatile Dead Damage
-adca:12% increased Volatile Dead Cast Speed
-hsp:Unearth Spawns corpses with +5 Level
-rthd:40% increased Unearth Damage
-thc:12% increased Unearth Cast Speed
-anh:Cremation can have up to 1 additional Geyser at a time
+eadca:12% increased Volatile Dead Cast Speed
+rthsp:Unearth Spawns corpses with +5 Level
+arthd:40% increased Unearth Damage
+arthc:12% increased Unearth Cast Speed
+oncan:Cremation can have up to 1 additional Geyser at a time
 ationd:40% increased Cremation Damage
 ationcas:12% increased Cremation Cast Speed
-wapd:40% increased Bodyswap Damage
-wapc:12% increased Bodyswap Cast Speed
-2%a:Steelskin grants 12% additional Physical Damage Reduction
-inb:Steelskin Buff can take 45% increased amount of Damage
-sht:Dash travels 100% increased distance
-+2c:Dash has +2 Cooldown Uses
-rofb:+1 to maximum number of Bladestorms
-msm:Sand Bladestorms move with 75% increased speed
-rmde:Bladestorm deals 40% increased Damage
-ooda:Blood and Sand has 40% increased Buff Effect
-+2s:Perforate creates +2 Spikes
+swapd:40% increased Bodyswap Damage
+swapc:12% increased Bodyswap Cast Speed
+sking:Steelskin grants 12% additional Physical Damage Reduction
+skinb:Steelskin Buff can take 45% increased amount of Damage
+dasht:Dash travels 100% increased distance
+as+2c:Dash has +2 Cooldown Uses
+erofb:+1 to maximum number of Bladestorms
+sandb:Sand Bladestorms move with 75% increased speed
+ormde:Bladestorm deals 40% increased Damage
+looda:Blood and Sand has 40% increased Buff Effect
+tecre:Perforate creates +2 Spikes
 orateh:Perforate has 24% increased Area of Effect
 orated:Perforate deals 40% increased Damage
 nkhas3:Frostblink has 30% increased Cooldown Recovery Rate
-umt:Frostblink has 75% increased maximum travel distance
-shan:Flesh and Stone has 75% increased Mana Reservation Efficiency
-a40:Chain Hook has a 40% chance to grant +1 Rage if it Hits Enemies
-usp:Chain Hook has +1 Radius per 12 Rage
-okd:Chain Hook deals 40% increased Damage
-oss:Berserk has 40% reduced Rage loss per second
+khas7:Frostblink has 75% increased maximum travel distance
+lesha:Flesh and Stone has 75% increased Mana Reservation Efficiency
+khasa:Chain Hook has a 40% chance to grant +1 Rage if it Hits Enemies
+khas+:Chain Hook has +1 Radius per 12 Rage
+hookd:Chain Hook deals 40% increased Damage
+s40%r:Berserk has 40% reduced Rage loss per second
 erkhas3:Berserk has 30% increased Buff Effect
 blastmined:Stormblast Mine deals 40% increased Damage
 blastminehas1:Stormblast Mine has 15% increased Throwing Speed
 nehas40:Stormblast Mine has 40% increased Aura Effect
 lemined:Icicle Mine deals 40% increased Damage
 eminehas1:Icicle Mine has 15% increased Throwing Speed
-30%t:Icicle Mine has +30% to Critical Strike Multiplier
++30%t:Icicle Mine has +30% to Critical Strike Multiplier
 clastmined:Pyroclast Mine deals 40% increased Damage
 clastmineh:Pyroclast Mine has 15% increased Throwing Speed
-inef:Pyroclast Mine fires an additional Projectile
-shde:Cobra Lash deals 40% increased Damage
+minef:Pyroclast Mine fires an additional Projectile
+lashd:Cobra Lash deals 40% increased Damage
 lashh:Cobra Lash has 30% increased Projectile Speed
-hch:Cobra Lash Chains 3 additional times
-cts:Withering Step inflicts 3 additional Withered Debuffs
-teph:Withering Step has 30% increased Elusive Effect
-yred:Venom Gyre deals 40% increased Damage
-a20:Venom Gyre has a 20% chance to inflict Withered for 2 seconds on Hit
-tok:Venom Gyre has a 25% chance to keep caught Projectiles fired by using Whirling Blades
-lei:Plague Bearer Buff grants +20% to Poison Damage over Time Multiplier while Infecting
-fpl:Plague Bearer deals Damage based on an additional 5% of Plague Value
+lashc:Cobra Lash Chains 3 additional times
+stepi:Withering Step inflicts 3 additional Withered Debuffs
+steph:Withering Step has 30% increased Elusive Effect
+gyred:Venom Gyre deals 40% increased Damage
+asa20:Venom Gyre has a 20% chance to inflict Withered for 2 seconds on Hit
+cetok:Venom Gyre has a 25% chance to keep caught Projectiles fired by using Whirling Blades
+arerb:Plague Bearer Buff grants +20% to Poison Damage over Time Multiplier while Infecting
+arerd:Plague Bearer deals Damage based on an additional 5% of Plague Value
 ikede:Pestilent Strike deals 40% increased Damage
 kehas4:Pestilent Strike has 40% increased Duration
 kehas2:Pestilent Strike has 24% increased Area of Effect
 ngolemsd:Summoned Carrion Golems deal 40% increased Damage
-urca:150% increased Effect of the Buff granted by your Carrion Golems
-lel:Summoned Carrion Golems have +36% to all Elemental Resistances
-ve9:Summoned Skitterbots have 90% increased Area of Effect
+ourca:150% increased Effect of the Buff granted by your Carrion Golems
+oalle:Summoned Carrion Golems have +36% to all Elemental Resistances
+nedsk:Summoned Skitterbots have 90% increased Area of Effect
 nskit:Summon Skitterbots has 45% increased Mana Reservation Efficiency
-tada:Artillery Ballista Damage Penetrates 10% Fire Resistance
+stada:Artillery Ballista Damage Penetrates 10% Fire Resistance
 afires2:Artillery Ballista fires 2 additional Arrows
-sfa:Artillery Ballista Projectiles fall in two perpendicular lines instead
+stapr:Artillery Ballista Projectiles fall in two perpendicular lines instead
 afiresa:Shrapnel Ballista fires an additional Arrow
-api:Shrapnel Ballista Pierces 6 additional Targets
+stapi:Shrapnel Ballista Pierces 6 additional Targets
 tahas3:Shrapnel Ballista has 30% increased Projectile Speed
 lthas1:Kinetic Bolt has 15% increased Attack Speed
 lthas3:Kinetic Bolt has 30% increased Projectile Speed
-tch:Kinetic Bolt changes direction 2 additional times
+oltch:Kinetic Bolt changes direction 2 additional times
 eblasth:Blade Blast has 24% increased Area of Effect
-sot:Blade Blast detonates other Lingering Blades within an 75% increased Area
+stdet:Blade Blast detonates other Lingering Blades within an 75% increased Area
 eblastdea:Blade Blast deals 40% increased Damage
-indh:Stormbind has 24% increased Area of Effect
-indd:Stormbind deals 40% increased Damage
-neb:Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds
-cyo:30% increased Mana Reservation Efficiency of Skills Supported by Spellslinger
-rhav:Skills Supported by Spellslinger have 30% increased Cooldown Recovery Rate
+bindh:Stormbind has 24% increased Area of Effect
+bindd:Stormbind deals 40% increased Damage
+runeb:Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds
+encyo:30% increased Mana Reservation Efficiency of Skills Supported by Spellslinger
+erhav:Skills Supported by Spellslinger have 30% increased Cooldown Recovery Rate
 debrandd:Wintertide Brand deals 40% increased Damage
-s+4:Wintertide Brand has +4 to maximum Stages
+has+4:Wintertide Brand has +4 to maximum Stages
 randhas4:Wintertide Brand has 40% increased Chill Effect
 cebrandd:Penance Brand deals 40% increased Damage
 ebrandhas1:Penance Brand has 12% increased Cast Speed
 andhas2:Penance Brand has 24% increased Area of Effect
 terde:Earthshatter deals 40% increased Damage
 hshatterh:Earthshatter has 24% increased Area of Effect
-+1f:Earthshatter creates +1 fissures
+tterc:Earthshatter creates +1 fissures
 tbrandh:Arcanist Brand has 12% increased Cast Speed
-or4:Spells Triggered by Arcanist Brand Unnerve enemies on Hit for 4 seconds
-fia:Defiance Banner has 40% increased Aura Effect
+ellst:Spells Triggered by Arcanist Brand Unnerve enemies on Hit for 4 seconds
+defia:Defiance Banner has 40% increased Aura Effect
 mraind:40% increased Storm Rain Damage
-amf:Storm Rain has 40% increased Beam frequency
+nhas4:Storm Rain has 40% increased Beam frequency
 mrainf:Storm Rain fires an additional Arrow
 gevortexd:40% increased Rage Vortex Damage
 gevortexa:24% increased Rage Vortex Area of Effect
-sac:Rage Vortex Sacrifices +5% of Rage
-ushd:40% increased Shield Crush Damage
-usha:15% increased Shield Crush Attack Speed
-hce:Shield Crush central wave has 24% more Area of Effect
-perd:Summoned Reaper deals 40% increased Damage
-oph:Summoned Reaper has +20% to Physical Damage over Time Multiplier
-dsu:30% increased Summon Reaper Cooldown Recovery Rate
+texsa:Rage Vortex Sacrifices +5% of Rage
+rushd:40% increased Shield Crush Damage
+rusha:15% increased Shield Crush Attack Speed
+rushc:Shield Crush central wave has 24% more Area of Effect
+aperd:Summoned Reaper deals 40% increased Damage
+aperh:Summoned Reaper has +20% to Physical Damage over Time Multiplier
+sedsu:30% increased Summon Reaper Cooldown Recovery Rate
 tterda:40% increased Boneshatter Damage
-ters:40% increased Boneshatter Stun Duration
-1tr:Boneshatter has 24% chance to grant +1 Trauma
-hco:30% increased Ambush Cooldown Recovery Rate
-yam:Attacks Exerted by Ambush have +40% to Critical Strike Multiplier
+tters:40% increased Boneshatter Stun Duration
+s24%c:Boneshatter has 24% chance to grant +1 Trauma
+edamb:30% increased Ambush Cooldown Recovery Rate
+dbyam:Attacks Exerted by Ambush have +40% to Critical Strike Multiplier
 ebuffe:Ensnaring Arrow has 30% increased Debuff Effect
-as9:Ensnaring Arrow has 90% increased Area of Effect
+whas9:Ensnaring Arrow has 90% increased Area of Effect
 whas4:Explosive Arrow has 40% increased Duration
 ceddu:Explosive Arrow has 30% reduced Duration
-twhi:15% increased Area of Effect while you have Arcane Surge
-urw:+300 to Armour while you have Fortify
-er2:Recover 2% of Life when you Kill an Enemy while you have Rage
-oev:+300 to Evasion Rating while you have Phasing
-tsw:20% chance to Avoid Elemental Ailments while you have Elusive
-uwh:30% reduced Effect of Curses on you while on Consecrated Ground
-acc:30% increased Accuracy Rating while you have Onslaught
-eshi:Enemies Hindered by you have 50% reduced Life Regeneration rate
-tsi:Elemental Ailments inflicted on Enemies Exposed by you have 20% increased Duration
-esm:Enemies Maimed by you take 8% increased Damage Over Time
-tau:Enemies Taunted by you deal 5% less Area Damage
-ve-:Enemies Withered by you have -6% to all Resistances
-esb:Enemies Blinded by you have 30% reduced Critical Strike Chance
-uns:Enemies Intimidated by you have 20% increased duration of stuns against them
-tsag:Hits against Enemies Unnerved by you have 50% increased Spell Critical Strike Chance
+ctwhi:15% increased Area of Effect while you have Arcane Surge
+00toa:+300 to Armour while you have Fortify
+over2:Recover 2% of Life when you Kill an Enemy while you have Rage
+00toe:+300 to Evasion Rating while you have Phasing
+voide:20% chance to Avoid Elemental Ailments while you have Elusive
+cedef:30% reduced Effect of Curses on you while on Consecrated Ground
+edacc:30% increased Accuracy Rating while you have Onslaught
+ieshi:Enemies Hindered by you have 50% reduced Life Regeneration rate
+entsi:Elemental Ailments inflicted on Enemies Exposed by you have 20% increased Duration
+miesm:Enemies Maimed by you take 8% increased Damage Over Time
+miest:Enemies Taunted by you deal 5% less Area Damage
+ieswi:Enemies Withered by you have -6% to all Resistances
+miesb:Enemies Blinded by you have 30% reduced Critical Strike Chance
+sinti:Enemies Intimidated by you have 20% increased duration of stuns against them
+itsag:Hits against Enemies Unnerved by you have 50% increased Spell Critical Strike Chance

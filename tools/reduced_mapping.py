@@ -17,7 +17,7 @@
 def simplifyName(name) :
     return name.lower().replace(' ','').rstrip();
 
-def reducedMapping(min_list, bk=6) :
+def reducedMapping(min_list, bk=6, min_length=3) :
     set_of_names = set(min_list);
     sn_mapping = [];
     for fnname in min_list :
@@ -27,7 +27,7 @@ def reducedMapping(min_list, bk=6) :
         abandoned = "";
         other_names = set_of_names.difference({fnname});
         simp_other_names = [simplifyName(on) for on in other_names];
-        for k in range(3,min([bk+1,len(name)])) :
+        for k in range(min_length,min([bk+1,len(name)])) :
             short_names = [name[i:(i+k)] for i in range(len(name) - k + 1)];
             goodness = [sum([sn in on for on in simp_other_names]) for sn in short_names];
             mg = min(goodness);
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     ff = open('./all_enchants.txt','r');
     all_enchants = ff.readlines();
-    reduced_enchants = reducedMapping(all_enchants, 20);
+    reduced_enchants = reducedMapping(all_enchants, 20, min_length=5);
     ff.close();
     ff = open('./enchant_remapping.txt','w');
     ff.writelines(reduced_enchants);
