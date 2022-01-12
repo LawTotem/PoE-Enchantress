@@ -66,15 +66,6 @@ if (tempMon == "ERROR") {
     iniWrite, 1, %SettingsPath%, Other, monitor
 }
 
-IniRead, EnchantScanKey, %SettingsPath%, General, EnchantScanKey
-while (EnchantScanKey == "ERROR" or EnchantScanKey == "") {
-    IniWrite, ^y, %SettingsPath%, General, EnchantScanKey
-    sleep, 250
-    IniRead, EnchantScanKey, %SettingsPath%, General, EnchantScanKey
-}
-
-hotkey, %EnchantScanKey%, ScanEnchant
-
 IniRead, HeistScanKey, %SettingsPath%, General, HeistScanKey
 while (HeistScanKey == "ERROR" or HeistScanKey == "") {
     IniWrite, ^u, %SettingsPath%, General, HeistScanKey
@@ -83,20 +74,6 @@ while (HeistScanKey == "ERROR" or HeistScanKey == "") {
 }
 
 hotkey, %HeistScanKey%, ScanHeist
-
-IniRead, GeneralEnchantTxt, %SettingsPath%, User, GeneralEnchantTxt
-while (GeneralEnchantTxt == "ERROR") {
-    IniWrite, "general_enchants.txt", %SettingsPath%, User, GeneralEnchantTxt
-    sleep, 250
-    IniRead, GeneralEnchantTxt, %SettingsPath%, User, GeneralEnchantTxt
-}
-
-IniRead, ServiceEnchantTxt, %SettingsPath%, User, ServiceEnchantTxt
-while (ServiceEnchantTxt == "ERROR") {
-    IniWrite, "services.txt", %SettingsPath%, User, ServiceEnchantTxt
-    sleep, 250
-    IniRead, ServiceEnchantTxt, %SettingsPath%, User, ServiceEnchantTxt
-}
 
 IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
 while (HeistPriceTxt == "ERROR") {
@@ -119,19 +96,6 @@ while (HeistRemappingTxt == "ERROR") {
     IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
 }
 
-IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
-while (EnchantRemappingTxt == "ERROR") {
-    IniWrite, "enchant_remapping.txt", %SettingsPath%, User, EnchantRemappingTxt
-    sleep, 250
-    IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
-}
-
-IniRead, SaveEnchant, %SettingsPath%, User, SaveEnchant
-while (SaveEnchant == "ERROR") {
-    IniWrite, 0, %SettingsPath%, User, SaveEnchant
-    sleep, 250
-    IniRead, SaveEnchant, %SettingsPath%, User, SaveEnchant
-}
 
 tooltip, Loading Enchantress [Enchant List]
 
@@ -172,23 +136,6 @@ Return
 
 OpenGui:
     Gui, EnchantressUI:Show, w650 h585
-Return
-
-ScanEnchant:
-    _wasVisible := IsGuiVisible("EnchantressUI")
-    if (grabScreen("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`'+`%.")) {
-        Gui, EnchantressUI:Show, w650 h585
-        IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
-        if (FileExist(EnchantRemappingTxt))
-        {
-            RemapScan(EnchantRemappingTxt)
-        }
-        enchantSort()
-    } else {
-        if (_wasVisible) {
-            Gui, EnchantressUI:Show, w650 h585
-        }
-    }
 Return
 
 ScanHeist:
@@ -252,7 +199,6 @@ newGUI() {
 
     Gui, add, text, x10 y60 vValue, Captured String
     Gui, add, edit, x10 y80 vCaptureS r5 w600
-    Gui, add, picture, x10 y180 gReprossEnchant, resources\enchant.png
     Gui, add, picture, x240 y180 gDumpRaw, resources\dumpraw.png
     Gui, add, picture, x490 y180 gReprossHeist, resources\heist.png
 
@@ -269,23 +215,12 @@ help:
     Gui Help:new,, PoE-Enchantress Help
 
     Gui, font, s14
-        Gui, add, text, x5 y5, Setup
-        Gui, add, text, x5 y75, Heist Prices
-        Gui, add, text, x5 y165, Enchant Prices
-        Gui, add, text, x5 y255, Usage
-        Gui, add, text, x5 y375, Credits`/License
+        Gui, add, text, x5 y5, See https://github.com/LawTotem/PoE-Enchantress#readme
+        Gui, add, text, x5 y75, Credits`/License
     Gui, font
 
-
-    IniRead, ServiceEnchantTxt, %SettingsPath%, User, ServiceEnchantTxt
-    IniRead, GeneralEnchantTxt, %SettingsPath%, User, GeneralEnchantTxt
-    IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
     Gui, font, s10
-        Gui, add, text, x15 y30, PoE-Enchantress uses the tool 'Capture2Text' to translate enchant/item names to text. This tool must be downloaded`r`nseperately and is available at http://capture2text.sourceforge.net/. Once downloaded the 'Capture2Text' folder should be moved`r`ninto the folder containing the PoE-Enchantress autohotkey script.
-        Gui, add, text, x15 y100, PoE-Enchantress does not use any external sites/tools to perform Heist item pricing. It uses a comma separated file 'heists.txt'`r`nwhich should be formatted as 'item name', 'price/comment'. The item name will be matched without capitalization and without spaces`r`n(because Capture2Text messes them up quite frequently). Original author uses a python script to download and parse`r`nskill gem and item overviews from 'poe.ninja'.
-        Gui, add, text, x15 y190, Just like for the Heist item pricing, we use comma separated files to help with enchant pricing. The format is`r`n'enchant subtext', 'comment to show'. Make the enchant subtext as minimal as possible, the longer it the greater the chance`r`nthe enchantment will be missed because it was miss parsed. Two files are used 'services.txt' is checked first, it is intended for`r`nany lab services you are running, and 'general_enchants.txt' is checked second, it is intended for base item enchanting.
-        Gui, add, text, x15 y280, Use either of the scan hotkeys to capture a region of the screen containing only the name of the item or list of enchants you want`r`nto price. After you press the hotkey you will be able to select a region by pressing and holding the left mouse key.`r`nYou may edit the captured text and click either of the reprocess texts, there is no feedback but it does reprocess.`r`nDefault hotkeys to open the UI = Ctrl + Shift + Y`r`nHotkey to Capture Enchants = Ctrl + Y`r`nHotkey to Capture Heist = Ctrl + U
-        Gui, add, text, x15 y400, This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License`r`nas published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.`r`n`r`nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty`r`nof MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.`r`n`r`nYou should have received a copy of the GNU General Public License along with this program.`r`nIf not, see <https://www.gnu.org/licenses/>.`r`nCopyright (C) 2021 LawTotem#8511
+        Gui, add, text, x15 y1000, This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License`r`nas published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.`r`n`r`nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty`r`nof MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.`r`n`r`nYou should have received a copy of the GNU General Public License along with this program.`r`nIf not, see <https://www.gnu.org/licenses/>.`r`nCopyright (C) 2021 LawTotem#8511
 
     Gui, Help:Show, w800 h610
 
@@ -299,15 +234,6 @@ Return
 HelpGuiClose:
     Gui, Help:Destroy
 ;    Gui, EnchantressUI:Destroy
-Return
-
-ReprossEnchant:
-    IniRead, EnchantRemappingTxt, %SettingsPath%, User, EnchantRemappingTxt
-    if (FileExist(EnchantRemappingTxt))
-    {
-        RemapScan(EnchantRemappingTxt)
-    }
-    enchantSort()
 Return
 
 ReprossHeist:
@@ -339,7 +265,6 @@ Settings:
     Gui, font, s10
         offset := addOption("General", "FirstRun", offset, "Show First Run Help")
         offset := addOption("General", "GuiKey", offset, "Key Sequence to show GUI")
-        offset := addOption("General", "EnchantScanKey", offset, "Grab Enchant Key Sequence")
         offset := addOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
     Gui, font
 
@@ -349,12 +274,8 @@ Settings:
     Gui, font
     Gui, font, s10
         offset := addOption("User", "HeistPriceTxt", offset, "Heist Price File")
-        offset := addOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
-        offset := addOption("User", "GeneralEnchantTxt", offset, "General Enchant File")
         offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
-        offset := addOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
         offset := addOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
-        offset := addOption("User", "SaveEnchant", offset, "Save Text Capture of Enchants")
     Gui, font
 
     Gui, font, s14
@@ -376,15 +297,10 @@ SaveSettings:
     offset := 0
     saveOption("General", "FirstRun", offset, "Show First Run Help")
     saveOption("General", "GuiKey", offset, "Key Sequence to show GUI")
-    saveOption("General", "EnchantScanKey", offset, "Grab Enchant Key Sequence")
     saveOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
     saveOption("User", "HeistPriceTxt", offset, "Heist Price File")
-    saveOption("User", "ServiceEnchantTxt", offset, "Service Enchant File")
-    saveOption("User", "GeneralEnchantTxt", offset, "General Enchant File")
     saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
-    saveOption("User", "EnchantRemappingTxt", offset, "Enchant Text Remapping File")
     saveOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
-    saveOption("User", "SaveEnchant", offset, "Save Text Capture of Enchants")
     saveOption("Other", "scale", offset, "Monitor Scale")
     saveOption("Other", "monitor", offset, "Select Monitor")
     Gui, Settings:Destroy
@@ -413,29 +329,6 @@ getHeistPrices(heist_price_txt)
     {
         FileRead, HeistFile, %heist_price_txt%
         return HeistFile
-    }
-    return ""
-}
-
-getGeneralEnchants(general_enchants_txt)
-{
-    if (SubStr(general_enchants_txt,1,4) = "http")
-    {
-        global last_enchant_grab
-        Delta := %A_Now%
-        EnvSub Delta, %last_enchant_grab%, hours
-        if (last_enchant_grab = 0 or Delta > 1)
-        {
-            UrlDownloadToFile, %general_enchants_txt%, local_general_enchants.txt
-            last_enchant_grab = %A_Now%
-        }
-        FileRead, EnchantFile, local_general_enchants.txt
-        return EnchantFile
-    }
-    if (FileExist(general_enchants_txt))
-    {
-        FileRead, EnchantFile, %general_enchants_txt%
-        return EnchantFile
     }
     return ""
 }
@@ -508,70 +401,6 @@ cleanString(instring){
     output := StrReplace(output, "`r")
     output := StrReplace(output, "`n")
     return output
-}
-
-enchantSort() {
-    GuiControlGet, EnchantString,, CaptureS, value
-    IniRead, SaveEnchant, %SettingsPath%, User, SaveEnchant
-    if (SaveEnchant)
-    {
-        EnchantFileName := "enchant_" RawCaptureTime ".txt"
-        FileDelete, %EnchantFileName%
-        FileAppend, %EnchantString%, %EnchantFileName%
-    }
-    loop, 20
-    {
-        GuiControl,, enchant_%A_Index%,
-    }
-    current_row := 1
-    IniRead, ServiceEnchantTxt, %SettingsPath%, User, ServiceEnchantTxt
-    if (FileExist(ServiceEnchantTxt))
-    {
-        FileRead, ServiceFile, %ServiceEnchantTxt%
-        loop, parse, ServiceFile, `n, `r
-        {
-            enchantLine := % A_LoopField
-            enchantarray := StrSplit(enchantLine, ":")
-            if (InStr(cleanString(EnchantString), cleanString(enchantarray[1]), false))
-            {
-                if (current_row <= 15)
-                {
-                    GuiControl,, enchant_%current_row%, % enchantarray[2]
-                }
-                current_row := current_row + 1
-            }
-        }
-    } else {
-        GuiControl,, enchant_%current_row%, No Service File
-        current_row := current_row + 1
-    }
-    
-    IniRead, GeneralEnchantTxt, %SettingsPath%, User, GeneralEnchantTxt
-    GeneralFile := getGeneralEnchants(GeneralEnchantTxt)
-    if (StrLen(GeneralFile) > 0)
-    {
-        loop, parse, GeneralFile, `n, `r
-        {
-            enchantLine := % A_LoopField
-            enchantarray := StrSplit(enchantLine, ":")
-            if (InStr(cleanString(EnchantString), cleanString(enchantarray[1]), false))
-            {
-                if (current_row <= 15)
-                {
-                    GuiControl,, enchant_%current_row%, % enchantarray[2]
-                }
-                current_row := current_row + 1
-            }
-        }
-    } else {
-        GuiControl,, enchant_%current_row%, No General Enchant File
-        current_row := current_row + 1
-    }
-    if (current_row > 15)
-    {
-        msgbox, To many enchant entries (some may have been lost).
-    }
-    return true
 }
 
 heistSort() {

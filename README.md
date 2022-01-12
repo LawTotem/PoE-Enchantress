@@ -92,7 +92,14 @@ Untested but maybe corrects for some monitor scaling.
 ### monitor
 Untested but maybe allows for monitor selection.
 
+# Lab Enchants
+Originally the tool had some capabilities for handling labratory enchants because they fell in the same category of requiring OCR.
+As of 0.5.0 these features have been removed; I (LawTotem) don't run lab so these features were mostly a curiosity and the tool bnorick/labbie is simply superior.
+
 # Change List
+
+## 0.5.0
+ - Removing Lab Enchant Features
 
 ## 0.4.0
  - Added genearl enchants from http like pastebin.
