@@ -24,6 +24,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 global version := "0.4.0"
 global show_update := false
 
+global current_league := "Scourge"
+
 global PID := DllCall("Kernel32\GetCurrentProcessId")
 
 EnvGet, dir, USERPROFILE
@@ -37,7 +39,6 @@ global SettingsPath := RoamingDir . "\settings.ini"
 global TempPath := RoamingDir . "\temp.txt"
 global RawTextCapture := ""
 global RawCaptureTime := ""
-global last_ninja_grab := 0
 
 tooltip, Loading Enchantress [Initializing Settings]
 
@@ -99,6 +100,8 @@ while (HeistRemappingTxt == "ERROR") {
 
 
 tooltip, Loading Enchantress [Enchant List]
+
+#Include, subscripts/NinjaPricing.ahk
 
 tooltip, Loading Enchantress [Personal Lists]
 if (FileExist("resources\ScalesOfJustice.png"))
@@ -210,16 +213,6 @@ newGUI() {
     } 
     Gui, font
 
-}
-
-pullNinjaPrice(league, this_type)
-{
-    grab := ComObjCreate("WinHttp.WinHttpRequest.5.1")
-    grab.Open("Get","https://poe.ninja/api/data/itemoverview?league=" league "&type=" this_type "&language=en")
-    grab.SetRequestHeader("User-Agent","Mozilla/5.0")
-    grab.Send()
-    grab.WaitForResponse()
-    return grab.responseText
 }
 
 help:
@@ -338,7 +331,7 @@ getHeistPrices(heist_price_txt)
     }
     if (SubStr(heist_price_txt,1,4) = "auto")
     {
-        if (poeGrab())
+        if (ninjaGrab("Scourge"))
         {
             ftargets := FileOpen("heist_items.json","r")
             targets := ftargets.Read()
@@ -346,14 +339,14 @@ getHeistPrices(heist_price_txt)
             global poe_armor, poe_umaps, poe_jewel
             global poe_rings, poe_flask, poe_bases
             i := DllCall("snipper\UpdatePrices"
-                         ,"Str",targets,"Str",poe_sgems,"Str",poe_weaps
-                         ,"Str",poe_armor,"Str",poe_umaps,"Str",poe_jewel
-                         ,"Str",poe_rings,"Str",poe_flask,"Str",poe_bases
+                         ,"Str",targets,"Str",ninja_sgems,"Str",ninja_weaps
+                         ,"Str",ninja_armor,"Str",ninja_umaps,"Str",ninja_jewel
+                         ,"Str",ninja_rings,"Str",ninja_flask,"Str",ninja_bases
                          ,"Str","local_heists.txt")
             CheckError("Snipper\UpdatePrices", ErrorLevel)
-            FileRead, HeistFile, local_heists.txt
-            return HeistFile
         }
+        FileRead, HeistFile, local_heists.txt
+        return HeistFile
     }
     if (FileExist(heist_price_txt))
     {
@@ -361,34 +354,6 @@ getHeistPrices(heist_price_txt)
         return HeistFile
     }
     return ""
-}
-
-poeGrab()
-{
-    global last_ninja_grab
-    Delta := %A_Now%
-    EnvSub Delta, %last_ninja_grab%, hours
-    if (last_ninja_grab = 0 or Delta > 1)
-    {
-        global poe_sgems
-        poe_sgems := pullNinjaPrice("Scourge", "SkillGem")
-        global poe_weaps
-        poe_weaps := pullNinjaPrice("Scourge", "UniqueWeapon")
-        global poe_armor
-        poe_armor := pullNinjaPrice("Scourge", "UniqueArmour")
-        global poe_umaps
-        poe_umaps := pullNinjaPrice("Scourge", "UniqueMap")
-        global poe_jewel
-        poe_jewel := pullNinjaPrice("Scourge", "UniqueJewel")
-        global poe_rings
-        poe_rings := pullNinjaPrice("Scourge", "UniqueAccessory")
-        global poe_flask
-        poe_flask := pullNinjaPrice("Scourge", "UniqueFlask")
-        global poe_bases
-        poe_bases := pullNinjaPrice("Scourge", "BaseType")
-        return true
-    }
-    return false
 }
 
 addOption(sect, set_name, offset, title)
