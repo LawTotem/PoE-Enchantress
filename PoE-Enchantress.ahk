@@ -37,6 +37,7 @@ global SettingsPath := RoamingDir . "\settings.ini"
 global TempPath := RoamingDir . "\temp.txt"
 global RawTextCapture := ""
 global RawCaptureTime := ""
+global last_ninja_grab := 0
 
 tooltip, Loading Enchantress [Initializing Settings]
 
@@ -77,7 +78,7 @@ hotkey, %HeistScanKey%, ScanHeist
 
 IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
 while (HeistPriceTxt == "ERROR") {
-    IniWrite, "heists.txt", %SettingsPath%, User, HeistPriceTxt
+    IniWrite, "auto", %SettingsPath%, User, HeistPriceTxt
     sleep, 250
     IniRead, HeistPriceTxt, %SettingsPath% User, HeistPriceTxt
 }
@@ -211,6 +212,16 @@ newGUI() {
 
 }
 
+pullNinjaPrice(league, this_type)
+{
+    grab := ComObjCreate("WinHttp.WinHttpRequest.5.1")
+    grab.Open("Get","https://poe.ninja/api/data/itemoverview?league=" league "&type=" this_type "&language=en")
+    grab.SetRequestHeader("User-Agent","Mozilla/5.0")
+    grab.Send()
+    grab.WaitForResponse()
+    return grab.responseText
+}
+
 help:
     Gui Help:new,, PoE-Enchantress Help
 
@@ -325,12 +336,59 @@ getHeistPrices(heist_price_txt)
         FileRead, HeistFile, local_heists.txt
         return HeistFile
     }
+    if (SubStr(heist_price_txt,1,4) = "auto")
+    {
+        if (poeGrab())
+        {
+            ftargets := FileOpen("heist_items.json","r")
+            targets := ftargets.Read()
+            global poe_sgems, poe_weaps
+            global poe_armor, poe_umaps, poe_jewel
+            global poe_rings, poe_flask, poe_bases
+            i := DllCall("snipper\UpdatePrices"
+                         ,"Str",targets,"Str",poe_sgems,"Str",poe_weaps
+                         ,"Str",poe_armor,"Str",poe_umaps,"Str",poe_jewel
+                         ,"Str",poe_rings,"Str",poe_flask,"Str",poe_bases
+                         ,"Str","local_heists.txt")
+            CheckError("Snipper\UpdatePrices", ErrorLevel)
+            FileRead, HeistFile, local_heists.txt
+            return HeistFile
+        }
+    }
     if (FileExist(heist_price_txt))
     {
         FileRead, HeistFile, %heist_price_txt%
         return HeistFile
     }
     return ""
+}
+
+poeGrab()
+{
+    global last_ninja_grab
+    Delta := %A_Now%
+    EnvSub Delta, %last_ninja_grab%, hours
+    if (last_ninja_grab = 0 or Delta > 1)
+    {
+        global poe_sgems
+        poe_sgems := pullNinjaPrice("Scourge", "SkillGem")
+        global poe_weaps
+        poe_weaps := pullNinjaPrice("Scourge", "UniqueWeapon")
+        global poe_armor
+        poe_armor := pullNinjaPrice("Scourge", "UniqueArmour")
+        global poe_umaps
+        poe_umaps := pullNinjaPrice("Scourge", "UniqueMap")
+        global poe_jewel
+        poe_jewel := pullNinjaPrice("Scourge", "UniqueJewel")
+        global poe_rings
+        poe_rings := pullNinjaPrice("Scourge", "UniqueAccessory")
+        global poe_flask
+        poe_flask := pullNinjaPrice("Scourge", "UniqueFlask")
+        global poe_bases
+        poe_bases := pullNinjaPrice("Scourge", "BaseType")
+        return true
+    }
+    return false
 }
 
 addOption(sect, set_name, offset, title)
@@ -428,7 +486,6 @@ heistSort() {
                 current_row := current_row + 1
             }
         }
-
     }
     else
     {

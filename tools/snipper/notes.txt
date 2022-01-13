@@ -1,0 +1,6 @@
+gotta be in the x86 dev Chain
+cl /LD snipper.cpp JSONValue.cpp JSON.cpp /link /DLL GDIPlus.lib gdi32.lib user32.lib
+
+
+cl snipper.cpp JSONValue.cpp JSON.cpp /DLL
+link /DLL /OUT:snipper.dll *.obj GDIPlus.lib gdi32.lib user32.lib
