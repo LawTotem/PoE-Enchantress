@@ -16,8 +16,6 @@
 
 tooltip, Loading Enchantress [NinjaPrice]
 
-; You need to set the variable current_league befor calling this script
-
 ; Main functionality is in setting these variables
 ; Call ninjaGrab(league) to update, it will return true if prices were updated
 global ninja_sgems := "" ; skill gems
@@ -43,7 +41,11 @@ global ninja_fossl := "" ; fossils
 ; Internal variable used to track when the last prices were grabbed
 global last_ninja_grab := 0
 
-ninjaGrab(current_league)
+addNewSetting("User", "NinjaOnStart", 1, "Fetch PoE.Ninja Prices on Start")
+if (getSetting("User", "NinjaOnStart"))
+{
+    ninjaGrab(getSetting("General", "League"))
+}
 
 ; Pulls an individual pricing
 pullNinjaItems(league, this_type)

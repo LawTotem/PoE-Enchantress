@@ -24,9 +24,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 global version := "0.4.0"
 global show_update := false
 
-global current_league := "Scourge"
-
 global PID := DllCall("Kernel32\GetCurrentProcessId")
+
 
 EnvGet, dir, USERPROFILE
 global RoamingDir := dir . "\AppData\Roaming\POE-Enchantress"
@@ -36,74 +35,35 @@ if (!FileExist(RoamingDir)) {
 }
 
 global SettingsPath := RoamingDir . "\settings.ini"
+
+#Include, subscripts/Settings.ahk
+
+global CurrentLeague := "Scourge"
 global TempPath := RoamingDir . "\temp.txt"
 global RawTextCapture := ""
 global RawCaptureTime := ""
 
 tooltip, Loading Enchantress [Initializing Settings]
 
-IniRead, FirstRun, %SettingsPath%, General, FirstRun
-while (FirstRun == "ERROR" or FirstRun == "") {
-    IniWrite, 1, %SettingsPath%, General, FirstRun
-    sleep, 250
-    IniRead, FirstRun, %SettingsPath%, General, FirstRun
-}
+addNewSetting("General", "League", "Scourge", "Current League")
+addNewSetting("General", "FirstRun", 1, "Show First Run Help")
+addNewSetting("General", "HeistScanKey", ^u, "Key Sequence to Grab Screen for Heist")
+addNewSetting("General", "GuiKey", ^+y, "Key Sequency to show Main GUI")
+addNewSetting("User", "HeistPriceTxt", "auto", "Heist Prices File (auto to use poe.ninja)")
+addNewSetting("User", "HeistRemappingTxt", "heist_remapping.txt", "Heist Text Remapping File")
+addNewSetting("User", "SnapshotScreen", 0, "Save a Snapshot when Grabbing Screen")
+addNewSetting("Other", "scale", 1, "Monitor Scale Factor")
+addNewSetting("Other", "monitor", 1, "Which Monitor to use when Grabbing")
 
-IniRead, GuiKey, %SettingsPath%, General, GuiKey
-while (GuiKey == "ERROR" or GuiKey == "") {
-    IniWrite, ^+y, %SettingsPath%, General, GuiKey
-    sleep, 250
-    IniRead, GuiKey, %SettingsPath%, General, GuiKey
-}
-
+GuiKey := getSetting("General","GuiKey")
 hotkey, %GuiKey%, OpenGui
 
-IniRead, sc, %SettingsPath%, Other, scale
-if (sc == "ERROR") {
-    iniWrite, 1, %SettingsPath%, Other, scale
-}
-
-IniRead tempMon, %SettingsPath%, Other, monitor
-if (tempMon == "ERROR") {
-    iniWrite, 1, %SettingsPath%, Other, monitor
-}
-
-IniRead, HeistScanKey, %SettingsPath%, General, HeistScanKey
-while (HeistScanKey == "ERROR" or HeistScanKey == "") {
-    IniWrite, ^u, %SettingsPath%, General, HeistScanKey
-    sleep, 250
-    IniRead, HeistScanKey, %SettingsPath%, General, HeistScanKey
-}
-
+HeistScanKey := getSetting("General", "HeistScanKey")
 hotkey, %HeistScanKey%, ScanHeist
 
-IniRead, HeistPriceTxt, %SettingsPath%, User, HeistPriceTxt
-while (HeistPriceTxt == "ERROR") {
-    IniWrite, "auto", %SettingsPath%, User, HeistPriceTxt
-    sleep, 250
-    IniRead, HeistPriceTxt, %SettingsPath% User, HeistPriceTxt
-}
-
-IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
-while (SnapshotScreen == "ERROR") {
-    IniWrite, 0, %SettingsPath%, User, SnapshotScreen
-    sleep, 250
-    IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
-}
-
-IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
-while (HeistRemappingTxt == "ERROR") {
-    IniWrite, "heist_remapping.txt", %SettingsPath%, User, HeistRemappingTxt
-    sleep, 250
-    IniRead, HeistRemappingTxt, %SettingsPath%, User, HeistRemappingTxt
-}
-
-
-tooltip, Loading Enchantress [Enchant List]
 
 #Include, subscripts/NinjaPricing.ahk
 
-tooltip, Loading Enchantress [Personal Lists]
 if (FileExist("resources\ScalesOfJustice.png"))
 {
     menu, Tray, Icon, resources\ScalesOfJustice.png
@@ -120,12 +80,13 @@ newGUI()
 tooltip, Ready
 sleep, 250
 Tooltip
+Gui, EnchantressUI:Show, w650 h585
 
 global last_version_grab := 0
 global last_heist_grab := 0
 global last_enchant_grab := 0
 
-if (FirstRun == 1) {
+if (getSetting("General","FirstRun") == 1) {
     goto help
 }
 
@@ -254,65 +215,7 @@ DumpRaw:
 Return
 
 Settings:
-    Gui Settings:new,, PoE-Enchantress Settings
-
-    Gui, font, s14
-        Gui, add, text, x5 y5, General Settings
-    Gui, font
-
-    offset = 5
-    Gui, font, s14
-        Gui, add, text, x5 y%offset%, General Settings
-        offset := offset + 25
-    Gui, font
-    
-    Gui, font, s10
-        offset := addOption("General", "FirstRun", offset, "Show First Run Help")
-        offset := addOption("General", "GuiKey", offset, "Key Sequence to show GUI")
-        offset := addOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
-    Gui, font
-
-    Gui, font, s14
-        Gui, add, text, x5 y%offset%, User Settings
-        offset := offset + 25
-    Gui, font
-    Gui, font, s10
-        offset := addOption("User", "HeistPriceTxt", offset, "Heist Price File")
-        offset := addOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
-        offset := addOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
-    Gui, font
-
-    Gui, font, s14
-        Gui, add, text, x5 y%offset%, Other Settings
-        offset := offset + 25
-    Gui, font
-    Gui, font, s10
-        offset := addOption("Other", "scale", offset, "Monitor Scale")
-        offset := addOption("Other", "monitor", offset, "Select Monitor")
-    Gui, font
-
-    Gui, font, s20
-        Gui, add, text, x350 y550 gSaveSettings, Save
-
-    Gui, Settings:Show, w800 h610
-Return
-
-SaveSettings:
-    offset := 0
-    saveOption("General", "FirstRun", offset, "Show First Run Help")
-    saveOption("General", "GuiKey", offset, "Key Sequence to show GUI")
-    saveOption("General", "HeistScanKey", offset, "Grab Heist Item Key Sequence")
-    saveOption("User", "HeistPriceTxt", offset, "Heist Price File")
-    saveOption("User", "HeistRemappingTxt", offset, "Heist Text Remapping File")
-    saveOption("User", "SnapshotScreen", offset, "Save a snapshot when OCRing screen")
-    saveOption("Other", "scale", offset, "Monitor Scale")
-    saveOption("Other", "monitor", offset, "Select Monitor")
-    Gui, Settings:Destroy
-Return
-
-SettingsGuiClose:
-    Gui, Settings:Destroy
-Return
+    settingsGUI()
 
 getHeistPrices(heist_price_txt)
 {
@@ -354,22 +257,6 @@ getHeistPrices(heist_price_txt)
         return HeistFile
     }
     return ""
-}
-
-addOption(sect, set_name, offset, title)
-{
-    global
-    IniRead, TmpName, %SettingsPath%, %sect%, %set_name%
-    Gui, add, text, x15 y%offset% w280 Right, %title%:
-    Gui, add, edit, x300 y%offset% w400 v_%sect%_%set_name%, %TmpName%
-    out := offset + 30
-    return %out%
-}
-
-saveOption(sect, set_name, offset, title)
-{
-    GuiControlGet, TmpName,, _%sect%_%set_name%, value
-    IniWrite, %TmpName%, %SettingsPath%, %sect%, %set_name%
 }
 
 grabScreen(whitelist) {
