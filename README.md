@@ -100,6 +100,8 @@ As of 0.5.0 these features have been removed; I (LawTotem) don't run lab so thes
 
 ## 0.5.0
  - Removing Lab Enchant Features
+ - Added PoE Ninja Price Fetching
+ - Interal code cleanup
 
 ## 0.4.0
  - Added genearl enchants from http like pastebin.
