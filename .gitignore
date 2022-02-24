@@ -11,3 +11,8 @@ snap*png
 PoE-Enchantress.exe
 *.zip
 enchant*.txt
+heists/*
+build/*
+heist_ocr.tf/*
+sale.png
+specials.txt

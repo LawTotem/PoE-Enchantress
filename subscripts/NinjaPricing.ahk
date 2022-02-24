@@ -41,12 +41,6 @@ global ninja_fossl := "" ; fossils
 ; Internal variable used to track when the last prices were grabbed
 global last_ninja_grab := 0
 
-addNewSetting("User", "NinjaOnStart", 1, "Fetch PoE.Ninja Prices on Start")
-if (getSetting("User", "NinjaOnStart"))
-{
-    ninjaGrab(getSetting("General", "League"))
-}
-
 ; Pulls an individual pricing
 pullNinjaItems(league, this_type)
 {
@@ -86,6 +80,8 @@ ninjaGrab(league)
     {
         last_ninja_grab := %A_Now%
 
+        tooltip, Enchantress [Fetching Prices]
+
         global ninja_sgems
         ninja_sgems := pullNinjaItems(league, "SkillGem")
         global ninja_weaps
@@ -122,6 +118,9 @@ ninjaGrab(league)
         ninja_reson := pullNinjaItems(league, "Resonator")
         global ninja_fossl
         ninja_fossl := pullNinjaItems(league, "Fossil")
+
+        tooltip,
+
         return true
     }
     return false

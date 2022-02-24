@@ -26,7 +26,7 @@ Gui, PriceUI:Show,
 newPriceGUI()
 {
     global
-    Gui, PriceUI:New,, PoE-Enchantress Scan `n Price
+    Gui, PriceUI:New,, PoE-Enchantress Scan 'n Price
 
     Gui, Color, 0x192020, 0x251e16
     Gui, Font, s11 ce7b477
@@ -34,10 +34,11 @@ newPriceGUI()
     local snap_screen := getSetting("User","SnapshotScreen")
     if (snap_screen)
     {
-        Gui, add, text, x10 y%offset%, Captured Image
-        offset += 20
-        Gui, add, picture, x5 y%offset% w500 h-1 vSnapImage, snap_2021_11_20_23_01_34.png
-        offset += 105
+        ;Gui, add, text, x10 y%offset%, Captured Image
+        ;offset += 20
+
+        ;Gui, add, picture, x5 y%offset% w500 h100 vSnapImage, snap_2021_11_20_23_01_34.png
+        ;offset += 105
     }
 
     Gui, add, text, x10 y%offset%, Captured Text
@@ -81,7 +82,8 @@ getHeistPrices(heist_price_txt)
     }
     if (SubStr(heist_price_txt,1,4) = "auto")
     {
-        if (ninjaGrab("Scourge"))
+        league := getSetting("General", "League")
+        if (ninjaGrab(league))
         {
             ftargets := FileOpen("heist_items.json","r")
             targets := ftargets.Read()
@@ -108,7 +110,7 @@ getHeistPrices(heist_price_txt)
 
 
 heistSort() {
-    GuiControlGet, HeistString,, HeistCaptureS, value
+    GuiControlGet, HeistString, PriceUI:, HeistCaptureS, value
     loop, 6
     {
         GuiControl, PriceUI:, heistprice_%A_Index%,
@@ -151,7 +153,7 @@ heistSort() {
 ; This takes the string that is currently in the capture box and attempts to
 ; map it to a known string
 mapScan() {
-    GuiControlGet, CaptureString,, HeistCaptureS, value
+    GuiControlGet, CaptureString, PriceUI:, HeistCaptureS, value
     new_capture := ""
     filename := getSetting("User", "HeistRemappingTxt")
     if (!FileExist(filename))

@@ -15,6 +15,8 @@
 ;    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 global LastCaptureFile := ""
+global heist_ocr_p := DllCall("snipper\SetupTF")
+CheckError("Snipper\SetupTF", ErrorLevel)
 
 ; Perform a screen grab and then run through Capture2Text to convert to text
 
@@ -28,33 +30,46 @@ grabScreen(whitelist) {
     y_end := coordTemp[4]
 
     ;WinActivate, Path of Exile
-    sleep, 500
+    ;sleep, 500
 
-    Tooltip, Please Wait
-    command = Capture2Text/Capture2Text.exe -s `"%x_start% %y_start% %x_end% %y_end%`" -o `"%TempPath%`" -l English --trim-capture -b --whitelist `"%whitelist%`"
-    RunWait, %command%
+    ;Tooltip, Please Wait
+    ;command = Capture2Text/Capture2Text.exe -s `"%x_start% %y_start% %x_end% %y_end%`" -o `"%TempPath%`" -l English --trim-capture -b --whitelist `"%whitelist%`"
+    ;RunWait, %command%
 
-    sleep, 1000
+    ;sleep, 1000
+    
+    FormatTime, dtg,, yyyy_MM_dd_HH_mm_ss
+
+    global LastCaptureFile
+    
+    unique_capture := getSetting("User","SnapshotScreen")
+    if unique_capture
+    {
+        LastCaptureFile := "snap_" dtg ".png"
+    }
+    else
+    {
+        LastCaptureFile = "test.png"
+    }
+    VarSetCapacity(raw_text_capture, 2*2000)
+    global heist_ocr_p
+    DllCall("snipper\SnipAndOCR", "Ptr", heist_ocr_p
+            ,"Int",x_start,"Int",y_start
+            ,"Int",x_end - x_start,"Int",y_end -y_start
+            ,"Str",LastCaptureFile
+            ,"Str", raw_text_capture)
+    CheckError("Snipper\SnipAndOCR", ErrorLevel)
     WinActivate, ahk_pid %PID%
 
     Tooltip
 
-    if (!FileExist(TempPath)) {
-        MsgBox, - Unable to create temp.txt
-    }
+    ;if (!FileExist(TempPath)) {
+        ;MsgBox, - Unable to create temp.txt
+    ;}
 
-    FileRead, raw_text_capture, %tempPath%
+    ;FileRead, raw_text_capture, %tempPath%
     
     return raw_text_capture
-}
-
-CaptureAreaWin(x, y, w, h) {
-    FormatTime, dtg,, yyyy_MM_dd_HH_mm_ss
-    global LastCaptureFile
-    LastCaptureFile := "snap_" dtg ".png"
-    DllCall("snipper\SnipAndSave","Int",x,"Int",y
-            ,"Int",w,"Int",h,"Str",LastCaptureFile)
-    CheckError("Snipper", ErrorLevel)
 }
 
 SelectArea() {
@@ -131,10 +146,6 @@ SelectArea() {
     Hotkey, Escape, SelectAreaEscape, Off
 
     Gui, Select:Destroy
-    IniRead, SnapshotScreen, %SettingsPath%, User, SnapshotScreen
-    if  (SnapshotScreen) {
-        CaptureAreaWin(MX,MY, MXend - MX, MYend - MY)
-    }
     Gui, EnchantressUI:Default
     return areaRect
 }

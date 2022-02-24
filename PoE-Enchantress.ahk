@@ -35,6 +35,11 @@ if (!FileExist(RoamingDir)) {
 
 global SettingsPath := RoamingDir . "\settings.ini"
 
+if (FileExist("resources\ScalesOfJustice.png"))
+{
+    menu, Tray, Icon, resources\ScalesOfJustice.png
+}
+
 #Include, subscripts/Settings.ahk
 
 global CurrentLeague := "Scourge"
@@ -56,6 +61,10 @@ addNewSetting("Other", "monitor", 1, "Which Monitor to use when Grabbing")
 
 #Include, subscripts/ScanAndPrice.ahk
 
+#include, subscripts/HeistTracking.ahk
+
+#include, subscripts/MTXSpecials.ahk
+
 GuiKey := getSetting("General","GuiKey")
 hotkey, %GuiKey%, OpenGui
 
@@ -65,10 +74,6 @@ hotkey, %HeistScanKey%, ScanHeist
 
 #Include, subscripts/NinjaPricing.ahk
 
-if (FileExist("resources\ScalesOfJustice.png"))
-{
-    menu, Tray, Icon, resources\ScalesOfJustice.png
-}
 Menu, Tray, NoStandard
 Menu, Tray, Add, Enchantress, OpenGui
 Menu, Tray, Default, Enchantress
@@ -153,7 +158,6 @@ HelpGuiClose:
     Gui, Help:Destroy
 ;    Gui, EnchantressUI:Destroy
 Return
-
 
 
 IsGuiVisible(guiName) {

@@ -37,8 +37,7 @@ To price heist items press the heist hotkey, default Ctrl-u, and select a relati
 The file follows the format "heists item name":"price", when the item is matched a line "item name" --price-- "price" will appear on one of the lines below the captured text.
 
 
-## Enchant Pricing
-To price enchants press the enchant hotkey, default Ctrl-y, and select a relatively tight selection of the screen which includes just the enchants (not the lvl or boot/belt/helm icons). The tool will check to see if you have any services out on the enchants by checking <code>ServiceEnchantTxt</code>, default <code>services.txt</code>, and then check to see if any of the enchants are valuable enough to enchant on a base <code>GeneralEnchantTxt</code>, default </code>general_enchants.txt</code>. Not unlike <code>heists.txt</code> the examples are really not sufficient.
+## Heist Tracking
 
 
 ## OCR Remapping
@@ -102,6 +101,9 @@ As of 0.5.0 these features have been removed; I (LawTotem) don't run lab so thes
  - Removing Lab Enchant Features
  - Added PoE Ninja Price Fetching
  - Interal code cleanup
+ - Heist Tracking
+ - Tensorflow based OCR
+ - 
 
 ## 0.4.0
  - Added genearl enchants from http like pastebin.
